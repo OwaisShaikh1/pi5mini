@@ -1,0 +1,23 @@
+/* Footer.css */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 250px); /* Ensure it does not overlap sidebar */
+    left: 250px; /* Align with main content */
+    z-index: 10;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 100%;
+        left: 0;
+        position: relative; /* Prevent fixed overlapping on mobile */
+    }
+}

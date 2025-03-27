@@ -1,0 +1,78 @@
+.dbit-container {
+    max-width: 1000px; /* Adjusted width for a balanced layout */
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9fafb;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Page title */
+.dbit-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Grid layout for the categories */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 4rem; /* Adjusted spacing for proper alignment */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure equal width and alignment for cards */
+.category-card {
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    min-height: 4rem;
+    width: 320px; /* Fixed width for better alignment */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Hover effect */
+.category-card:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .category-card {
+        width: 100%;
+    }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+}
