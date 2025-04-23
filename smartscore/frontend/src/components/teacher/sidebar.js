@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 const Sidebar = ({ changeSection }) => {
-  const sections = ["Dashboard", "Create Test", "Generate with AI", "My Courses", "LeaderBoard", "Settings"];
+  const sections = ["Dashboard", "Create Test", "Generate with AI", "My Courses", "LeaderBoard", "Log Out"];
   const [activeSection, setActiveSection] = useState("Dashboard");
 
   return (
     <div className="sidebar">
       <h2>SMARTSCORE</h2>
-      <ul>
+      <ul className="sidebar-menu">
         {sections.map((section) => (
           <li
             key={section}
@@ -21,7 +21,7 @@ const Sidebar = ({ changeSection }) => {
           </li>
         ))}
       </ul>
-      <div className="sidebar-footer">
+      <div className="sidebar-footer" style={{ marginBottom: "40px" }}> {/* Shifts the footer slightly up */}
         <ul>
           <li>Profile</li>
           <li>Notifications</li>
@@ -33,4 +33,3 @@ const Sidebar = ({ changeSection }) => {
 };
 
 export default Sidebar;
-

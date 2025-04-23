@@ -110,28 +110,21 @@ class Topic(models.Model):
         return self.name
 
 
-# Quiz Model
+from django.db import models
+from django.utils import timezone
+
 class Quiz(models.Model):
     code = models.CharField(max_length=10, primary_key=True)  # Unique Quiz Code
-    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)  # Foreign key linking to Topic
+    topic = models.ForeignKey("Topic", on_delete=models.CASCADE)  # Foreign key linking to Topic
     score = models.IntegerField()  # Maximum score of the quiz
+    date_created = models.DateTimeField(default=timezone.now)  # Store quiz creation date
+    time_limit = models.IntegerField(default=30)  # Time limit in minutes (default: 30 min)
 
     def __str__(self):
-        return f"Quiz {self.code} - Score: {self.score}"
+        return f"Quiz {self.code} - Score: {self.score} - Time Limit: {self.time_limit} min"
 
 
-# StudentQuiz Model (Student's performance in a Quiz)
-class StudentQuiz(models.Model):
-    student = models.ForeignKey(Student, on_delete=models.CASCADE)  # Student who took the quiz
-    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)  # The quiz they took
-    score = models.IntegerField()  # Student's obtained score
 
-    def get_percentage_score(self):
-        """ Returns student's percentage score for the quiz """
-        return (self.score / self.quiz.score) * 100 if self.quiz.score else 0
-
-    def __str__(self):
-        return f"{self.student.name} - {self.quiz.code} ({self.score}/{self.quiz.score})"
 
 
 # Question Model
@@ -151,3 +144,19 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.text
+
+# StudentQuiz Model (Student's performance in a Quiz)
+class StudentQuiz(models.Model):
+    student = models.ForeignKey("Student", on_delete=models.CASCADE)  # Student who took the quiz
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)  # The quiz they took
+    score = models.IntegerField(default=0)  # Student's obtained score
+    submitted = models.BooleanField(default=False)  # Whether the quiz has been submitted
+    attempt_time = models.DateTimeField(default=timezone.now)  # Time when the attempt started
+
+    def get_percentage_score(self):
+        """ Returns student's percentage score for the quiz """
+        return (self.score / self.quiz.score) * 100 if self.quiz.score else 0
+
+    def __str__(self):
+        return f"{self.student.name} - {self.quiz.code} ({self.score}/{self.quiz.score})"
+

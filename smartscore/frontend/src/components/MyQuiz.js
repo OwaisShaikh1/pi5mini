@@ -5,6 +5,7 @@ const MyQuiz = ({ studentCode }) => {
   const [quizData, setQuizData] = useState([]);
   
   useEffect(() => {
+    console.log("Student Code:", studentCode);
     if (!studentCode) return; // Ensure studentCode is valid
 
     const fetchMyQuiz = async () => {

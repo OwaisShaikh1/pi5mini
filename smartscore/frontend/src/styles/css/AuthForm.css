@@ -2,15 +2,12 @@
 /* General Container Styles */
 /* ============================= */
 .auth-container {
-  background-size: cover;
-  background-position: center;
-  background-image: url("background.jpg"); /* Ensure this path is correct */
-  background-repeat: no-repeat;
+  background: url("background.jpg") no-repeat center center/cover; /* Simplified */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; /* Prevents issues on small screens */
+  padding: 20px;
 }
 
 /* ============================= */
@@ -18,14 +15,18 @@
 /* ============================= */
 .auth-box {
   width: 100%;
-  max-width: 400px;
-  background: rgba(255, 255, 255, 0.9); /* Slight transparency */
-  padding: 25px;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.92); /* Improved transparency */
+  padding: 30px;
   border-radius: 12px;
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
   text-align: center;
-  backdrop-filter: blur(10px);
-  box-sizing: border-box; /* Ensures the box doesn't expand */
+  backdrop-filter: blur(12px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.auth-box:hover {
+  transform: scale(1.02); /* Slight hover effect */
 }
 
 /* ============================= */
@@ -33,9 +34,7 @@
 /* ============================= */
 .auth-form {
   width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 20px 0;
   text-align: center;
   box-sizing: border-box;
 }
@@ -44,10 +43,10 @@
 /* Title Styling */
 /* ============================= */
 .auth-title {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 15px;
+  color: #222;
+  margin-bottom: 18px;
 }
 
 /* ============================= */
@@ -55,40 +54,46 @@
 /* ============================= */
 .input-group {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 16px;
   text-align: left;
 }
 
 .input-group label {
   display: block;
   font-size: 14px;
-  color: #555;
+  font-weight: 600;
+  color: #444;
   margin-bottom: 5px;
 }
 
-.input-group input {
+.input-group input,
+.input-group select {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 16px;
+  background-color: #f9f9f9;
   outline: none;
-  box-sizing: border-box; /* Prevents extra width overflow */
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-.input-group input:focus {
+.input-group input:focus,
+.input-group select:focus {
   border-color: #007bff;
-  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
 }
 
 /* ============================= */
 /* Error Message Styling */
 /* ============================= */
 .error-text {
-  color: red;
-  font-size: 12px;
-  margin-top: 5px;
+  color: #d32f2f;
+  font-size: 13px;
+  margin-top: 6px;
 }
 
 /* ============================= */
@@ -96,20 +101,21 @@
 /* ============================= */
 .auth-button {
   width: 100%;
-  background-color: #007bff;
+  background: linear-gradient(135deg, #007bff, #0056b3);
   color: white;
-  padding: 12px;
+  padding: 14px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-sizing: border-box;
+  margin-top: 22px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.4);
 }
 
 .auth-button:hover {
-  background-color: #0056b3;
+  background: linear-gradient(135deg, #0056b3, #003d80);
   transform: scale(1.03);
 }
 
@@ -126,9 +132,9 @@
   background: none;
   border: none;
   color: #007bff;
-  cursor: pointer;
   font-weight: bold;
-  transition: color 0.3s ease;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 .toggle-button:hover {
@@ -142,6 +148,7 @@
 @media (max-width: 480px) {
   .auth-box {
     padding: 20px;
+    max-width: 350px;
   }
 
   .input-group input {
@@ -151,6 +158,6 @@
 
   .auth-button {
     font-size: 14px;
-    padding: 10px;
+    padding: 12px;
   }
 }

@@ -1,0 +1,175 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.create-quiz-container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.create-quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.create-quiz-header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Quiz Details */
+.quiz-details {
+    padding: 16px;
+    background: #f8f8fc;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.quiz-details h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+/* Input Fields */
+.input-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.input-group input,
+.input-group select,
+.quiz-details textarea {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #fff;
+}
+
+/* Questions Section */
+.questions-section {
+    padding: 16px;
+    background: #f8f8fc;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.questions-section h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.question-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-header span {
+    color: #666;
+    font-size: 15px;
+}
+
+/* Answers */
+.answer-group {
+    margin-top: 12px;
+}
+
+.answer-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.answer-item input {
+    margin-right: 8px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background: #6c5ce7;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #5a4ad1;
+}
+
+.btn-secondary {
+    background: #ddd;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background: #ccc;
+}
+
+/* Toggle Switches */
+.toggle-switches {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #f9f9fc;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.toggle-switches label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Save and Cancel Buttons */
+.bottom-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}

@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 import "../styles/css/AuthForm.css";
 
 const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true);
+  const [userType, setUserType] = useState("student");
   const [formData, setFormData] = useState({
     code: "",
     name: "",
     password: "",
-    user_type: "student",
     branch_name: "",
   });
   const [errors, setErrors] = useState({});
   const [message, setMessage] = useState("");
   const [branches, setBranches] = useState([]);
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchBranches = async () => {
@@ -42,7 +42,9 @@ const AuthForm = () => {
     if (!formData.password || formData.password.length < 6) {
       newErrors.password = "Password must be at least 6 characters";
     }
-    if (!isLogin && !formData.branch_name) newErrors.branch_name = "Branch is required";
+    if (!isLogin && userType === "student" && !formData.branch_name) {
+      newErrors.branch_name = "Branch is required";
+    }
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -62,7 +64,7 @@ const AuthForm = () => {
         body: JSON.stringify({
           code: formData.code.trim(),
           password: formData.password,
-          user_type: formData.user_type,
+          user_type: userType,
           ...(isLogin ? {} : { name: formData.name.trim(), branch_name: formData.branch_name }),
         }),
       });
@@ -71,8 +73,20 @@ const AuthForm = () => {
       if (response.ok) {
         setMessage(isLogin ? "Login successful!" : "Signup successful!");
         if (isLogin) {
-          localStorage.setItem("access_token", data.access); // Save token
-          navigate("/dashboard"); // Redirect to dashboard
+          if (data.access_token) {
+            localStorage.setItem("access_token", data.access_token);
+            console.log("Stored Token:", data.access_token);
+          } else {
+            console.error("Access token missing in response");
+          }
+          
+          if (userType === "student") {
+            localStorage.setItem("studentcode", formData.code);
+            navigate("/dashboard");
+          } else {
+            localStorage.setItem("teachercode", formData.code);
+            navigate("/teacher");
+          }
         }
       } else {
         setMessage(data.error || "Something went wrong");
@@ -87,34 +101,56 @@ const AuthForm = () => {
       <div className="auth-box">
         <h2 className="auth-title">{isLogin ? "Login" : "Sign Up"}</h2>
         {message && <p className="message-text">{message}</p>}
+        <div className="toggle-user-type">
+          <label>
+            <input
+              type="radio"
+              name="user_type"
+              value="student"
+              checked={userType === "student"}
+              onChange={() => setUserType("student")}
+            />
+            Student
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="user_type"
+              value="teacher"
+              checked={userType === "teacher"}
+              onChange={() => setUserType("teacher")}
+            />
+            Teacher
+          </label>
+        </div>
         <form onSubmit={handleSubmit} className="auth-form">
           {!isLogin && (
-            <>
-              <div className="input-group">
-                <label>Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="John Doe"
-                />
-                {errors.name && <p className="error-text">{errors.name}</p>}
-              </div>
+            <div className="input-group">
+              <label>Name</label>
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="John Doe"
+              />
+              {errors.name && <p className="error-text">{errors.name}</p>}
+            </div>
+          )}
 
-              <div className="input-group">
-                <label>Branch</label>
-                <select name="branch_name" value={formData.branch_name} onChange={handleChange}>
-                  <option value="">Select Branch</option>
-                  {branches.map((branch) => (
-                    <option key={branch.name} value={branch.name}>
-                      {branch.name}
-                    </option>
-                  ))}
-                </select>
-                {errors.branch_name && <p className="error-text">{errors.branch_name}</p>}
-              </div>
-            </>
+          {userType === "student" && !isLogin && (
+            <div className="input-group">
+              <label>Branch</label>
+              <select name="branch_name" value={formData.branch_name} onChange={handleChange}>
+                <option value="">Select Branch</option>
+                {branches.map((branch) => (
+                  <option key={branch.name} value={branch.name}>
+                    {branch.name}
+                  </option>
+                ))}
+              </select>
+              {errors.branch_name && <p className="error-text">{errors.branch_name}</p>}
+            </div>
           )}
 
           <div className="input-group">
@@ -147,7 +183,7 @@ const AuthForm = () => {
         </form>
 
         <p className="toggle-text">
-          {isLogin ? "Don't have an account?" : "Already have an account?"}{" "}
+          {isLogin ? "Don't have an account?" : "Already have an account?"} {" "}
           <button onClick={() => setIsLogin(!isLogin)} className="toggle-button">
             {isLogin ? "Sign Up" : "Login"}
           </button>

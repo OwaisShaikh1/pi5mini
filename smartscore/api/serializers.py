@@ -65,12 +65,12 @@ class StudentQuizSerializer(serializers.ModelSerializer):
 
 
 # Question Serializer
-class QuestionSerializer(serializers.ModelSerializer):
-    quiz_title = serializers.ReadOnlyField(source="quiz.topic.name")  # Using topic name for quiz
+class QuizSerializer(serializers.ModelSerializer):
+    topic = serializers.CharField(source="topic.name")  # Get topic name instead of ID
 
     class Meta:
-        model = Question
-        fields = ["id", "quiz", "quiz_title", "text"]
+        model = Quiz
+        fields = ["code", "topic", "score", "time_limit"]
 
 
 # Choice Serializer
