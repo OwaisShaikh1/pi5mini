@@ -1,5 +1,13 @@
 from pathlib import Path
 from datetime import timedelta
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+
+
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -67,14 +75,31 @@ WSGI_APPLICATION = 'smartscore.wsgi.application'
 # ✅ Database Configuration
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'smartscore',
-        'USER': 'owais',
-        'PASSWORD': 'owais20!',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': os.getenv("DB_ENGINE"),
+        'NAME': os.getenv("DB_NAME"),
+        'USER': os.getenv("DB_USER"),
+        'PASSWORD': os.getenv("DB_PASSWORD"),
+        'HOST': os.getenv("DB_HOST"),
+        'PORT': os.getenv("DB_PORT"),#owais123
     }
 }
+
+
+
+# ============================
+# Email Configuration (Gmail)
+# ============================
+
+EMAIL_BACKEND = os.getenv("EMAIL_BACKEND")
+EMAIL_HOST = os.getenv("EMAIL_HOST")
+EMAIL_PORT = os.getenv("EMAIL_PORT")
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_PASSWORD")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL")
+
+
+
 
 # ✅ Custom User Model
 AUTH_USER_MODEL = 'api.Student'  # Use your custom model instead of default Django User
