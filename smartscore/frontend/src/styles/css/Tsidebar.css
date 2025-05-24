@@ -1,0 +1,42 @@
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-test {
+    background-color: #28a745; /* Green */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .create-test:hover {
+    background-color: #218838;
+  }
+  
+  .generate-ai {
+    background-color: #ff6b6b; /* Light Red */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .generate-ai:hover {
+    background-color: #e63946;
+  }
+  
+  .active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

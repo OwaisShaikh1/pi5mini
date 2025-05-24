@@ -1,21 +1,43 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/css/AuthForm.css";
 
 const AuthForm = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Initial states
   const [isLogin, setIsLogin] = useState(true);
   const [userType, setUserType] = useState("student");
   const [formData, setFormData] = useState({
     code: "",
     name: "",
+    email: "",
     password: "",
     branch_name: "",
   });
   const [errors, setErrors] = useState({});
   const [message, setMessage] = useState("");
   const [branches, setBranches] = useState([]);
-  const navigate = useNavigate();
 
+  // Set isLogin and userType from URL query on first render
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const type = searchParams.get("type");   // "student" or "teacher"
+    const mode = searchParams.get("mode");   // "login" or "signup"
+
+    if (type === "teacher" || type === "student") {
+      setUserType(type);
+    }
+
+    if (mode === "login") {
+      setIsLogin(true);
+    } else if (mode === "signup") {
+      setIsLogin(false);
+    }
+  }, [location.search]);
+
+  // Fetch branches
   useEffect(() => {
     const fetchBranches = async () => {
       try {
@@ -27,7 +49,6 @@ const AuthForm = () => {
         console.error("Error loading branches:", error);
       }
     };
-
     fetchBranches();
   }, []);
 
@@ -38,6 +59,10 @@ const AuthForm = () => {
   const validateForm = () => {
     let newErrors = {};
     if (!isLogin && !formData.name.trim()) newErrors.name = "Name is required";
+    if (!isLogin && !formData.email.trim()) newErrors.email = "Email is required";
+    if (!isLogin && formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = "Invalid email format";
+    }
     if (!formData.code.trim()) newErrors.code = "Code is required";
     if (!formData.password || formData.password.length < 6) {
       newErrors.password = "Password must be at least 6 characters";
@@ -65,7 +90,11 @@ const AuthForm = () => {
           code: formData.code.trim(),
           password: formData.password,
           user_type: userType,
-          ...(isLogin ? {} : { name: formData.name.trim(), branch_name: formData.branch_name }),
+          ...(isLogin ? {} : {
+            name: formData.name.trim(),
+            email: formData.email.trim(),
+            branch_name: formData.branch_name,
+          }),
         }),
       });
 
@@ -74,12 +103,10 @@ const AuthForm = () => {
         setMessage(isLogin ? "Login successful!" : "Signup successful!");
         if (isLogin) {
           if (data.access_token) {
+            localStorage.clear();
             localStorage.setItem("access_token", data.access_token);
-            console.log("Stored Token:", data.access_token);
-          } else {
-            console.error("Access token missing in response");
           }
-          
+
           if (userType === "student") {
             localStorage.setItem("studentcode", formData.code);
             navigate("/dashboard");
@@ -125,23 +152,39 @@ const AuthForm = () => {
         </div>
         <form onSubmit={handleSubmit} className="auth-form">
           {!isLogin && (
-            <div className="input-group">
-              <label>Name</label>
-              <input
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="John Doe"
-              />
-              {errors.name && <p className="error-text">{errors.name}</p>}
-            </div>
+            <>
+              <div className="input-group">
+                <label>Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  placeholder="John Doe"
+                />
+                {errors.name && <p className="error-text">{errors.name}</p>}
+              </div>
+              <div className="input-group">
+                <label>Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="example@email.com"
+                />
+                {errors.email && <p className="error-text">{errors.email}</p>}
+              </div>
+            </>
           )}
-
           {userType === "student" && !isLogin && (
             <div className="input-group">
               <label>Branch</label>
-              <select name="branch_name" value={formData.branch_name} onChange={handleChange}>
+              <select
+                name="branch_name"
+                value={formData.branch_name}
+                onChange={handleChange}
+              >
                 <option value="">Select Branch</option>
                 {branches.map((branch) => (
                   <option key={branch.name} value={branch.name}>
@@ -149,10 +192,11 @@ const AuthForm = () => {
                   </option>
                 ))}
               </select>
-              {errors.branch_name && <p className="error-text">{errors.branch_name}</p>}
+              {errors.branch_name && (
+                <p className="error-text">{errors.branch_name}</p>
+              )}
             </div>
           )}
-
           <div className="input-group">
             <label>Code</label>
             <input
@@ -164,7 +208,6 @@ const AuthForm = () => {
             />
             {errors.code && <p className="error-text">{errors.code}</p>}
           </div>
-
           <div className="input-group">
             <label>Password</label>
             <input
@@ -176,16 +219,25 @@ const AuthForm = () => {
             />
             {errors.password && <p className="error-text">{errors.password}</p>}
           </div>
-
           <button type="submit" className="auth-button">
             {isLogin ? "Login" : "Sign Up"}
           </button>
         </form>
-
         <p className="toggle-text">
-          {isLogin ? "Don't have an account?" : "Already have an account?"} {" "}
-          <button onClick={() => setIsLogin(!isLogin)} className="toggle-button">
+          {isLogin ? "Don't have an account?" : "Already have an account?"}
+          <button
+            onClick={() => setIsLogin(!isLogin)}
+            className="toggle-button"
+          >
             {isLogin ? "Sign Up" : "Login"}
+          </button>
+          <br />
+          {"Forgot password?"}
+          <button
+            onClick={() => navigate("/forgotpassword")} // Assuming you have routing set up
+            className="toggle-button"
+          >
+            Retrieve Password?
           </button>
         </p>
       </div>

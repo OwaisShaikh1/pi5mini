@@ -57,13 +57,28 @@ body {
 
 .input-group input,
 .input-group select,
-.quiz-details textarea {
-    flex: 1;
-    padding: 12px;
+.quiz-details textarea,
+.question-item input[type="text"],
+.question-item input[type="number"],
+.question-item textarea,
+.answer-item input[type="text"],
+.points-group input {
+    width: 100%;
+    padding: 14px 16px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
-    background: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+/* Ensure all dropdowns and inputs have consistent look */
+select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23666" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px 16px;
 }
 
 /* Questions Section */
@@ -102,9 +117,33 @@ body {
     font-size: 15px;
 }
 
+/* Points Input Styling */
+.question-item .input-group.points-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+.question-item .input-group.points-group input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100px;
+    font-size: 14px;
+}
+
 /* Answers */
 .answer-group {
     margin-top: 12px;
+}
+
+.answers-section h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: #444;
 }
 
 .answer-item {
@@ -115,10 +154,15 @@ body {
     border-radius: 8px;
     border: 1px solid #ddd;
     background: #fff;
+    margin-bottom: 8px;
 }
 
-.answer-item input {
-    margin-right: 8px;
+.answer-item input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
 
 /* Buttons */
@@ -150,6 +194,17 @@ body {
     background: #ccc;
 }
 
+.btn-danger {
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn-danger:hover {
+    background: #c0392b;
+}
+
+
 /* Toggle Switches */
 .toggle-switches {
     display: flex;
@@ -172,4 +227,21 @@ body {
     justify-content: flex-end;
     gap: 10px;
     margin-top: 20px;
+}
+
+/* Add Answer Button */
+.add-answer-btn {
+    margin-top: 8px;
+}
+.points-group {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+}
+
+.points-label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
 }

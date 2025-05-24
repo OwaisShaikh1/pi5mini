@@ -1,0 +1,270 @@
+/* General Reset & Background */
+body {
+    background: #f5f7fa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main Container */
+  .test-page-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Header */
+  .test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+  }
+  
+  .test-title {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .test-timer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #0056b3;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+  
+  /* Instructions */
+  .test-instructions {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Content Layout */
+  .test-content {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  
+  /* Question Section */
+  .test-question-section {
+    flex: 3;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .test-question-section h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .test-question-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Choices */
+  .test-choice {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.3s;
+  }
+  
+  .test-choice:hover {
+    background: #eef2f7;
+    border-color: #007bff;
+  }
+  
+  .test-choice input {
+    margin-right: 12px;
+  }
+  
+  /* Navigation Buttons */
+  .test-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 15px;
+  }
+  
+  .test-navigation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .test-navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .test-navigation button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  /* Sidebar */
+  .test-sidebar {
+    flex: 1;
+    max-width: 280px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    height: fit-content;
+  }
+  
+  .test-sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Sidebar Grid */
+  .test-sidebar-questions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  
+  /* Sidebar Buttons */
+  .test-sidebar-btn {
+    width: 48px;
+    height: 48px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .test-sidebar-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .test-sidebar-btn.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #0056b3;
+  }
+  
+  .test-sidebar-btn.answered {
+    background-color: #28a745 !important;
+    color: #fff;
+    border-color: #1e7e34;
+  }
+  
+  /* Submit & Action Buttons Section */
+  .test-actions {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .test-actions button {
+    padding: 12px 18px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .test-actions .continue-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .test-actions .continue-btn:hover {
+    background-color: #138496;
+  }
+  
+  .test-actions .submit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .test-actions .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .test-actions .close-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .test-actions .close-btn:hover {
+    background-color: #5a6268;
+  }
+
+  /* TestPage.css */
+
+.test-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .continue-btn,
+  .submit-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  .continue-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .continue-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  

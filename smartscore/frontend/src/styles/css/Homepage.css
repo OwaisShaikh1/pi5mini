@@ -1,0 +1,206 @@
+.testmasterpage {
+  min-height: 100vh;
+}
+
+/* Navbar */
+.testmasterpage-nav {
+  background-color: #2c7ccc;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testmasterpage-nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.testmasterpage-nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.testmasterpage-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .testmasterpage-hero {
+    flex-direction: row;
+    padding: 5rem;
+  }
+}
+
+.testmasterpage-hero-text {
+  max-width: 600px;
+  margin-right: 2rem;
+}
+
+.testmasterpage-hero-text h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.testmasterpage-hero-text p {
+  color: #4B5563;
+  margin-top: 1rem;
+}
+
+.testmasterpage-hero-buttons {
+  margin-top: 1.5rem;
+}
+
+.testmasterpage-hero-buttons button {
+  margin-right: 1rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.primary {
+  background-color: #2c7ccc;
+  color: white;
+}
+
+.primary:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  border: 1px solid #2c7ccc;
+  background: white;
+}
+
+.secondary:hover {
+  background-color: #f5f5f5;
+}
+
+/* Key Features */
+.testmasterpage-key-features {
+  background-color: #f9fafb;
+  padding: 2.5rem 5rem;
+}
+
+.testmasterpage-key-features h3 {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.testmasterpage-feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .testmasterpage-feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testmasterpage-feature-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); /* same smooth easing */
+  will-change: transform, box-shadow; /* hint for performance */
+}
+
+.testmasterpage-feature-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards */
+.testmasterpage-section {
+  padding: 2.5rem 5rem;
+}
+
+.testmasterpage-section h3 {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.testmasterpage-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .testmasterpage-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.testmasterpage-card {
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testmasterpage-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.testmasterpage-card h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.testmasterpage-card p {
+  color: #4B5563;
+  margin-bottom: 1rem;
+}
+
+.testmasterpage-card ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.testmasterpage-card button {
+  background-color: #2c7ccc;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.25rem;
+}
+.testmasterpage-hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.testmasterpage-image-placeholder {
+  display: inline-block;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  background-color: #e5e7eb;
+  overflow: hidden;
+}
+
+.testmasterpage-image-placeholder img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 300px; /* or adjust as needed */
+  display: block;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}

@@ -66,12 +66,13 @@ class Admin(BaseUser):
 class Teacher(BaseUser):
     subject = models.CharField(max_length=255)
     is_staff = models.BooleanField(default=True)  # Teachers might need staff permissions
+    email = models.EmailField(default="owaisshaikh376@gmail.com")
+
 
 
 # Branch Model
 class Branch(models.Model):
     name = models.CharField(max_length=10, primary_key=True, default='comps')
-
     def __str__(self):
         return self.name
 
@@ -80,6 +81,7 @@ class Branch(models.Model):
 class Student(BaseUser):
     branch = models.ForeignKey(Branch, on_delete=models.CASCADE, to_field='name')
     average_score = models.FloatField(default=0)
+    email = models.EmailField(default="owaisshaikh376@gmail.com")
 
     def calculate_average(self):
         """ Calculate average score of student across all quizzes """
@@ -90,9 +92,11 @@ class Student(BaseUser):
             self.save()
 
 
+
 # Subject Model
 class Subject(models.Model):
     code = models.CharField(max_length=10, primary_key=True)  # Unique Subject Code
+    branch = models.ForeignKey(Branch, on_delete=models.CASCADE, to_field='name', default="it")
     name = models.CharField(max_length=255)
 
     def __str__(self):
@@ -113,15 +117,17 @@ class Topic(models.Model):
 from django.db import models
 from django.utils import timezone
 
+
 class Quiz(models.Model):
-    code = models.CharField(max_length=10, primary_key=True)  # Unique Quiz Code
-    topic = models.ForeignKey("Topic", on_delete=models.CASCADE)  # Foreign key linking to Topic
-    score = models.IntegerField()  # Maximum score of the quiz
-    date_created = models.DateTimeField(default=timezone.now)  # Store quiz creation date
-    time_limit = models.IntegerField(default=30)  # Time limit in minutes (default: 30 min)
+    code = models.CharField(max_length=10, primary_key=True)
+    subject = models.ForeignKey("Subject", on_delete=models.CASCADE, null=True)  # ✅ Allow NULL for now
+    teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE, null=True)  # ✅ Allow NULL for now
+    score = models.IntegerField()
+    date_created = models.DateTimeField(default=timezone.now)
+    time_limit = models.IntegerField(default=30)
 
     def __str__(self):
-        return f"Quiz {self.code} - Score: {self.score} - Time Limit: {self.time_limit} min"
+        return f"Quiz {self.code} - Subject: {self.subject.name} - Teacher: {self.teacher.name}"
 
 
 
@@ -131,6 +137,7 @@ class Quiz(models.Model):
 class Question(models.Model):
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name="questions")  # Link to Quiz
     text = models.TextField()  # Question text
+    marks = models.IntegerField(default=2)
 
     def __str__(self):
         return self.text

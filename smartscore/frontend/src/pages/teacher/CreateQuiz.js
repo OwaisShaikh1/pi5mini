@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../styles/css/createquiz.css";
 
 const CreateQuiz = () => {
@@ -9,10 +9,27 @@ const CreateQuiz = () => {
     const [attempts, setAttempts] = useState("Unlimited");
     const [description, setDescription] = useState("");
     const [questions, setQuestions] = useState([]);
+    const [subjects, setSubjects] = useState([]);  // ✅ State to store subjects from DB
 
     const [shuffleQuestions, setShuffleQuestions] = useState(false);
     const [shuffleAnswers, setShuffleAnswers] = useState(false);
     const [feedbackOptions, setFeedbackOptions] = useState(false);
+
+    // Fetch subjects from backend
+    useEffect(() => {
+        const fetchSubjects = async () => {
+            try {
+                const response = await fetch("http://localhost:8000/api/subjects/");
+                const data = await response.json();
+                console.log("Fetched Subjects:", data);  // ✅ Debug fetched subjects
+                setSubjects(data);
+            } catch (error) {
+                console.error("Error fetching subjects:", error);
+            }
+        };
+
+        fetchSubjects();
+    }, []);
 
     // Function to add a new question
     const addQuestion = () => {
@@ -34,7 +51,6 @@ const CreateQuiz = () => {
             prevQuestions.map((q) => q.id === id ? { ...q, ...updates } : q)
         );
     };
-    
 
     // Function to delete a question
     const deleteQuestion = (id) => {
@@ -86,28 +102,39 @@ const CreateQuiz = () => {
         ));
     };
 
+    // Calculate total score
     const totalScore = questions.reduce((sum, q) => sum + (q.points || 0), 0);
 
-    //function to save quiz
+    // Function to save quiz
     const saveQuiz = async () => {
         if (!quizTitle.trim()) {
             alert("Please enter a quiz title.");
             return;
         }
+        if (!subject) {
+            alert("Please select a subject.");
+            return;
+        }
+    
+        console.log("Selected Subject Code:", subject); // ✅ Debugging subject selection
     
         const quizData = {
-            code: "QZ" + Math.floor(1000 + Math.random() * 9000),  // Generate a random quiz code
-            topic_id: "T001",  // Replace with the selected topic ID
+            code: quizTitle,
+            subject_id: subject, // ✅ Ensure this matches the backend expectation
             teachercode: localStorage.getItem("teachercode"),
-            score: totalScore, // Adjust score as needed
+            score: totalScore, // ✅ Use dynamically calculated total score
+            time_limit: timeLimit || 30, // ✅ Ensure a time limit is included
             questions: questions.map(q => ({
                 text: q.text,
+                marks: q.points && q.points > 0 ? q.points : 2,
                 choices: q.answers.map(a => ({
                     text: a.text,
                     is_correct: a.correct
                 }))
             }))
         };
+    
+        console.log("Sending Quiz Data:", quizData); // ✅ Debugging before request
     
         try {
             const response = await fetch("http://localhost:8000/api/create-quiz/", {
@@ -117,32 +144,28 @@ const CreateQuiz = () => {
                 },
                 body: JSON.stringify(quizData)
             });
-        
+    
             const data = await response.json();
-            console.log("Server Response:", data); // ✅ Log the full response
-        
+            console.log("Server Response:", data); // ✅ Debug response
+    
             if (response.ok) {
                 alert("Quiz saved successfully!");
             } else {
-                alert("Failed to save quiz: " + JSON.stringify(data)); // ✅ Show full error
+                alert("Failed to save quiz: " + JSON.stringify(data)); // Show full error
             }
         } catch (error) {
             console.error("Error saving quiz:", error);
             alert("Failed to save quiz.");
         }
-        
     };
-    
 
     return (
         <div className="create-quiz-container">
-            {/* Header */}
             <div className="create-quiz-header">
                 <h1>Add Quiz</h1>
                 <button className="btn-secondary">✖</button>
             </div>
 
-            {/* Quiz Details */}
             <div className="quiz-details">
                 <h2>Details</h2>
                 <div className="input-group">
@@ -161,15 +184,15 @@ const CreateQuiz = () => {
                         type="number"
                         placeholder="Time Limit (minutes)"
                         value={timeLimit}
-                        onChange={(e) => setTimeLimit(Number(e.target.value))}  // Convert to number
+                        onChange={(e) => setTimeLimit(Number(e.target.value))}
                     />
                 </div>
                 <div className="input-group">
                     <select value={subject} onChange={(e) => setSubject(e.target.value)}>
                         <option value="">Select Subject</option>
-                        <option value="Math">Math</option>
-                        <option value="Science">Science</option>
-                        <option value="History">History</option>
+                        {subjects.map(sub => (
+                            <option key={sub.code} value={sub.code}>{sub.name}</option>  // ✅ Fix: Use sub.code
+                        ))}
                     </select>
                     <select value={attempts} onChange={(e) => setAttempts(e.target.value)}>
                         <option value="Unlimited">Unlimited</option>
@@ -200,6 +223,24 @@ const CreateQuiz = () => {
                             value={q.text}
                             onChange={(e) => updateQuestion(q.id, { text: e.target.value })}
                         />
+        
+                        {/* Add an input field for points */}
+                        
+                        <div className="points-group">
+                            <label className="points-label">Points</label>
+                            <input
+                                type="number"
+                                placeholder="Points"
+                                value={q.points}
+                                onChange={(e) => updateQuestion(q.id, { points: Number(e.target.value) })}
+                                onBlur={(e) => {
+                                    if (e.target.value === "" || Number(e.target.value) <= 0) {
+                                        updateQuestion(q.id, { points: 1 });
+                                    }
+                                }}
+                            />
+                        </div>
+
 
                         {/* Answer options */}
                         <div className="answers-section">
@@ -228,6 +269,11 @@ const CreateQuiz = () => {
                 <button className="btn-primary" onClick={addQuestion}>+ Add Question</button>
             </div>
 
+            {/* Display Total Score */}
+            <div className="total-score">
+                <h3>Total Score: {totalScore}</h3> {/* Display the Total Score */}
+            </div>
+
             {/* Toggle Switches */}
             <div className="toggle-switches">
                 <label>
@@ -244,7 +290,6 @@ const CreateQuiz = () => {
                 </label>
             </div>
 
-            {/* Buttons */}
             <div className="bottom-buttons">
                 <button className="btn-secondary">Cancel</button>
                 <button className="btn-primary" onClick={saveQuiz}>Save</button>
