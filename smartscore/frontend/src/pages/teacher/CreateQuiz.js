@@ -1,15 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../../styles/css/createquiz.css";
+import BulkQuestionImport from "../../components/teacher/BulkQuestionImport";
 
 const CreateQuiz = () => {
     const [quizTitle, setQuizTitle] = useState("");
     const [dueDate, setDueDate] = useState("");
     const [timeLimit, setTimeLimit] = useState("");
-    const [subject, setSubject] = useState("");
+    const [subject, setSubject] = useState(localStorage.getItem("activeSubjectCode") || "");
     const [attempts, setAttempts] = useState("Unlimited");
     const [description, setDescription] = useState("");
     const [questions, setQuestions] = useState([]);
-    const [subjects, setSubjects] = useState([]);  // ✅ State to store subjects from DB
+    const [subjects, setSubjects] = useState([]);
+    const [isSaving, setIsSaving] = useState(false);
+    const [saveError, setSaveError] = useState("");
 
     const [shuffleQuestions, setShuffleQuestions] = useState(false);
     const [shuffleAnswers, setShuffleAnswers] = useState(false);
@@ -21,8 +24,7 @@ const CreateQuiz = () => {
             try {
                 const response = await fetch("http://localhost:8000/api/subjects/");
                 const data = await response.json();
-                console.log("Fetched Subjects:", data);  // ✅ Debug fetched subjects
-                setSubjects(data);
+                setSubjects(Array.isArray(data) ? data : []);
             } catch (error) {
                 console.error("Error fetching subjects:", error);
             }
@@ -39,8 +41,8 @@ const CreateQuiz = () => {
                 id: Date.now(), 
                 text: "", 
                 type: "Multiple Choice", 
-                points: "", 
-                answers: [{ id: 1, text: "", correct: false }] 
+                points: 2, 
+                answers: [{ id: 1, text: "", correct: true }, { id: 2, text: "", correct: false }] 
             }
         ]);
     };
@@ -68,11 +70,16 @@ const CreateQuiz = () => {
 
     // Function to remove an answer option
     const removeAnswer = (questionId, answerId) => {
-        setQuestions(questions.map(q =>
-            q.id === questionId
-                ? { ...q, answers: q.answers.filter(a => a.id !== answerId) }
-                : q
-        ));
+        setQuestions(questions.map(q => {
+            if (q.id !== questionId) return q;
+            if (q.answers.length <= 2) return q; // Keep at least two options
+            const updated = q.answers.filter(a => a.id !== answerId);
+            const hasCorrect = updated.some((a) => a.correct);
+            if (!hasCorrect && updated.length) {
+                updated[0] = { ...updated[0], correct: true };
+            }
+            return { ...q, answers: updated };
+        }));
     };
 
     // Function to update an answer text
@@ -105,25 +112,45 @@ const CreateQuiz = () => {
     // Calculate total score
     const totalScore = questions.reduce((sum, q) => sum + (q.points || 0), 0);
 
+    const handleBulkImport = (importedQuestions, mode) => {
+        setQuestions((prev) => (mode === "replace" ? importedQuestions : [...prev, ...importedQuestions]));
+    };
+
     // Function to save quiz
     const saveQuiz = async () => {
+        setSaveError("");
+
         if (!quizTitle.trim()) {
-            alert("Please enter a quiz title.");
+            setSaveError("Please enter a quiz title.");
             return;
         }
         if (!subject) {
-            alert("Please select a subject.");
+            setSaveError("Please select a subject.");
+            return;
+        }
+        if (!questions.length) {
+            setSaveError("Add at least one question before saving.");
+            return;
+        }
+
+        const hasIncompleteQuestion = questions.some((q) => !q.text.trim() || q.answers.length < 2 || q.answers.some((a) => !a.text.trim()));
+        if (hasIncompleteQuestion) {
+            setSaveError("Please complete all questions and answers (minimum two options each).");
+            return;
+        }
+
+        const hasMissingCorrect = questions.some((q) => !q.answers.some((a) => a.correct));
+        if (hasMissingCorrect) {
+            setSaveError("Mark one correct answer for every question.");
             return;
         }
     
-        console.log("Selected Subject Code:", subject); // ✅ Debugging subject selection
-    
         const quizData = {
             code: quizTitle,
-            subject_id: subject, // ✅ Ensure this matches the backend expectation
+            subject_id: subject,
             teachercode: localStorage.getItem("teachercode"),
-            score: totalScore, // ✅ Use dynamically calculated total score
-            time_limit: timeLimit || 30, // ✅ Ensure a time limit is included
+            score: totalScore,
+            time_limit: timeLimit || 30,
             questions: questions.map(q => ({
                 text: q.text,
                 marks: q.points && q.points > 0 ? q.points : 2,
@@ -134,9 +161,8 @@ const CreateQuiz = () => {
             }))
         };
     
-        console.log("Sending Quiz Data:", quizData); // ✅ Debugging before request
-    
         try {
+            setIsSaving(true);
             const response = await fetch("http://localhost:8000/api/create-quiz/", {
                 method: "POST",
                 headers: {
@@ -146,28 +172,85 @@ const CreateQuiz = () => {
             });
     
             const data = await response.json();
-            console.log("Server Response:", data); // ✅ Debug response
     
             if (response.ok) {
                 alert("Quiz saved successfully!");
             } else {
-                alert("Failed to save quiz: " + JSON.stringify(data)); // Show full error
+                setSaveError(data?.error || "Failed to save quiz. Please review your data.");
             }
         } catch (error) {
-            console.error("Error saving quiz:", error);
-            alert("Failed to save quiz.");
+            setSaveError("Failed to save quiz. Please try again.");
+        } finally {
+            setIsSaving(false);
         }
     };
+
+    // Progress calculation
+    const completedQuestions = questions.filter(q => q.text.trim() && q.answers.every(a => a.text.trim())).length;
+    const progress = questions.length > 0 ? Math.round((completedQuestions / questions.length) * 100) : 0;
 
     return (
         <div className="create-quiz-container">
             <div className="create-quiz-header">
-                <h1>Add Quiz</h1>
-                <button className="btn-secondary">✖</button>
+                <div>
+                    <p className="eyebrow">Teacher workspace</p>
+                    <h1>🎓 Create New Quiz</h1>
+                    <p className="muted">Build engaging quizzes for your students. Add questions manually or import in bulk.</p>
+                </div>
+                <div className="header-stats">
+                    <div className="stat-card">
+                        <span className="stat-icon">📝</span>
+                        <div>
+                            <p className="stat-value">{questions.length}</p>
+                            <p className="stat-label">Questions</p>
+                        </div>
+                    </div>
+                    <div className="stat-card">
+                        <span className="stat-icon">⭐</span>
+                        <div>
+                            <p className="stat-value">{totalScore}</p>
+                            <p className="stat-label">Total Marks</p>
+                        </div>
+                    </div>
+                    <div className="stat-card">
+                        <span className="stat-icon">⏱️</span>
+                        <div>
+                            <p className="stat-value">{timeLimit || 30}</p>
+                            <p className="stat-label">Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Progress Bar */}
+            {questions.length > 0 && (
+                <div className="quiz-progress">
+                    <div className="progress-header">
+                        <span>Quiz Completion</span>
+                        <span className="progress-percent">{progress}%</span>
+                    </div>
+                    <div className="progress-bar">
+                        <div className="progress-fill" style={{ width: `${progress}%` }}></div>
+                    </div>
+                    <p className="progress-hint">{completedQuestions} of {questions.length} questions complete</p>
+                </div>
+            )}
+
+            <div className="import-row">
+                <BulkQuestionImport onImport={handleBulkImport} />
+                <div className="glance-card">
+                    <p className="eyebrow">📋 Quick Overview</p>
+                    <ul>
+                        <li><span>📚 Subject</span><span className={subject ? "" : "not-set"}>{subject || "Not selected"}</span></li>
+                        <li><span>⏰ Duration</span><span>{timeLimit || 30} mins</span></li>
+                        <li><span>🔄 Attempts</span><span>{attempts}</span></li>
+                        <li><span>📅 Due Date</span><span className={dueDate ? "" : "not-set"}>{dueDate || "Not set"}</span></li>
+                    </ul>
+                </div>
             </div>
 
             <div className="quiz-details">
-                <h2>Details</h2>
+                <h2>📝 Quiz Details</h2>
                 <div className="input-group">
                     <input
                         type="text"
@@ -191,7 +274,7 @@ const CreateQuiz = () => {
                     <select value={subject} onChange={(e) => setSubject(e.target.value)}>
                         <option value="">Select Subject</option>
                         {subjects.map(sub => (
-                            <option key={sub.code} value={sub.code}>{sub.name}</option>  // ✅ Fix: Use sub.code
+                            <option key={sub.code} value={sub.code}>{sub.name}</option>
                         ))}
                     </select>
                     <select value={attempts} onChange={(e) => setAttempts(e.target.value)}>
@@ -208,91 +291,153 @@ const CreateQuiz = () => {
                 />
             </div>
 
-            {/* Questions Section */}
             <div className="questions-section">
-                <h2>Questions</h2>
-                {questions.map((q, index) => (
-                    <div key={q.id} className="question-item">
-                        <div className="question-header">
-                            <span>Question {index + 1}</span>
-                            <button className="btn-secondary" onClick={() => deleteQuestion(q.id)}>🗑</button>
-                        </div>
-                        <input
-                            type="text"
-                            placeholder="Enter question text..."
-                            value={q.text}
-                            onChange={(e) => updateQuestion(q.id, { text: e.target.value })}
-                        />
-        
-                        {/* Add an input field for points */}
-                        
-                        <div className="points-group">
-                            <label className="points-label">Points</label>
-                            <input
-                                type="number"
-                                placeholder="Points"
-                                value={q.points}
-                                onChange={(e) => updateQuestion(q.id, { points: Number(e.target.value) })}
-                                onBlur={(e) => {
-                                    if (e.target.value === "" || Number(e.target.value) <= 0) {
-                                        updateQuestion(q.id, { points: 1 });
-                                    }
-                                }}
-                            />
-                        </div>
-
-
-                        {/* Answer options */}
-                        <div className="answers-section">
-                            <h4>Answers (Mark the correct one)</h4>
-                            {q.answers.map((a) => (
-                                <div key={a.id} className="answer-item">
-                                    <input
-                                        type="radio"
-                                        name={`correct-answer-${q.id}`}
-                                        checked={a.correct}
-                                        onChange={() => markCorrectAnswer(q.id, a.id)}
-                                    />
-                                    <input
-                                        type="text"
-                                        placeholder="Answer option..."
-                                        value={a.text}
-                                        onChange={(e) => updateAnswerText(q.id, a.id, e.target.value)}
-                                    />
-                                    <button className="btn-secondary" onClick={() => removeAnswer(q.id, a.id)}>🗑</button>
-                                </div>
-                            ))}
-                            <button className="btn-primary add-answer-btn" onClick={() => addAnswer(q.id)}>+ Add Answer</button>
-                        </div>
+                <div className="section-header">
+                    <h2>❓ Questions</h2>
+                    <span className="question-count-badge">{questions.length} total</span>
+                </div>
+                
+                {questions.length === 0 && (
+                    <div className="empty-questions">
+                        <span className="empty-icon">📋</span>
+                        <h3>No questions yet</h3>
+                        <p>Start by adding your first question or import questions in bulk above.</p>
                     </div>
-                ))}
-                <button className="btn-primary" onClick={addQuestion}>+ Add Question</button>
+                )}
+
+                {questions.map((q, index) => {
+                    const isComplete = q.text.trim() && q.answers.length >= 2 && q.answers.every(a => a.text.trim()) && q.answers.some(a => a.correct);
+                    return (
+                        <div key={q.id} className={`question-item ${isComplete ? 'complete' : 'incomplete'}`}>
+                            <div className="question-header">
+                                <div className="question-number">
+                                    <span className="q-num">{index + 1}</span>
+                                    {isComplete ? <span className="status-dot complete">✓</span> : <span className="status-dot incomplete">!</span>}
+                                </div>
+                                <div className="question-meta">
+                                    <span className="points-badge">⭐ {q.points} pts</span>
+                                    <span className="answers-badge">📝 {q.answers.length} options</span>
+                                </div>
+                                <button className="btn-delete" onClick={() => deleteQuestion(q.id)} title="Delete question">🗑️</button>
+                            </div>
+                            <textarea
+                                className="question-input"
+                                placeholder="Type your question here..."
+                                value={q.text}
+                                onChange={(e) => updateQuestion(q.id, { text: e.target.value })}
+                                rows={2}
+                            />
+                            <div className="points-group">
+                                <label className="points-label">⭐ Points for this question</label>
+                                <input
+                                    type="number"
+                                    placeholder="2"
+                                    value={q.points}
+                                    min={1}
+                                    onChange={(e) => updateQuestion(q.id, { points: Number(e.target.value) })}
+                                    onBlur={(e) => {
+                                        if (e.target.value === "" || Number(e.target.value) <= 0) {
+                                            updateQuestion(q.id, { points: 1 });
+                                        }
+                                    }}
+                                />
+                            </div>
+
+                            <div className="answers-section">
+                                <h4>🎯 Answer Options <span className="hint">(Select the correct answer)</span></h4>
+                                {q.answers.map((a, aIndex) => (
+                                    <div key={a.id} className={`answer-item ${a.correct ? 'correct-answer' : ''}`}>
+                                        <span className="answer-letter">{String.fromCharCode(65 + aIndex)}</span>
+                                        <input
+                                            type="radio"
+                                            name={`correct-answer-${q.id}`}
+                                            checked={a.correct}
+                                            onChange={() => markCorrectAnswer(q.id, a.id)}
+                                            title="Mark as correct"
+                                        />
+                                        <input
+                                            type="text"
+                                            placeholder={`Option ${String.fromCharCode(65 + aIndex)}...`}
+                                            value={a.text}
+                                            onChange={(e) => updateAnswerText(q.id, a.id, e.target.value)}
+                                        />
+                                        {a.correct && <span className="correct-tag">✓ Correct</span>}
+                                        {q.answers.length > 2 && (
+                                            <button className="btn-remove-answer" onClick={() => removeAnswer(q.id, a.id)} title="Remove option">×</button>
+                                        )}
+                                    </div>
+                                ))}
+                                <button className="btn-add-answer" onClick={() => addAnswer(q.id)}>+ Add another option</button>
+                            </div>
+                        </div>
+                    );
+                })}
+                <button className="btn-add-question" onClick={addQuestion}>
+                    <span className="btn-icon">➕</span> Add New Question
+                </button>
             </div>
 
-            {/* Display Total Score */}
-            <div className="total-score">
-                <h3>Total Score: {totalScore}</h3> {/* Display the Total Score */}
+            <div className="quiz-summary-card">
+                <h3>📊 Quiz Summary</h3>
+                <div className="summary-stats">
+                    <div className="summary-item">
+                        <span className="value">{questions.length}</span>
+                        <span className="label">Questions</span>
+                    </div>
+                    <div className="summary-item">
+                        <span className="value">{totalScore}</span>
+                        <span className="label">Total Marks</span>
+                    </div>
+                    <div className="summary-item">
+                        <span className="value">{timeLimit || 30}</span>
+                        <span className="label">Minutes</span>
+                    </div>
+                    <div className="summary-item">
+                        <span className="value">{completedQuestions}</span>
+                        <span className="label">Complete</span>
+                    </div>
+                </div>
             </div>
 
-            {/* Toggle Switches */}
-            <div className="toggle-switches">
-                <label>
+            <div className="quiz-options">
+                <h3>⚙️ Quiz Settings</h3>
+                <label className="toggle-label">
+                    <span className="toggle-text">
+                        <span className="toggle-icon">🔀</span>
+                        Shuffle Questions
+                    </span>
                     <input type="checkbox" checked={shuffleQuestions} onChange={() => setShuffleQuestions(!shuffleQuestions)} />
-                    Shuffle Questions
                 </label>
-                <label>
+                <label className="toggle-label">
+                    <span className="toggle-text">
+                        <span className="toggle-icon">🎲</span>
+                        Shuffle Answers
+                    </span>
                     <input type="checkbox" checked={shuffleAnswers} onChange={() => setShuffleAnswers(!shuffleAnswers)} />
-                    Shuffle Answers
                 </label>
-                <label>
+                <label className="toggle-label">
+                    <span className="toggle-text">
+                        <span className="toggle-icon">💬</span>
+                        Show Feedback After Submission
+                    </span>
                     <input type="checkbox" checked={feedbackOptions} onChange={() => setFeedbackOptions(!feedbackOptions)} />
-                    Feedback Options
                 </label>
             </div>
 
-            <div className="bottom-buttons">
-                <button className="btn-secondary">Cancel</button>
-                <button className="btn-primary" onClick={saveQuiz}>Save</button>
+            {saveError && (
+                <div className="error-banner">
+                    <span>⚠️</span>
+                    <p>{saveError}</p>
+                </div>
+            )}
+
+            <div className="quiz-actions">
+                <button className="btn-cancel" onClick={() => window.history.back()}>
+                    ← Cancel
+                </button>
+                <button className="btn-save" onClick={saveQuiz} disabled={isSaving}>
+                    {isSaving ? "⏳ Saving..." : "💾 Save Quiz"}
+                </button>
             </div>
         </div>
     );

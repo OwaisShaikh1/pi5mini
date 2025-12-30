@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "../styles/css/Dashboard.css";
 import Sidebar from "../components/Sidebar";
 import MyQuiz from "../components/MyQuiz";
@@ -19,6 +19,7 @@ const Dashboard = () => {
   const [sectionTitle, setSectionTitle] = useState("Dashboard");
   const [activeComponent, setActiveComponent] = useState("Dashboard");
   const navigate = useNavigate();
+  const location = useLocation();
   const [studentCode, setStudentCode] = useState(localStorage.getItem("studentcode"));
   const [historyData, setHistoryData] = useState([]);
   const [fullQuizHistory, setFullQuizHistory] = useState([]); // Full quiz data
@@ -46,6 +47,20 @@ const Dashboard = () => {
 
     fetchSubjects();
   }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const section = params.get("section");
+
+    if (section === "StudentQuizzes") {
+      setSectionTitle("Quizzes");
+      setActiveComponent("StudentQuizzes");
+    }
+    if (section === "MyCourses") {
+      setSectionTitle("My Courses");
+      setActiveComponent("MyCourses");
+    }
+  }, [location.search]);
 
   useEffect(() => {
     const fetchQuizHistory = async () => {

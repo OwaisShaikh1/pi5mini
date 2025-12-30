@@ -119,7 +119,7 @@ from django.utils import timezone
 
 
 class Quiz(models.Model):
-    code = models.CharField(max_length=10, primary_key=True)
+    code = models.CharField(max_length=100, primary_key=True)
     subject = models.ForeignKey("Subject", on_delete=models.CASCADE, null=True)  # ✅ Allow NULL for now
     teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE, null=True)  # ✅ Allow NULL for now
     score = models.IntegerField()

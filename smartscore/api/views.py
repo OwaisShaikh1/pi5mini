@@ -111,6 +111,9 @@ def login(request):
     }, status=status.HTTP_200_OK)
 
 
+# ==============================
+# FORGOT PASSWORD
+# ==============================
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def forgotpassword(request):
@@ -152,8 +155,13 @@ def forgotpassword(request):
     return Response({"message": "Temporary password has been sent to your email."}, status=status.HTTP_200_OK)
 
 
-
-
+# ==============================
+# CHANGE PASSWORD
+# ==============================
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def changepassword(request):
+    owais="owais"
 
 
 # ==============================
@@ -289,15 +297,19 @@ class TakeQuizView(APIView):
         quiz = get_object_or_404(Quiz, code=quiz_code)
         questions = Question.objects.filter(quiz=quiz).prefetch_related('choices')
 
+        # Calculate total score from question marks
+        total_score = sum(q.marks for q in questions)
+
         quiz_data = {
             "code": quiz.code,
             "title": quiz.subject.name if quiz.subject else "No Subject",  # ✅ Updated from topic to subject
-            "total_score": quiz.score,
+            "total_score": total_score,
             "duration": quiz.time_limit,
             "questions": [
                 {
                     "id": question.id,
                     "text": question.text,
+                    "marks": question.marks,
                     "choices": [
                         {"id": choice.id, "text": choice.text}
                         for choice in question.choices.all()
@@ -402,7 +414,8 @@ class SubmitQuizView(APIView):
         student = request.user
 
         total_score = 0
-        questions_data = []
+        total_possible_marks = 0
+        questions_data = {}  # Changed to dict keyed by question ID
         correct_count = 0
 
         for question in Question.objects.filter(quiz=quiz).prefetch_related('choices'):
@@ -416,10 +429,14 @@ class SubmitQuizView(APIView):
             if is_correct:
                 total_score += question.marks
                 correct_count += 1
+            
+            # Add to total possible marks
+            total_possible_marks += question.marks
 
-            question_info = {
+            questions_data[question.id] = {
                 "id": question.id,
                 "text": question.text,
+                "marks": question.marks,
                 "correct_answer": correct_choice.text if correct_choice else None,
                 "selected_choice_id": selected_choice_id,
                 "is_correct": is_correct,
@@ -432,7 +449,6 @@ class SubmitQuizView(APIView):
                     for choice in question.choices.all()
                 ],
             }
-            questions_data.append(question_info)
 
         StudentQuiz.objects.create(student=student, quiz=quiz, score=total_score)
 
@@ -440,6 +456,7 @@ class SubmitQuizView(APIView):
             {
                 "message": "Quiz submitted successfully!",
                 "score": total_score,
+                "totalMarks": total_possible_marks,
                 "totalQuestions": quiz.questions.count(),
                 "correctAnswers": correct_count,
                 "questionResults": questions_data,

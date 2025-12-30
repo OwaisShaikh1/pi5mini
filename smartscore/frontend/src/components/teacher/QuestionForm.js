@@ -1,55 +1,128 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 
 export default function QuestionForm({ addQuestion }) {
   const [questionText, setQuestionText] = useState("");
-  const [options, setOptions] = useState(["", "", "", ""]);
-  const [correctIndex, setCorrectIndex] = useState(0);
+  const [marks, setMarks] = useState(2);
+  const [options, setOptions] = useState([
+    { id: 1, text: "" },
+    { id: 2, text: "" },
+    { id: 3, text: "" },
+    { id: 4, text: "" },
+  ]);
+  const [correctId, setCorrectId] = useState(1);
+
+  const trimmedOptions = useMemo(
+    () => options.filter((opt) => opt.text.trim() !== ""),
+    [options]
+  );
+
+  const handleAddOption = () => {
+    setOptions([...options, { id: Date.now(), text: "" }]);
+  };
+
+  const handleRemoveOption = (id) => {
+    if (options.length <= 2) return;
+    setOptions(options.filter((opt) => opt.id !== id));
+    if (correctId === id && options.length > 2) {
+      setCorrectId(options.find((opt) => opt.id !== id)?.id || null);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    addQuestion({ questionText, options, correctIndex });
+    if (!questionText.trim()) return;
+    if (trimmedOptions.length < 2) {
+      alert("Please provide at least two answer options.");
+      return;
+    }
+
+    const questionId = Date.now();
+    const question = {
+      id: questionId,
+      text: questionText.trim(),
+      points: Number(marks) > 0 ? Number(marks) : 1,
+      answers: trimmedOptions.map((opt, idx) => ({
+        id: `${questionId}-${idx}`,
+        text: opt.text.trim(),
+        correct: opt.id === correctId,
+      })),
+    };
+
+    addQuestion(question);
     setQuestionText("");
-    setOptions(["", "", "", ""]);
-    setCorrectIndex(0);
+    setMarks(2);
+    setOptions([
+      { id: 1, text: "" },
+      { id: 2, text: "" },
+      { id: 3, text: "" },
+      { id: 4, text: "" },
+    ]);
+    setCorrectId(1);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4 p-4 border rounded">
-      <label className="block mb-2 font-semibold">Question</label>
-      <input
-        type="text"
-        value={questionText}
-        onChange={(e) => setQuestionText(e.target.value)}
-        className="border p-2 w-full rounded"
-        required
-      />
-      <div className="mt-2">
-        {options.map((opt, index) => (
-          <div key={index} className="flex items-center mb-1">
+    <form onSubmit={handleSubmit} className="question-form">
+      <div className="form-row">
+        <label className="form-label">Question</label>
+        <input
+          type="text"
+          value={questionText}
+          onChange={(e) => setQuestionText(e.target.value)}
+          className="form-control"
+          placeholder="Ask something clear and concise"
+          required
+        />
+      </div>
+
+      <div className="form-row inline">
+        <label className="form-label">Marks</label>
+        <input
+          type="number"
+          min="1"
+          value={marks}
+          onChange={(e) => setMarks(Number(e.target.value))}
+          className="form-control marks"
+        />
+      </div>
+
+      <div className="form-row">
+        <label className="form-label">Answer options</label>
+        {options.map((opt) => (
+          <div key={opt.id} className="option-row">
             <input
               type="radio"
               name="correct"
-              checked={correctIndex === index}
-              onChange={() => setCorrectIndex(index)}
-              className="mr-2"
+              checked={correctId === opt.id}
+              onChange={() => setCorrectId(opt.id)}
             />
             <input
               type="text"
-              value={opt}
-              onChange={(e) => {
-                const newOptions = [...options];
-                newOptions[index] = e.target.value;
-                setOptions(newOptions);
-              }}
-              className="border p-2 w-full rounded"
+              value={opt.text}
+              onChange={(e) =>
+                setOptions((prev) =>
+                  prev.map((o) => (o.id === opt.id ? { ...o, text: e.target.value } : o))
+                )
+              }
+              className="form-control"
+              placeholder="Option text"
               required
             />
+            {options.length > 2 && (
+              <button type="button" className="mini-btn" onClick={() => handleRemoveOption(opt.id)}>
+                Remove
+              </button>
+            )}
           </div>
         ))}
+        <button type="button" className="mini-btn ghost" onClick={handleAddOption}>
+          + Add option
+        </button>
       </div>
-      <button type="submit" className="mt-3 bg-blue-500 text-white px-4 py-2 rounded">
-        Add Question
-      </button>
+
+      <div className="form-actions">
+        <button type="submit" className="cta primary">Add Question</button>
+        <p className="helper">Tip: mark one option as correct before saving.</p>
+      </div>
     </form>
   );
 }

@@ -17,6 +17,7 @@ from .views import (
     SubjectListView,
     get_subjects,
     forgotpassword,
+    changepassword
 )
 
 urlpatterns = [
@@ -24,6 +25,7 @@ urlpatterns = [
     path('signup/', signup, name='signup'),
     path('login/', login, name='login'),
     path('forgot/', forgotpassword, name='forgotpassword'),
+    path('changepassword/', changepassword, name='changepassword'),
 
     # Branches and Leaderboard
     path("branches/", BranchListView.as_view(), name="branch-list"),

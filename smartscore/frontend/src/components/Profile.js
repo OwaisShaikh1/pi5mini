@@ -4,10 +4,13 @@ import "../styles/css/Profile.css";
 
 const Profile = () => {
   const [profileData, setProfileData] = useState({});
+  const [activeComponent, setActiveComponent] = useState("Profile");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [userType, setUserType] = useState(null); // "student" or "teacher"
   const navigate=useNavigate();
+
+  const [showPasswordForm, setShowPasswordForm] = useState(false);
 
   useEffect(() => {
     const fetchProfile = async () => {
@@ -89,6 +92,26 @@ const Profile = () => {
 
   if (loading) return <div className="profile-page">Loading profile...</div>;
 
+  setSectionTitle(section);
+
+    setActiveComponent(() => {
+      switch (section) {
+        case "Password":
+          return "Password";
+        case "History":
+          return "MyQuiz";
+        case "LeaderBoard":
+          return "LeaderBoard";
+        case "Quizzes":
+          return "StudentQuizzes";
+        case "Profile":
+          navigate("/profile");
+          return null;
+        default:
+          return "Dashboard";
+      }
+    });
+
   return (
     <div className="profile-page">
       <div className="profile-container">
@@ -96,7 +119,7 @@ const Profile = () => {
         <div className="sidebar">
           <h2 className="sidebar-title">{userType === "teacher" ? "Teacher Profile" : "Student Profile"}</h2>
           <ul className="sidebar-list">
-            <li className="sidebar-item">🔒 Password</li>
+            <li className="sidebar-item" onClick={() => setShowPasswordForm(!setShowPasswordForm)} >🔒 Password</li>
             {userType === "teacher" ? (
               <>
                 <li className="sidebar-item">📂 Manage Classes</li>
@@ -112,6 +135,8 @@ const Profile = () => {
               </>
             )}
           </ul>
+
+          
           <div className="delete-account">🗑 Delete Your Account</div>
         </div>
 
@@ -180,6 +205,10 @@ const Profile = () => {
                 }
               }} className="button-cancel">Return</button>
               <button type="button" onClick={() => alert("Feature coming soon!")} className="button-submit" >Edit Profile</button>
+            
+              {showPasswordForm && (
+                <ChangePasswordForm />
+              )}
             </div>
           </form>
         </div>
