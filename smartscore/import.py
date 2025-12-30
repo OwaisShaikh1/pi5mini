@@ -27,6 +27,28 @@ from django.utils import timezone
 from django.apps import apps
 
 
+def get_next_quiz_code(Quiz, base_code):
+    """
+    Generates next available quiz code like:
+    PHY-MCQS-01, PHY-MCQS-02, ...
+    """
+    existing_codes = (
+        Quiz.objects
+        .filter(code__startswith=base_code)
+        .values_list("code", flat=True)
+    )
+
+    max_num = 0
+    for code in existing_codes:
+        match = re.search(rf"{base_code}-(\d+)$", code)
+        if match:
+            num = int(match.group(1))
+            max_num = max(max_num, num)
+
+    return f"{base_code}-{max_num + 1:02d}"
+
+
+
 # ======================================================
 # MCQ IMPORT FUNCTION
 # ======================================================
@@ -39,9 +61,9 @@ def import_mcqs_from_text(text):
     # ---------- CONFIG ----------
     SUBJECT_CODE = "PHY"
     SUBJECT_NAME = "Physics"
-    QUIZ_CODE = "PHY-MCQS-01"
-    TOTAL_MARKS = 100
+    QUIZ_BASE_CODE = "PHY-MCQS"
     MARKS_PER_QUESTION = 2
+
 
     # ---------- LOAD MODELS ----------
     Subject = apps.get_model("api", "Subject")
@@ -60,15 +82,16 @@ def import_mcqs_from_text(text):
         defaults={"name": SUBJECT_NAME}
     )
 
-    quiz, _ = Quiz.objects.get_or_create(
-        code=QUIZ_CODE,
-        defaults={
-            "subject": subject,
-            "teacher": teacher,
-            "score": TOTAL_MARKS,
-            "date_created": timezone.now(),
-        }
+    quiz_code = get_next_quiz_code(Quiz, QUIZ_BASE_CODE)
+
+    quiz = Quiz.objects.create(
+        code=quiz_code,
+        subject=subject,
+        teacher=teacher,
+        score=0,  # temporary, updated after import
+        date_created=timezone.now(),
     )
+
 
     # ---------- PARSE QUESTIONS ----------
     question_blocks = re.split(r"\n\s*\d+\.\s*", text)
@@ -77,32 +100,36 @@ def import_mcqs_from_text(text):
     inserted = 0
 
     for block in question_blocks:
-        # Question text = first line
-        q_match = re.match(r"(.*?)(\n|\r)", block, re.S)
-        if not q_match:
+        # Question text (first non-empty line)
+        lines = [l.strip() for l in block.splitlines() if l.strip()]
+        if not lines:
             continue
 
-        question_text = q_match.group(1).strip()
+        question_text = lines[0]
 
         # Options
-        options = re.findall(r"\(\d\)\s*(.*)", block)
+        options = re.findall(r"\(\s*\d+\s*\)\s*(.+)", block)
 
-        # Answer
-        ans_match = re.search(r"Answer:\s*\((\d)\)", block)
+        # Answer (very tolerant)
+        ans_match = re.search(
+            r"Answer\s*[:;]\s*\(?\s*(\d)\s*\)?",
+            block,
+            re.IGNORECASE
+        )
 
-        if not options or not ans_match:
+        if len(options) < 2 or not ans_match:
+            print("⚠ Skipped block:\n", block[:300], "\n---\n")
             continue
+
 
         correct_index = int(ans_match.group(1)) - 1
 
-        # ---------- CREATE QUESTION ----------
         question = Question.objects.create(
             quiz=quiz,
             text=question_text,
             marks=MARKS_PER_QUESTION
         )
 
-        # ---------- CREATE OPTIONS ----------
         for idx, opt in enumerate(options):
             Choice.objects.create(
                 question=question,
@@ -111,6 +138,12 @@ def import_mcqs_from_text(text):
             )
 
         inserted += 1
+
+    # Update total marks dynamically
+    quiz.score = inserted * MARKS_PER_QUESTION
+    quiz.save(update_fields=["score"])
+
+
 
     return inserted
 
@@ -133,6 +166,8 @@ def main(argv):
 
     with open(file_path, "r", encoding="utf-8") as f:
         raw_text = f.read()
+
+    
 
     count = import_mcqs_from_text(raw_text)
     print(f"✅ Successfully imported {count} MCQs")

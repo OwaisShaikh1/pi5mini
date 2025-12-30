@@ -69,7 +69,8 @@ class StudentQuizSerializer(serializers.ModelSerializer):
 
     def get_percentage_score(self, obj):
         """ Calculate percentage score dynamically """
-        return round((obj.score / obj.quiz.score) * 100, 2) if obj.quiz.score else 0
+        total_marks = sum(q.marks for q in obj.quiz.questions.all())
+        return round((obj.score / total_marks) * 100, 2) if total_marks else 0
 
 from rest_framework import serializers
 from .models import Subject

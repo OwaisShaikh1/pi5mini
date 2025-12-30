@@ -162,8 +162,14 @@ class StudentQuiz(models.Model):
 
     def get_percentage_score(self):
         """ Returns student's percentage score for the quiz """
-        return (self.score / self.quiz.score) * 100 if self.quiz.score else 0
+        total_marks = sum(q.marks for q in self.quiz.questions.all())
+        return (self.score / total_marks) * 100 if total_marks else 0
+
+    def get_total_marks(self):
+        """ Returns total possible marks for the quiz """
+        return sum(q.marks for q in self.quiz.questions.all())
 
     def __str__(self):
-        return f"{self.student.name} - {self.quiz.code} ({self.score}/{self.quiz.score})"
+        total_marks = self.get_total_marks()
+        return f"{self.student.name} - {self.quiz.code} ({self.score}/{total_marks})"
 
