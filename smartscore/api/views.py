@@ -1,5 +1,7 @@
 # Standard Library Imports
 import json
+import csv
+import io
 
 # Django Imports
 from django.shortcuts import get_object_or_404
@@ -251,7 +253,14 @@ def create_quiz(request):
         for q_data in questions_data:
             question_text = q_data.get("text")
             question_marks = q_data.get("marks")
-            question = Question.objects.create(quiz=quiz, text=question_text, marks=question_marks)
+            question_solution = q_data.get("solution", "")  # Optional solution
+            
+            question = Question.objects.create(
+                quiz=quiz, 
+                text=question_text, 
+                marks=question_marks,
+                solution=question_solution if question_solution else None
+            )
 
             # Process Choices
             choices_data = q_data.get("choices", [])
@@ -275,7 +284,181 @@ def create_quiz(request):
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=400)     
+
+
+# ==============================
+# UPLOAD AND PARSE CSV FOR QUIZ
+# ==============================
+@api_view(["POST"])
+@permission_classes([AllowAny])  # TODO: Change to IsAuthenticated and check for Teacher role
+def upload_quiz_csv(request):
+    """
+    Upload a CSV file and parse questions for quiz creation.
+    Accepts flexible CSV formats with various column naming conventions.
+    Returns parsed questions as JSON (does not save to database).
+    """
+    
+    def normalize_column(col):
+        """Normalize column name: lowercase, remove spaces/underscores/hyphens"""
+        return col.lower().replace(' ', '').replace('_', '').replace('-', '')
+    
+    def find_column(headers, possible_names):
+        """Find column by matching against possible name variations"""
+        normalized_headers = {normalize_column(h): h for h in headers}
+        for name in possible_names:
+            normalized = normalize_column(name)
+            if normalized in normalized_headers:
+                return normalized_headers[normalized]
+        return None
+    
+    try:
+        if 'file' not in request.FILES:
+            return JsonResponse({"error": "No file provided."}, status=400)
         
+        csv_file = request.FILES['file']
+        
+        # Validate file type
+        if not csv_file.name.endswith('.csv'):
+            return JsonResponse({"error": "File must be a CSV file."}, status=400)
+        
+        # Validate file size (max 5MB)
+        if csv_file.size > 5 * 1024 * 1024:
+            return JsonResponse({"error": "File size exceeds 5MB limit."}, status=400)
+        
+        # Read and decode CSV file
+        try:
+            file_data = csv_file.read().decode('utf-8')
+        except UnicodeDecodeError:
+            return JsonResponse({"error": "Invalid file encoding. Please use UTF-8."}, status=400)
+        
+        # Parse CSV
+        csv_reader = csv.DictReader(io.StringIO(file_data))
+        headers = csv_reader.fieldnames
+        
+        if not headers:
+            return JsonResponse({"error": "CSV file is empty or has no headers."}, status=400)
+        
+        # Flexible column mapping
+        question_col = find_column(headers, ['question', 'Question', 'question_text', 'Question Text', 'q'])
+        option_a_col = find_column(headers, ['option a', 'Option A', 'option_a', 'optiona', 'OptionA', 'a', 'choice_a'])
+        option_b_col = find_column(headers, ['option b', 'Option B', 'option_b', 'optionb', 'OptionB', 'b', 'choice_b'])
+        option_c_col = find_column(headers, ['option c', 'Option C', 'option_c', 'optionc', 'OptionC', 'c', 'choice_c'])
+        option_d_col = find_column(headers, ['option d', 'Option D', 'option_d', 'optiond', 'OptionD', 'd', 'choice_d'])
+        option_e_col = find_column(headers, ['option e', 'Option E', 'option_e', 'optione', 'OptionE', 'e', 'choice_e'])
+        answer_col = find_column(headers, ['correct answer', 'Correct Answer', 'answer', 'Answer', 'correct', 'Correct', 'correct_answer'])
+        marks_col = find_column(headers, ['marks', 'Marks', 'points', 'Points', 'score', 'Score'])
+        solution_col = find_column(headers, ['solution', 'Solution', 'explanation', 'Explanation', 'hint', 'Hint'])
+        
+        # Validate required columns
+        if not question_col:
+            return JsonResponse({
+                "error": "Could not find question column. Expected column names: 'question', 'Question', 'question_text', etc.",
+                "found_headers": list(headers)
+            }, status=400)
+        
+        if not option_a_col or not option_b_col:
+            return JsonResponse({
+                "error": "Could not find option columns. Expected at least 'Option A' and 'Option B' (or 'option_a', 'option_b', etc.).",
+                "found_headers": list(headers)
+            }, status=400)
+        
+        if not answer_col:
+            return JsonResponse({
+                "error": "Could not find correct answer column. Expected: 'answer', 'Correct Answer', 'correct_answer', etc.",
+                "found_headers": list(headers)
+            }, status=400)
+        
+        # Parse questions
+        questions = []
+        skipped_count = 0
+        
+        for idx, row in enumerate(csv_reader, start=2):  # start=2 because row 1 is header
+            question_text = row.get(question_col, '').strip()
+            option_a = row.get(option_a_col, '').strip()
+            option_b = row.get(option_b_col, '').strip()
+            option_c = row.get(option_c_col, '').strip() if option_c_col else ''
+            option_d = row.get(option_d_col, '').strip() if option_d_col else ''
+            option_e = row.get(option_e_col, '').strip() if option_e_col else ''
+            correct_answer = row.get(answer_col, '').strip().upper()
+            marks = row.get(marks_col, '2').strip() if marks_col else '2'
+            solution = row.get(solution_col, '').strip() if solution_col else ''
+            
+            # Skip if essential fields are empty
+            if not question_text or not option_a or not option_b:
+                skipped_count += 1
+                continue
+            
+            # Skip if "None" appears in options
+            if 'none' in [option_a.lower(), option_b.lower(), option_c.lower(), option_d.lower(), option_e.lower()]:
+                skipped_count += 1
+                continue
+            
+            # Parse correct answer (support A-E or 1-5)
+            correct_index = -1
+            if correct_answer in ['A', '1']:
+                correct_index = 0
+            elif correct_answer in ['B', '2']:
+                correct_index = 1
+            elif correct_answer in ['C', '3']:
+                correct_index = 2
+            elif correct_answer in ['D', '4']:
+                correct_index = 3
+            elif correct_answer in ['E', '5']:
+                correct_index = 4
+            else:
+                # If invalid correct answer, skip question
+                skipped_count += 1
+                continue
+            
+            # Parse marks (default to 2)
+            try:
+                marks_value = int(marks) if marks else 2
+            except ValueError:
+                marks_value = 2
+            
+            # Build choices array (include all non-empty options)
+            all_options = [option_a, option_b, option_c, option_d, option_e]
+            choices = []
+            for i, option in enumerate(all_options):
+                if option:  # Only include non-empty options
+                    choices.append({
+                        "text": option,
+                        "is_correct": i == correct_index
+                    })
+            
+            # Ensure at least 2 choices
+            if len(choices) < 2:
+                skipped_count += 1
+                continue
+            
+            question_obj = {
+                "text": question_text,
+                "marks": marks_value,
+                "choices": choices
+            }
+            
+            # Add solution if provided
+            if solution:
+                question_obj["solution"] = solution
+            
+            questions.append(question_obj)
+        
+        if not questions:
+            return JsonResponse({
+                "error": "No valid questions found in CSV file.",
+                "skipped": skipped_count
+            }, status=400)
+        
+        return JsonResponse({
+            "success": True,
+            "message": f"Successfully parsed {len(questions)} questions.",
+            "questions": questions,
+            "count": len(questions),
+            "skipped": skipped_count
+        }, status=200)
+    
+    except Exception as e:
+        return JsonResponse({"error": f"Failed to process CSV: {str(e)}"}, status=500)
         
         
 # GET QUIZ DATA FOR ATTEMPT

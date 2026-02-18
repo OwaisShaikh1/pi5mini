@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/css/createquiz.css";
-import BulkQuestionImport from "../../components/teacher/BulkQuestionImport";
+import CSVQuestionImport from "../../components/teacher/CSVQuestionImport";
 
 const CreateQuiz = () => {
     const [quizTitle, setQuizTitle] = useState("");
@@ -41,7 +41,8 @@ const CreateQuiz = () => {
                 id: Date.now(), 
                 text: "", 
                 type: "Multiple Choice", 
-                points: 2, 
+                points: 2,
+                solution: "",  // Optional solution field
                 answers: [{ id: 1, text: "", correct: true }, { id: 2, text: "", correct: false }] 
             }
         ]);
@@ -151,14 +152,21 @@ const CreateQuiz = () => {
             teachercode: localStorage.getItem("teachercode"),
             score: totalScore,
             time_limit: timeLimit || 30,
-            questions: questions.map(q => ({
-                text: q.text,
-                marks: q.points && q.points > 0 ? q.points : 2,
-                choices: q.answers.map(a => ({
-                    text: a.text,
-                    is_correct: a.correct
-                }))
-            }))
+            questions: questions.map(q => {
+                const questionObj = {
+                    text: q.text,
+                    marks: q.points && q.points > 0 ? q.points : 2,
+                    choices: q.answers.map(a => ({
+                        text: a.text,
+                        is_correct: a.correct
+                    }))
+                };
+                // Include solution if provided
+                if (q.solution && q.solution.trim()) {
+                    questionObj.solution = q.solution.trim();
+                }
+                return questionObj;
+            })
         };
     
         try {
@@ -237,7 +245,7 @@ const CreateQuiz = () => {
             )}
 
             <div className="import-row">
-                <BulkQuestionImport onImport={handleBulkImport} />
+                <CSVQuestionImport onImport={handleBulkImport} />
                 <div className="glance-card">
                     <p className="eyebrow">📋 Quick Overview</p>
                     <ul>
@@ -368,6 +376,21 @@ const CreateQuiz = () => {
                                     </div>
                                 ))}
                                 <button className="btn-add-answer" onClick={() => addAnswer(q.id)}>+ Add another option</button>
+                            </div>
+
+                            {/* Solution/Explanation Field (Optional) */}
+                            <div className="solution-section" style={{ marginTop: '16px' }}>
+                                <label className="points-label" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    💡 Solution/Explanation <span style={{ fontSize: '12px', color: '#999', fontWeight: 'normal' }}>(Optional)</span>
+                                </label>
+                                <textarea
+                                    className="question-input"
+                                    placeholder="Add an explanation or solution for this question (optional)..."
+                                    value={q.solution || ""}
+                                    onChange={(e) => updateQuestion(q.id, { solution: e.target.value })}
+                                    rows={2}
+                                    style={{ fontSize: '14px', color: '#666' }}
+                                />
                             </div>
                         </div>
                     );

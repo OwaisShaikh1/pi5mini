@@ -1,0 +1,5753 @@
+
+1. What is the place value of 5 in 3254710? (CLAT, 2010) (a) 5
+(OBJECTIVE TYPE QUESTIONS) (a) None
+(c) 1 and 2
+(b) Only 1 (d) 2 and 3
+(b) 10000 (c) 50000 (d) 54710
+2. The face value of 8 in the number 458926 is (R.R.B., 2006) (a) 8
+(b) 1000 (c) 8000 (d) 8926
+3. The sum of the place values of 3 in the number 503535 is (M.B.A., 2005)
+(a) 6 (c) 3030 (b) 60 (d) 3300
+4. The difference between the place values of 7 and 3 in the number 527435 is
+(a) 4 (c) 45
+(b) 5 (d) 6970
+5. The difference between the local value and the face value of 7 in the numeral 32675149 is
+(a) 5149 (c) 69993
+(b) 64851 (d) 75142
+(e) None of these 6. The sum of the greatest and smallest number of five digits is (M.C.A., 2005) (b) 10,999
+(a) 11,110 (c) 109,999 (d) 111,110
+7. If the largest three-digit number is subtracted from the smallest five-digit number, then the remainder is (b) 9000
+(a) 1 (c) 9001 (d) 90001
+8. The smallest number of 5 digits beginning with 3 and ending with 5 will be
+(R.R.B., 2006)
+(a) 31005 (c) 30005
+(b) 30015 (d) 30025
+9. What is the minimum number of four digits formed by using the digits 2, 4, 0, 7 ?
+(P.C.S., 2007)
+(a) 2047 (c) 2407
+(b) 2247 (d) 2470
+10. All natural numbers and 0 are called the ......... numbers. (R.R.B., 2006)
+(a) rational (c) whole
+(b) integer (d) prime
+11. Consider the following statements about natural numbers:
+(1) There exists a smallest natural number. (2) There exists a largest natural number. (3) Between two natural numbers, there is always a natural number.
+Which of the above statements is/are correct?
+12. Every rational number is also (a) an integer
+(b) a real number (c) a natural number (d) a whole number
+13. The number p is (R.R.B., 2005) (a) a fraction
+(b) a recurring decimal
+(c) a rational number 2 is a/an
+14.
+(a) rational number (c) irrational number
+(b) natural number (d) integer
+15. The number 3 is (a) a finite decimal (b) an infinite recurring decimal (c) equal to 1.732 (d) an infinite non-recurring decimal 16. There are just two ways in which 5 may be expressed as the sum of two different positive (non-zero) integers, namely 5 = 4 + 1 = 3 + 2. In how many ways, 9 can be expressed as the sum of two different positive (non-zero) integers?
+(a) 3 (c) 5
+(b) 4 (d) 6
+17. P and Q are two positive integers such that PQ = 64. Which of the following cannot be the value of P + Q?
+(a) 16 (c) 35
+(b) 20 (d) 65
+18. If x + y + z = 9 and both y and z are positive integers greater than zero, then the maximum value x can take is (Campus Recruitment, 2006)
+(a) 3 (c) 8
+(b) 7 (d) Data insufficient
+19. What is the sum of the squares of the digits from 1 to 9?
+(a) 105 (c) 285
+(b) 260 (d) 385
+20. If n is an integer between 20 and 80, then any of the following could be n + 7 except (b) 58
+(a) 47 (c) 84 (d) 88
+21. Which one of the following is the correct sequence in respect of the Roman numerals: C, D, L and M? (Civil Services, 2008)
+(a) C > D > L > M (c) M > D > C > L
+(b) M > L > D > C (d) L > C > D > M
+22. If the numbers from 1 to 24, which are divisible by 2 are arranged in descending order, which number will be at the 8th place from the bottom? (CLAT, 2010)
+(d) an irrational numberNUMBER SYSTEM
+(a) 10
+15
+(c) 16
+(b) 12
+(d) 18
+23. 2 – 2 + 2 – 2 + .......... 101 terms =?
+(b) 0
+(a) – 2
+(c) 2
+(d) None of these
+24. 98th term of the infinite series 1, 2, 3, 4, 1, 2, 3, 4,
+1, 2, ........ is (M.C.A., 2005)
+(a) 1
+(c) 3
+(b) 2
+(d) 4
+25. If x, y, z be the digits of a number beginning from
+the left, the number is
+(a) xyz
+(c) 10x + y + 100z
+(b) x + 10y + 100z
+(d) 100x + 10y + z
+26. If x, y, z and w be the digits of a number beginning
+from the left, the number is
+(a) xyzw
+(b) wzyx
+(c) x + 10y + 100z + 1000w
+(d) 103x + 102y + 10z + w
+27. If n and p are both odd numbers, which of the
+following is an even number?
+(a) n + p
+(c) np + 2
+(b) n + p + 1
+(d) np
+28. For the integer n, if n3 is odd, then which of the
+following statements are true?
+I. n is odd.
+III. n2 is even.
+(a) I only
+(c) I and II only
+II. n2 is odd.
+(b) II only
+(d) I and III only
+29. If (n – 1) is an odd number, what are the two other
+odd numbers nearest to it?
+(a) n, n – 1
+(c) n – 3, n + 1
+(b) n, n – 2
+(d) n – 3, n + 5
+30. Which of the following is always odd?
+(a) Sum of two odd numbers
+(b) Difference of two odd numbers
+(c) Product of two odd numbers
+(d) None of these
+31. If x is an odd integer, then which of the following
+is true?
+(a) 5x – 2 is even
+(c) 5x2 + 3 is odd
+(b) 5x2 + 2 is odd
+(d) None of these
+32. If a and b are two numbers such that ab = 0, then
+(R.R.B., 2006)
+(a) a = 0 and b = 0 (b) a = 0 or b = 0 or both
+(c) a = 0 and b ≠ 0
+(d) b = 0 and a ≠ 0
+33. If A, B, C, D are numbers in increasing order and
+D, B, E are numbers in decreasing order, then which
+one of the following sequences need neither be in
+a decreasing nor in an increasing order?
+(b) E, B, C
+(a) E, C, D
+(c) D, B, A
+(d) A, E, C
+(P.C.S., 2008) (a) m
+34. If m, n, o, p and q are integers, then m (n + o) (p – q)
+must be even when which of the following is even?
+(b) p
+(c) m + n
+(d) n + p
+35. If n is a negative number, then which of the following
+is the least?
+(a) 0
+(c) 2n
+(b) – n
+(d) n2
+36. If x – y = 8, then which of the following must be
+true?
+I. Both x and y are positive.
+II. If x is positive, y must be positive.
+III. If x is negative, y must be negative.
+(a) I only
+(b) II only
+(c) I and II
+(d) III only
+37. If x and y are negative, then which of the following
+statements is/are always true?
+I. x + y is positive.
+II. xy is positive.
+III. x – y is positive.
+(a) I only
+(c) III only
+(b) II only
+(d) I and III only
+38. If n = 1 + x, where x is the product of four consecu-
+tive positive integers, then which of the following
+is/are true?
+I. n is odd.
+III. n is a perfect square.
+(a) I only
+(c) I and III only
+2
+II. n is prime.
+(b) I and II only
+(d) None of these
+39. If x =
+5
+y + 3, how does y change when x increases
+from 1 to 2?
+(a) y increases from – 5 to –
+2
+(b) y increases from
+(c) y increases from
+to 5
+5
+5
+2
+to 5
+(d) y decreases from – 5 to –
+5
+2
+40. If x is a rational number and y is an irrational
+number, then
+(a) both x + y and xy are necessarily rational
+(b) both x + y and xy are necessarily irrational
+(c) xy is necessarily irrational, but x + y can be either
+rational or irrational
+(d) x + y is necessarily irrational, but xy can be either
+rational or irrational
+41. The difference between the square of any two con-
+secutive integers is equal to
+(a) sum of two numbers
+(b) difference of two numbers
+(c) an even number
+(d) product of two numbers
+5
+216
+QUANTITATIVE APTITUDE
+42. Between two distinct rational numbers a and b, there
+exists another rational number which is (P.C.S., 2006)
+(a)
+(c)
+a
+2
+ab
+2
+(b)
+(d)
+b
+2
+ab
++
+2
+43. If B > A, then which expression will have the highest
+value (given that A and B are positive integers)?
+51. In the relation x > y + z, x + y > p and z < p, which
+of the following is necessarily true?
+(Campus Recruitment, 2008)
+(a) y > p
+(c) y + p > x
+(b) x + y > z
+(d) Insufficient data
+52. If a and b are positive integers and
+then
+ab
+3.5 7
+() 4
+−
+=
+,
+(Campus Recruitment, 2010)
+(a) b > a
+(Campus Recruitment, 2007) (c) b = a
+(a) A – B
+(c) A + B
+(b) AB
+(d) Can't say
+44. If 0 < x < 1, which of the following is greatest?
+(Campus Recruitment, 2007)
+(a) x
+(c)
+1
+x
+(b) x2
+1
+(d)
+x
+2
+45. If p is a positive fraction less than 1, then
+(a)
+1
+p
+(c) p2 is less than p
+(d)
+2
+p
+46. If x is a real number, then x2 + x + 1 is
+(a) less than
+3
+4
+(b) zero for at least one value of x
+(c) always negative
+(d) greater than or equal to
+3
+4
+47. Let n be a natural number such that + +
+1 1
+2 37 n (c) 2
+1 1
++
+is also a natural number. Which of the following
+statements is not true?
+(A.A.O. Exam, 2009)
+(a) 2 divides n
+(c) 7 divides n
+(b) 3 divides n
+(d) n > 84
+48. If n is an integer, how many values of n will give
+an integral value of
+
+
+
+16 2 7 6
+nn
+n
+++
+(a) 2
+(c) 4
+(b) 3
+(d) None of these
+49. If p > q and r < 0, then which is true?
+(a) pr < qr
+(b) p – r < q – r
+(c) p + r < q + r
+(d) None of these
+50. If X < Z and X < Y, which of the following is
+necessarily true?
+I. Y < Z
+III. ZX < Y + Z
+(a) Only I
+(c) Only III
+II. X2 < YZ
+(b) Only II
+(d) None of these
+?
+p
+is less than 1
+(b)
+1
+p
+– is a positive number
+Directions (Questions 54–57): For a 5–digit number, without
+repetition of digits, the following information is available.
+is a positive integer
+(B.B.A., 2006)
+(i) The first digit is more than 5 times the last digit.
+(ii) The two-digit number formed by the last two
+digits is the product of two prime numbers.
+(iii) The first three digits are all odd.
+(iv) The number does not contain the digits 3 or 0
+and the first digit is also the largest.
+54. The second digit of the number is
+(a) 5
+(b) 7
+(c) 9
+(d) Cannot be determined
+55. The last digit of the number is
+(a) 0
+53. If 13 =
+(a)
+1
+4
+(c) 1
+w
+(1 – )
+13
+w
+(b) b < a
+(d) b ≥ a
+, then (2w) ?
+2 =
+(Campus Recruitment, 2009)
+(b)
+1
+2
+(d) 2
+(b) 1
+(d) 3
+56. The largest digit in the number is
+(a) 5
+(b) 7
+(c) 8
+(d) 9
+57. Which of the following is a factor of the given
+number?
+(a) 2
+(c) 4
+(b) 3
+(d) 9
+58. The least prime number is
+(a) 0
+(b) 1
+(c) 2
+(d) 3
+59. Consider the following statements:
+1. If x and y are composite numbers, then x + y is
+always composite.
+2. There does not exist a natural number which is
+neither prime nor composite.
+Which of the above statements is/are correct?
+(a) 1 only
+(b) 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2
+60. The number of prime numbers between 0 and 50 is
+(a) 14
+(b) 15
+(c) 16
+(d) 17NUMBER SYSTEM
+17
+61. The prime numbers dividing 143 and leaving a
+remainder of 3 in each case are
+(a) 2 and 11
+(c) 3 and 7
+(b) 11 and 13
+(d) 5 and 7
+62. The sum of the first four primes is
+(a) 10
+(b) 11
+(c) 16
+(d) 17
+63. The sum of all the prime numbers from 1 to 20 is
+(a) 75
+(b) 76
+(c) 77
+(d) 78
+64. A prime number N, in the range 10 to 50, remains
+unchanged when its digits are reversed. The square
+of such a number is
+(a) 121
+(c) 1089
+(b) 484
+(d) 1936
+65. The remainder obtained when any prime number
+greater than 6 is divided by 6 must be
+(Campus Recruitment, 2007)
+(b) either 1 or 3
+(a) either 1 or 2
+(c) either 1 or 5
+(d) either 3 or 5
+66. Which of the following is not a prime number?
+(CLAT, 2010)
+(a) 21
+(c) 29
+(b) 23
+(d) 43
+67. Which of the following is a prime number?
+(CLAT, 2010)
+(a) 19
+(c) 21
+(b) 20
+(d) 22
+68. Which of the following is a prime number?
+(Campus Recruitment, 2008)
+(a) 115
+(c) 127
+(b) 119
+(d) None of these
+69. Which of the following is a prime number?
+(R.R.B., 2006)
+(a) 143
+(c) 117
+(b) 289
+(d) 359
+70. The smallest value of natural number n, for which
+2n + 1 is not a prime number, is
+(b) 4
+(a) 3
+(c) 5
+(d) None of these
+71. The smallest three-digit prime number is
+(a) 101
+(b) 103
+(c) 107
+(d) None of these
+72. How many of the integers between 110 and 120 are
+prime numbers? (M.B.A., 2006)
+(b) 1
+(a) 0
+(c) 2
+(d) 3
+(e) 4
+73. Four prime numbers are arranged in ascending
+order. The product of first three is 385 and that of
+last three is 1001. The largest prime number is
+(R.R.B., 2006)
+(a) 9
+(c) 13
+(b) 11
+(d) 17
+74. The sum of three prime numbers is 100. If one
+of them exceeds another by 36, then one of the
+numbers is
+(a) 7
+(c) 41
+(b) 29
+(d) 67
+75. Which one of the following is a prime number?
+(a) 161
+(b) 221
+(c) 373
+(d) 437
+76. The smallest prime number, that is the fifth term of
+an increasing arithmetic sequence in which all the
+four preceding terms are also prime, is
+(b) 29
+(a) 17
+(c) 37
+(d) 53
+77. The number of prime numbers between 301 and
+320 are
+(a) 3
+(c) 5
+(b) 4
+(d) 6
+78. Consider the following statements:
+1. If p > 2 is a prime, then it can be written as
+4n + 1 or 4n + 3 for a suitable natural number n.
+2. If p > 2 is a prime, then (p – 1) (p + 1) is always
+divisible by 4.
+Of these statements,
+(a) (1) is true but (2) is false
+(b) (1) is false but (2) is true
+(c) (1) and (2) are false
+(d) (1) and (2) are true
+79. What is the first value of n for which n2 + n + 41
+is not a prime?
+(a) 1
+(c) 20
+(b) 10
+(d) 40
+80. Let Xk = (p1p2 .......pk) + 1, where p1, p2, ........., pk are
+the first k primes.
+Consider the following:
+1. Xk is a prime number.
+2. Xk is a composite number.
+3. Xk + 1 is always an even number.
+Which of the above is/are correct?
+(a) 1 only
+(b) 2 only
+(c) 3 only
+81. 6 × 3 (3 – 1) is equal to
+(a) 19
+(c) 36
+(d) 1 and 3
+(CLAT, 2010)
+(b) 20
+(d) 53
+82. 1234 + 2345 – 3456 + 4567 =? (Bank Recruitment, 2010)
+(a) 4590
+(b) 4670
+(c) 4680
+(d) 4690
+(e) None of these
+83. 5566 – 7788 + 9988 =? + 4444 (Bank Recruitment, 2010)
+(a) 3223
+(b) 3232
+(c) 3322
+(e) None of these
+(d) 333318
+QUANTITATIVE APTITUDE
+84. 38649 – 1624 – 4483 =? (Bank Recruitment, 2009)
+(a) 32425
+(b) 32452
+(c) 34522
+(d) 35422
+(e) None of these
+85. 884697 – 773697 – 102479 =? (Bank Recruitment, 2009)
+(a) 8251
+(b) 8512
+(c) 8521
+(d) 8531
+(e) None of these
+86. 10531 + 4813 – 728 =? × 87 (Bank Recruitment, 2008)
+(a) 168
+(b) 172
+(c) 186
+(e) None of these
+87. What is 394 times 113?
+(a) 44402
+(c) 44632
+(d) 212
+(b) 44522
+(d) 44802
+(e) None of these
+88. 1260 ÷ 14 ÷ 9 =? (Bank P.O., 2009)
+(a) 9
+(b) 10
+(c) 81
+(d) 810
+(e) None of these
+89. 136 × 12 × 8 =? (Bank P.O., 2009)
+(a) 12066
+(b) 13046
+(c) 13064
+(d) 13066
+(e) None of these
+90. 8888 + 848 + 88 –? = 7337 + 737
+(a) 1450
+(c) 1650
+(b) 1550
+(d) 1750
+(e) None of these
+91. 414 ×? × 7 = 127512 (Bank P.O., 2009)
+(a) 36
+(b) 40
+(c) 44
+(d) 48
+(e) None of these
+92. Product of 82540027 and 43253 is
+(a) 3570103787831
+(b) 3570103787832
+(c) 3570103787833
+(d) 3570103787834
+93. (46351 – 36418 – 4505) ÷? = 1357 (Bank P.O., 2009)
+(a) 2
+(b) 3
+(c) 4
+(d) 6
+(e) None of these
+94. 6 × 66 × 666 =? (Bank Recruitment, 2007)
+(a) 263376
+(b) 263763
+(c) 263736
+(d) 267336
+(e) None of these
+95. If you subtract – 1 from + 1, what will be the
+result? (R.R.B., 2006)
+(b) 0
+(a) – 2
+(c) 1
+(d) 2
+96. 8 + 88 + 888 + 8888 + 88888 + 888888 =?
+(a) 897648
+(b) 896748
+(c) 986748
+(e) None of these
+(d) 987648
+(Bank P.O., 2009)
+97. From the sum of 17 and – 12, subtract 48. (E.S.I.C., 2006)
+(a) – 43
+(b) – 48
+(c) – 17
+98. 60840 ÷ 234 =?
+(a) 225
+(c) 260
+(d) – 20
+(b) 255
+(d) 310
+(e) None of these
+99. 3578 + 5729 –? × 581 = 5821
+(a) 3
+(b) 4
+(c) 6
+100. – 95 ÷ 19 =?
+(a) – 5
+(c) 0
+101. 12345679 × 72 is equal to
+(a) 88888888
+(c) 898989898
+(d) None of these
+(b) – 4
+(d) 5
+(b) 888888888
+(d) 999999998
+102. 8899 – 6644 – 3322 =? – 1122
+(a) 55
+(b) 65
+(c) 75
+(d) 85
+(e) None of these
+103. 74844 ÷? = 54 × 63 (Bank P.O., 2009)
+(a) 22
+(b) 34
+(c) 42
+(e) None of these
+104. 1256 × 3892 =?
+(a) 4883852
+(c) 4888352
+(e) None of these
+105. What is 786 times 964?
+(a) 757704
+(c) 759276
+(e) None of these
+106. What is 348 times 265?
+(a) 88740
+(c) 92220
+(b) 89750
+(d) 95700
+(e) None of these
+107. (71 × 29 + 27 × 15 + 8 × 4) equals
+(b) 3450
+(a) 2496
+(c) 3458
+108. ? × (|a| × |b|) = – ab
+(a) 0
+(c) 1
+109. (46)2 – (?)2 = 4398 – 3066
+(a) 16
+(c) 36
+(d) None of these
+(b) –1
+(d) None of these
+(b) 28
+(d) 42
+(e) None of these
+110. (800 ÷ 64) × (1296 ÷ 36) =?
+(a) 420
+(b) 460
+(c) 500
+(e) None of these
+(d) 540
+(S.S.C., 2007)
+(d) 54
+(b) 4888532
+(d) 4883582
+(Bank P.O., 2008)
+(b) 754164
+(d) 749844
+(S.B.I.P.O., 2008)NUMBER SYSTEM
+19
+111. 5358 × 51 =?
+(a) 273258
+(c) 273348
+112. 587 × 999 =?
+(a) 586413
+(c) 614823
+113. 3897 × 999 =?
+(a) 3883203
+(c) 3639403
+(e) None of these
+114. 72519 × 9999 =?
+(a) 725117481
+(c) 685126481
+(e) None of these
+115. 2056 × 987 =?
+(a) 1936372
+(c) 1896172
+(e) None of these
+116. 1904 × 1904 =?
+(a) 3654316
+(c) 3625216
+(e) None of these
+117. 1397 × 1397 =?
+(a) 1951609
+(c) 18362619
+(e) None of these
+118. 107 × 107 + 93 × 93 =?
+(a) 19578
+(c) 20098
+(e) None of these
+119. 217 × 217 + 183 × 183 =?
+(a) 79698
+(c) 80698
+(e) None of these
+120. 106 × 106 – 94 × 94 =?
+(a) 2400
+(c) 1904
+(e) None of these
+121. 8796 × 223 + 8796 × 77 =?
+(a) 2736900
+(c) 2658560
+(b) 80578
+(d) 81268
+(b) 2000
+(d) 1906
+(b) 2738800
+(d) 2716740
+(e) None of these
+122. 287 × 287 + 269 × 269 – 2 × 287 × 269 =?
+(a) 534
+(b) 446
+(c) 354
+(d) 324
+(e) None of these
+123. {(476 + 424)2 – 4 × 476 × 424} =?
+(a) 2906
+(b) 3116
+(c) 2704
+(b) 273268
+(d) 273358
+(b) 587523
+(d) 615173
+(b) 3893103
+(d) 3791203
+(b) 674217481
+(d) 696217481
+(b) 2029272
+(d) 1923472
+(b) 3632646
+(d) 3623436
+(b) 1981709
+(d) 2031719
+(b) 19418
+(d) 21908
+(R.R.B., 2007)
+(e) None of these
+124. The value of 112 × 54 is
+(a) 6700
+(c) 76500
+(d) 2904
+(b) 70000
+(d) 77200
+125. Multiply 5746320819 by 125.
+(a) 718,290,102,375
+(b) 728,490,301,375
+(c) 748,290,103,375
+126. 935421 × 625 =?
+(a) 575648125
+(c) 584649125
+(d) 798,290,102,975
+(b) 584638125
+(d) 585628125
+127. (999)2 – (998)2 =? (R.R.B., 2008)
+(a) 1992
+(b) 1995
+(c) 1997
+128. (80)2 – (65)2 + 81 =?
+(a) 306
+(c) 2175
+(d) 1998
+(b) 2094
+(d) 2256
+(e) None of these
+129. (24 + 25 + 26)2 – (10 + 20 + 25)2 =?
+(a) 352
+(b) 400
+(c) 752
+(e) None of these
+130. (65)2 – (55)2 =?
+(a) 10
+(c) 120
+(d) 2600
+(b) 100
+(d) 1200
+131. If a and b be positive integers such that a2 – b2 = 19,
+then the value of a is
+(S.S.C., 2010)
+(a) 9
+(c) 19
+(b) 10
+(d) 20
+132. If a and b are positive integers, a > b and (a + b)2 –
+(a – b)2 > 29, then the smallest value of a is
+(a) 3
+(c) 6
+(b) 4
+(d) 7
+133. 397 × 397 + 104 × 104 + 2 × 397 × 104 =?
+(a) 250001
+(b) 251001
+(c) 260101
+(d) 261001
+134. If (64)2 – (36)2 = 20 × x, then x =?
+(a) 70
+(b) 120
+(c) 180
+(e) None of these
+135.
+( 22489375) – (489 – 375)
++
+(489 375)
+×
+(a) 144
+(c) 2
+(e) None of these
+136.
+( 22963476) (963 – 476)
+++
+(963 963 476 476)
+×+×
+(a) 2
+(b) 4
+(b) 864
+(d) 4
+= ?
+(d) 140
+= ?20
+QUANTITATIVE APTITUDE
+(c) 497
+(e) None of these
+137.
+(d) 1449
+768 768 768 232 232 232
+×× + × ×
+786 768 – 768 232 232 232
+×
+(a) 1000
+(c) 500
+(e) None of these
+138.
+× +×
+(b) 536
+(d) 268
+854 854 854 – 276 276 276
+×× × ×
+854 854 854 276 276 276
+×+ × +×
+(a) 1130
+(c) 565
+(e) None of these
+139.
+(b) 578
+(d) 1156
+753 753 247 247 – 753 247
+×+ ×
+×
+753 753 753 247 247 247
+× ×+ ××
+(a)
+(c)
+1
+1000
+253
+500
+256××
+256 – 144 144
+140.
+112
+(a) 420
+(c) 360
+(b)
+1
+506
+(d) None of these
+is equal to
+(b) 400
+(d) 320
+141. If a = 11 and b = 9, then the value of
+
+is (S.S.C., 2010)
+
+
+a b ab
+ab
+22
+3
+++
+3
+–
+(a)
+1
+2
+(c) 2
+(b)
+1
+20
+(d) 20
+142. If a + b + c = 0, (a + b) (b + c) (c + a) equals
+(M.C.A., 2005)
+(a) ab (a + b)
+(c) – abc
+(b) (a + b + c)2
+(d) a2 + b2 + c2
+143. If a = 7, b = 5, c = 3, then the value of a2 + b2 +
+c2 – ab – bc – ca is
+(a) – 12
+(c) 8
+(b) 0
+(d) 12
+144. Both addition and multiplication of numbers are
+operations which are
+(a) neither commutative nor associative
+(b) associative but not commutative
+(c) commutative but not associative
+(d) commutative and associative
+145. Which of the following digits will replace the H
+marks in the following equation?
+9H + H8 + H6 = 230
+(a) 3
+(c) 5
+(e) None of these
+(b) 4
+(d) 9
+(S.S.C., 2010)
+= ?
+= ?
+(a) 0
+(c) 6
+= ?
+146. Find the missing number in the following addition
+problem:
+8 3 5
+4
+* 8
++
+2
+9
+2
+* 4
+* 7
+(b) 4
+(d) 9
+147. What number should replace M in this multiplication
+problem?
+3 M
+×
+1 2 1
+4
+4
+6
+(a) 0
+(c) 4
+(b) 2
+(d) 8
+148. If p and q represent digits, what is the maximum
+possible value of q in the statement
+(S.S.C., 2010)
+5p9 + 327 + 2q8 = 1114?
+(a) 6
+(c) 8
+(b) 7
+(d) 9
+149. What would be the maximum value of Q in the
+following equation?
+5P7 + 8Q9 + R32 = 1928
+(a) 6
+(c) 9
+(b) 8
+(d) Data inadequate
+(e) None of these
+150. What should come in place of * mark in the following
+equation?
+1*5$4 ÷ 148 = 78
+(a) 1
+(c) 6
+(b) 4
+(d) 8
+(e) None of these
+151. If 6*43 – 46@9 = 1904, which of the following should
+come in place of *?
+(a) 4
+(c) 9
+(b) 6
+(d) Cannot be determined
+(e) None of these
+152. What should be the maximum value of Q in the
+following equation?
+5P9 – 7Q2 + 9R6 = 823
+(a) 5
+(c) 7
+(b) 6
+(d) 9
+(e) None of these
+153. In the following sum, '?' stands for which digit?
+? + 1? + 2? +? 3 +? 1 = 21?
+(a) 4
+(c) 8
+(b) 6
+(d) 9
+(e) None of these
+Directions (Questions 154–155): These questions are based
+on the following information:
+CBA + CCA = ACD, where A, B, C and D stand for
+distinct digits and D = 0.NUMBER SYSTEM
+21
+154. B takes the value
+(a) 0
+(c) 9
+155. C takes the value
+(a) 0
+(c) 2 or 3
+(b) 5
+(d) 0 or 9
+(b) 2
+(d) 5
+156. A 3–digit number 4a3 is added to another 3–digit
+number 984 to give the four-digit number 13b7,
+which is divisible by 11. Then, (a + b) is (M.B.A., 2006)
+(b) 11
+(a) 10
+(c) 12
+(d) 15
+157. If ab 252 ba , the values of a and b are (I.A.M., 2007)
+24
+12
+12
+×
+(a) 1, 2
+(c) 1, 3
+(b) 2, 3
+(d) None of these
+158. * * *
+×
+*
+8 * * 1
+In the above multiplication problem, * is equal to
+(a) 1
+(b) 3
+(c) 7
+(d) 9
+159. If * means adding 6 times the second number to the
+first number, then (1 * 2) * 3 equals
+(b) 31
+(a) 21
+(c) 91
+(d) 93
+160. If 1 × 2 × 3 × ........ × n is denoted by n , then
+8– 7 – 6 is equal to
+(a) 6 × 7 × 8
+(c) 6 × 8 × 6
+(b) 7 × 8 × 7
+(d) 7 × 8 × 6
+161. The highest power of 9 dividing 99! completely is
+(a) 11
+(b) 20
+(c) 22
+(d) 24
+162. For an integer n, n! = n(n – 1) (n – 2)............ 3.2.1.
+(P.C.S., 2008)
+Then, 1! + 2! + 3! + ......... + 100! when divided by
+5 leaves remainder
+(a) 0
+(c) 2
+(b) 1
+(d) 3
+163. The number of prime factors in the expression
+610 · 717 · 1127 is equal to
+(a) 54
+(c) 71
+(b) 64
+(d) 81
+164. What is the number of prime factors contained in
+the product 307 × 225 × 3411?
+(a) 49
+(c) 52
+(b) 51
+(d) 53
+165. What number multiplied by 48 will give the same
+product as 173 multiplied by 240?
+(a) 495
+(c) 685
+(b) 545
+(d) 865
+166. A positive number, which when added to 1000, gives
+a sum which is greater than when it is multiplied
+by 1000. This positive integer is
+(b) 3
+(a) 1
+(c) 5
+(d) 7
+167. 7 is added to a certain number ; the sum is multiplied
+by 5 ; the product is divided by 9 and 3 is subtracted
+from the quotient. Thus, if the remainder left is 12,
+what was the original number?
+(S.S.C., 2005)
+(a) 20
+(c) 40
+(b) 30
+(d) 60
+168. Symbiosis runs a Corporate Training Programme.
+At the end of running the first programme, its total
+takings were ` 38950. There were more than 45 but
+less than 100 participants. What was the participant
+fee for the programme?
+(SNAP, 2005)
+(a) ` 410
+(c) ` 500
+(b) ` 450
+(d) ` 510
+169. The sum of four consecutive even numbers A, B, C
+and D is 180. What is the sum of the set of next four
+consecutive even numbers? (Bank Recruitment, 2008)
+(a) 196
+(c) 212
+(b) 204
+(d) 214
+(e) None of these
+170. A young girl counted in the following way on the
+fingers of her left hand. She started calling the thumb
+1, the index finger 2, middle finger 3, ring finger 4,
+little finger 5, then reversed direction, calling the
+ring finger 6, middle finger 7, index finger 8, thumb
+9 and then back to the index figure for 10, middle
+finger for 11, and so on. She counted upto 1994. She
+ended on her
+(a) thumb
+(c) middle finger
+(b) index finger
+(d) ring finger
+171. Given n = 1 + x and x is the product of four
+consecutive integers. Then which of the following
+is true?
+I. n is an odd integer.
+II. n is prime.
+III. n is a perfect square.
+(a) Only I is correct
+(b) Only III is correct
+(c) Both I and II are correct
+(d) Both I and III are correct
+172. If x + y = 15 and xy = 56, then what is the value of
+x2 + y2? (L.I.C.A.D.O., 2007)
+(b) 113
+(a) 110
+(c) 121
+(d) Cannot be determined
+(e) None of these
+173. Given that (12 + 22 + 32 + .... + 202) = 2870, the value
+of (22 + 42 + 62 + .... + 402) is
+(a) 2870
+(c) 11480
+(b) 5740
+(d) 2870022
+QUANTITATIVE APTITUDE
+174. The value of 52 + 62 + .... + 102 + 202 is
+(a) 755
+(b) 760
+(c) 765
+(d) 770
+175. Given that 1 + 2 + 3 + 4 + .... + 10 = 55, then the
+sum 6 + 12 + 18 + 24 + .... + 60 is equal to
+(b) 330
+(a) 300
+(c) 455
+(d) 655
+176. If m and n are natural numbers such that 2m – 2n =
+960, what is the value of m?
+(M.A.T., 2007)
+(a) 10
+(b) 12
+(c) 15
+(d) Cannot be determined
+177. On multiplying a number by 7, all the digits in the
+product appear as 3's. The smallest such number
+is (C.P.O., 2006)
+(a) 47619
+(c) 48619
+(b) 46719
+(d) 47649
+178. The number of digits in the smallest number, which
+when multiplied by 7 yields all nines, is
+(b) 4
+(a) 3
+(c) 5
+(d) 6
+179. A boy multiplies 987 by a certain number and
+obtains 559981 as his answer. If in the answer both
+9's are wrong but the other digits are correct, then
+the correct answer will be
+(a) 553681
+(c) 555681
+(b) 555181
+(d) 556581
+180. The numbers 1, 3, 5, ........., 25 are multiplied together.
+The number of zeros at the right end of the product
+is (R.R.B., 2006)
+(a) 0
+(c) 2
+(b) 1
+(d) 3
+181. The numbers 1, 2, 3, 4, .........., 1000 are multiplied
+together. The number of zeros at the end (on the
+right) of the product must be
+(a) 30
+(c) 211
+(b) 200
+(d) 249
+182. First 100 multiples of 10 i.e. 10, 20, 30, ............, 1000
+are multiplied together. The number of zeros at the
+end of the product will be
+(a) 100
+(c) 124
+(b) 111
+(d) 125
+183. The number of zeros at the end of the product
+5 × 10 × 15 × 20 × 25 × 30 × 35 × 40 × 45 × 50 is
+(a) 5
+(b) 7
+(c) 8
+(d) 10
+184. The number of zeros at the end of 60! is
+(a) 12
+(b) 14
+(c) 16
+(d) 18
+185. The numbers 1, 3, 5, 7, ........., 99 and 128 are
+multiplied together. The number of zeros at the end
+of the product must be
+(a) Nil
+(c) 19
+(b) 7
+(d) 22
+186. The numbers 2, 4, 6, 8, ............, 98, 100 are multiplied
+together. The number of zeros at the end of the
+product must be
+(a) 10
+(c) 12
+(b) 11
+(d) 13
+187. Let S be the set of prime numbers greater than
+or equal to 2 and less than 100. Multiply all the
+elements of S. With how many consecutive zeros
+will the product end?
+(a) 1
+(c) 5
+(b) 4
+(d) 10
+188. Find the number of zeros at the end of the result
+3 × 6 × 9 × 12 × 15 × ......... × 99 × 102.
+(a) 4
+(b) 6
+(c) 7
+(d) 10
+189. The unit's digit of 132003 is
+(a) 1
+(c) 7
+(b) 3
+(d) 9
+190. The digit in the unit's place of the number 12399
+is (I.A.M., 2007)
+(a) 1
+(c) 7
+(b) 4
+(d) 8
+191. Match List I with List II and select the correct answer:
+List I
+List II
+(Product)
+A. (1827)16
+B. (2153)19
+C. (5129)21
+A B C
+(a) 1 4 3
+A B C
+(c) 1 4 5
+(Digit in the unit's place)
+(1) 1
+(2) 3
+(3) 5
+(4) 7
+(5) 9
+A B C
+(b) 4 2 3
+A B C
+(d) 4 2 5
+192. The digit in the unit's place of the number (67)25 – 1
+must be
+(a) 0
+(c) 8
+(b) 6
+(d) None of these
+193. The unit's digit in the product 274 × 318 × 577 × 313
+is
+(a) 2
+(c) 4
+(b) 3
+(d) 5
+194. In the product 459 × 46 × 28* × 484, the digit in the
+unit place is 8. The digit to come in place of * is
+(b) 5
+(a) 3
+(c) 7
+(d) None of these
+195. The digit in the unit place of the number represented
+by (795 – 358) is
+(a) 0
+(c) 6
+(b) 4
+(d) 7
+196. Unit's digit in (784)126 + (784)127 is
+(a) 0
+(b) 4
+(c) 6
+(d) 8
+(A.A.O. Exam, 2010)NUMBER SYSTEM
+23
+197. The digit in the unit's place of [(251)98 + (21)29 –
+(106)100 + (705)35 – 164 + 259] is
+(a) 1
+(c) 5
+(b) 4
+(d) 6
+198. The digit in the unit's place of the product (2464)1793
+× (615)317 × (131)491 is
+(a) 0
+(c) 3
+(b) 2
+(d) 5
+199. If x is an even number, then x4n, where n is a positive
+integer, will always have
+(a) zero in the unit's place
+(b) 6 in the unit's place
+(c) either 0 or 6 in the unit's place
+(d) None of these
+200. If m and n are positive integers, then the digit in
+the unit's place of 5n + 6m is always
+(b) 5
+(a) 1
+(c) 6
+(d) n + m
+201. The number formed from the last two digits (ones
+and tens) of the expression 212n – 64n, where n is
+any positive integer is
+(S.S.C., 2005)
+(a) 10
+(c) 30
+(b) 00
+(d) 02
+202. The last digit in the decimal representation of
+2000
+
+
+1
+
+5
+(a) 2
+(c) 5
+208. Which of the following numbers is not divisible by
+18?
+(a) 34056
+(c) 54036
+(b) 50436
+(d) 65043
+209. The number 89715938* is divisible by 4. The unknown
+non-zero digit marked as * will be
+(b) 3
+(a) 2
+(c) 4
+(d) 6
+210. Which one of the following numbers is divisible by
+3?
+(a) 4006020
+(c) 2876423
+(b) 2345678
+(d) 9566003
+211. A number is divisible by 11 if the difference between
+the sums of the digits in odd and even places
+respectively is
+(a) a multiple of 3
+(b) a multiple of 5
+(c) zero or a multiple of 7
+(d) zero or a multiple of 11
+212. Which one of the following numbers is divisible by
+11?
+(a) 4823718
+(c) 8423718
+(b) 4832718
+(d) 8432718
+213. Which one of the following numbers is divisible by
+15?
+is (Hotel Management, 2009) (a) 17325
+(c) 29515
+(b) 4
+(d) 6
+203. Let x be the product of two numbers
+3,659,893,456,789,325,678 and 342,973,489,379,256.
+The number of digits in x is
+(A.A.O., 2010)
+(a) 32
+(c) 35
+(b) 34
+(d) 36
+204. Let a number of three digits have for its middle
+digit the sum of the other two digits. Then it is a
+multiple of (C.P.F., 2008)
+(b) 11
+(a) 10
+(c) 18
+(d) 50
+205. What least value must be given to n so that the number
+6135n2 becomes divisible by 9?
+(a) 1
+(c) 3
+(b) 2
+(d) 4
+206. Find the multiple of 11 in the following numbers.
+(R.R.B., 2006)
+(a) 112144
+(c) 869756
+(b) 447355
+(d) 978626
+207. 111,111,111,111 is divisible by
+(a) 3 and 37 only
+(b) 3, 11 and 37 only
+(c) 3, 11, 37 and 111 only
+(d) 3, 11, 37, 111 and 1001
+214. 7386038 is divisible by
+(a) 3
+(c) 9
+(b) 23755
+(d) 30560
+(b) 4
+(d) 11
+215. Consider the following statements:
+The numbers 24984, 26784 and 28584 are
+(1) divisible by 3
+(2) divisible by 4
+(3) divisible by 9
+Which of these are correct?
+(a) 1 and 2
+(b) 2 and 3
+(c) 1 and 3
+(d) 1, 2 and 3
+216. Which of the following numbers is a multiple of 8?
+(a) 923872
+(b) 923972
+(L.I.C.A.D.O., 2008) (c) 923862
+(d) 923962
+217. If 78*3945 is divisible by 11, where * is a digit, then
+* is equal to
+(a) 0
+(c) 3
+(b) 1
+(d) 5
+218. If m and n are integers divisible by 5, which of the
+following is not necessarily true?
+(a) m + n is divisible by 10
+(b) m – n is divisible by 5
+(c) m2 – n2 is divisible by 25
+(d) None of these
+219. An integer is divisible by 16 if and only if its last X
+digits are divisible by 16. The value of X would be24
+QUANTITATIVE APTITUDE
+(a) 3
+(c) 5
+(b) 4
+(d) 6
+220. Which of the following numbers is divisible by 3,
+7, 9 and 11?
+(a) 639
+(c) 3791
+(b) 2079
+(d) 37911
+221. A number 476**0 is divisible by both 3 and 11.
+The non-zero digits in the hundred's and ten's place
+respectively are
+(a) 7, 4
+(c) 5, 2
+(b) 5, 3
+(d) None of these
+222. How many of the following numbers are divisible
+by 3 but not by 9?
+2133, 2343, 3474, 4131, 5286, 5340, 6336, 7347, 8115,
+9276
+(a) 5
+(c) 7
+(b) 6
+(d) None of these
+223. If the number 357*25* is divisible by both 3 and 5,
+then the missing digits in the unit's place and the
+thousandth's place respectively are
+(b) 5, 1
+(a) 0, 6
+(c) 5, 4
+224. 6897 is divisible by
+(a) 11 only
+(c) both 11 and 19
+(d) None of these
+(b) 19 only
+(d) neither 11 nor 19
+225. Which of the following numbers is exactly divisible
+by 24?
+(a) 35718
+(c) 537804
+(b) 63810
+(d) 3125736
+226. The number 311311311311311311311 is
+(a) neither divisible by 3 nor by 11
+(b) divisible by 11 but not by 3
+(c) divisible by 3 but not by 11
+(d) divisible by both 3 and 11
+227. 325325 is a six-digit number. It is divisible by
+(a) 7 only
+(b) 11 only
+(c) 13 only
+(d) all 7, 11 and 13
+228. If the seven-figure number 30X0103 is a multiple of
+13, then X is
+(a) 1
+(c) 7
+(b) 6
+(d) 8
+229. If a number is divisible by both 11 and 13, then it
+must be necessarily
+(a) 429 (b) divisible by (11 × 13)
+(c) divisible by (11 + 13) (d) divisible by (13 – 11)
+230. Which of the following numbers are completely
+divisible by 7?
+I. 195195
+III. 120120
+(a) Only I and II
+(c) Only I and IV
+(e) All are divisible
+II. 181181
+IV. 891891
+(b) Only II and III
+(d) Only II and IV
+231. If x and y are two digits of the number 653xy such
+that the number is divisible by 80, then x + y is
+equal to
+(a) 3
+(c) 5
+(b) 4
+(d) 6
+232. The six-digit number 5ABB7A is a multiple of 33
+for non-zero digits A and B. Which of the following
+could be possible value of A + B? (A.A.O. Exam, 2010)
+(b) 9
+(a) 8
+(c) 10
+(d) 14
+233. Which of the following numbers is divisible by 99?
+(a) 114345
+(b) 913464
+(c) 135792
+(d) 3572404
+234. The digits indicated by * in 3422213** so that this
+number is divisible by 99 are
+(R.R.B., 2010)
+(a) 1, 9
+(c) 4, 6
+(b) 3, 7
+(d) 5, 5
+235. If 37X3 is a four-digit natural number divisible by
+7, then the place marked as X must have the value
+(b) 3
+(a) 0
+(c) 5
+(d) 9
+236. If the seven-digit number 876p37q is divisible by
+225, then the values of p and q respectively are
+(b) 9 and 0
+(a) 0 and 0
+(c) 0 and 5
+(d) 9 and 5
+237. If a number 774958A96B is divisible by 8 and 9, the
+respective values of A and B will be
+(b) 7 and 8
+(a) 5 and 8
+(c) 8 and 0
+(d) None of these
+238. How many of the following numbers are divisible
+by 132?
+264, 396, 462, 792, 968, 2178, 5184, 6336
+(a) 4
+(b) 5
+(c) 6
+(d) 7
+239. If x and y are positive integers such that (3x + 7y)
+is a multiple of 11, then which of the following is
+also a multiple of 11?
+(a) 5x – 3y
+(c) 4x + 6y
+(b) 9x + 4y
+(d) x + y + 6
+240. If n be any natural number then by which largest
+number (n3 – n) is always divisible?
+(S.S.C., 2010)
+(a) 3
+(c) 12
+(b) 6
+(d) 18
+241. If a and b are two odd positive integers, by which of
+the following integers is (a4 – b4) always divisible?
+(S.S.C., 2010)
+(a) 3
+(c) 8
+(b) 6
+(d) 12
+242. The difference between the squares of any two
+consecutive integers is equal to
+(a) an even number
+(b) difference of given numbers
+(c) sum of given numbers
+(d) product of given numbersNUMBER SYSTEM
+25
+243. The number 6n2 + 6n for natural number n is always
+divisible by (M.A.T., 2007)
+(b) 6 and 12
+(a) 6 only
+(c) 12 only
+(d) 18 only
+244. The difference of a number consisting of two digits
+and the number formed by interchanging the digits
+is always divisible by
+(a) 5
+(c) 9
+(b) 7
+(d) 11
+245. The sum of a number consisting of two digits and
+the number formed by interchanging the digits is
+always divisible by
+(a) 7
+(c) 10
+(b) 9
+(d) 11
+246. The largest natural number, which exactly divides
+the product of any four consecutive natural numbers,
+is (S.S.C., 2007)
+(a) 6
+(c) 24
+(b) 12
+(d) 120
+247. If n is a whole number greater than 1, then
+n2 (n2 – 1) is always divisible by
+(b) 10
+(a) 8
+(c) 12
+(d) 16
+248. If n is any odd number greater than 1, then
+n (n2 – 1) is
+(a) divisible by 24 always (b) divisible by 48 always
+(c) divisible by 96 always (d) None of these
+249. The sum of the digits of a 3-digit number is subtracted
+from the number. The resulting number is always
+(b) divisible by 9
+(a) not divisible by 9
+(c) not divisible by 6
+(d) divisible by 6
+250. A number is multiplied by 11 and 11 is added to
+the product. If the resulting number is divisible by
+13, the smallest original number is
+(b) 22
+(a) 12
+(c) 26
+(d) 53
+251. The product of any three consecutive natural
+numbers is always divisible by
+(b) 6
+(a) 3
+(c) 9
+(d) 15
+252. The sum of three consecutive odd numbers is always
+divisible by
+I. 2
+III. 5
+(a) Only I
+(c) Only I and II
+II. 3
+IV. 6
+(b) Only II
+(d) Only I and III
+253. The greatest number by which the product of three
+consecutive multiples of 3 is always divisible is
+(b) 81
+(a) 54
+(c) 162
+(d) 243
+254. If p is a prime number greater than 3, then (p2 – 1)
+is always divisible by
+(a) 6 but not 12
+(c) 24
+(b) 12 but not 24
+(d) None of these
+255. The difference between the squares of two
+consecutive odd integers is always divisible by
+(b) 6
+(a) 3
+(c) 7
+(d) 8
+256. A 4–digit number is formed by repeating a 2–digit
+number such as 2525, 3232 etc. Any number of this
+form is exactly divisible by
+(S.S.C., 2005, 2010)
+(a) 7
+(b) 11
+(c) 13
+(d) Smallest 3–digit prime number
+257. A 6-digit number is formed by repeating a 3-digit
+number; for example, 256256 or 678678 etc. Any
+number of this form is always exactly divisible by
+(b) 11 only
+(a) 7 only
+(c) 13 only
+(d) 1001
+258. The sum of the digits of a natural number (10n – 1)
+is 4707, where n is a natural number. The value of
+n is (Hotel Management, 2010)
+(a) 477
+(c) 532
+(b) 523
+(d) 704
+259. (xn – an) is divisible by (x – a)
+(a) for all values of n
+(b) only for even values of n
+(c) only for odd values of n
+(d) only for prime values of n
+260. Which one of the following is the number by which
+the product of 8 consecutive integers is divisible?
+(b) 6 !
+(a) 4 !
+(c) 7 !
+(d) 8 !
+(e) All of these
+261. Consider the following statements:
+For any positive integer n, the number 10n – 1 is
+divisible by
+(1) 9 for n = odd only
+(2) 9 for n = even only
+(3) 11 for n = odd only (4) 11 for n = even only
+Which of the above statements are correct?
+(a) 1 and 3
+(b) 2 and 3
+(c) 1 and 4
+(d) 2 and 4
+262. If n is any positive integer, 34n – 43n is always divisible
+by
+(a) 7
+(c) 17
+(b) 12
+(d) 145
+263. If the square of an odd natural number is divided
+by 8, then the remainder will be
+(b) 2
+(a) 1
+(c) 3
+(d) 4
+264. The largest number that exactly divides each number
+of the sequence 15 – 1, 25 – 2, 35 – 3, ..., n5 – n,.... is
+(b) 15
+(a) 1
+(c) 30
+(d) 120
+265. The difference of the squares of two consecutive
+even integers is divisible by
+(a) 3
+(c) 6
+(b) 4
+(d) 726
+266. The difference of the squares of two consecutive
+odd integers is divisible by
+(a) 3
+(c) 7
+(b) 6
+(d) 8
+267. The smallest 4-digit number exactly divisible by 7
+is (P.C.S., 2009)
+(a) 1001
+(c) 1101
+(b) 1007
+(d) 1108
+268. What least number must be added to 1056 to get a
+number exactly divisible by 23?
+(P.C.S., 2009)
+(a) 2
+(c) 21
+(b) 3
+(d) 25
+269. Which of the following numbers should be added
+to 8567 to make it exactly divisible by 4?
+(Bank Recruitment, 2008)
+(a) 3
+(c) 5
+(b) 4
+(d) 6
+(e) None of these
+270. Find the least 6-digit number which is exactly
+divisible by 349. (R.R.B., 2006)
+(b) 101063
+(a) 100163
+(c) 160063
+(d) None of these
+271. Which is the greatest 5-digit number exactly divisible
+by 279? (R.R.B., 2006)
+(b) 99550
+(a) 99603
+(c) 99882
+(d) None of these
+272. The least number, which must be added to the
+greatest 6-digit number so that the sum may be
+exactly divisible by 327 is
+(a) 194
+(c) 292
+(b) 264
+(d) 294
+273. The least number more than 5000 which is divisible
+by 73 is
+(a) 5009
+(c) 5073
+(b) 5037
+(d) 5099
+274. The nearest integer to 58701 which is exactly divisible
+by 567 is
+(a) 55968
+(c) 58968
+(b) 58068
+(d) None of these
+275. The smallest number which must be subtracted from
+8112 to make it exactly divisible by 99 is
+(a) 91
+(c) 93
+(b) 92
+(d) 95
+276. The smallest number that must be added to 803642
+in order to obtain a multiple of 11 is
+(a) 1
+(c) 7
+(b) 4
+(d) 9
+277. The number of times 99 is subtracted from 1111 so
+that the remainder is less than 99 is
+(a) 10
+(c) 12
+(b) 11
+(d) 13
+278. The smallest number by which 66 must be multiplied
+to make the result divisible by 18 is
+(a) 3
+(c) 9
+QUANTITATIVE APTITUDE
+(b) 6
+(d) 18
+279. The smallest 6-digit number exactly divisible by 111
+is
+(a) 111111
+(c) 100011
+(b) 110011
+(d) 110101
+(e) None of these
+280. The sum of all 2-digit numbers divisible by 5 is
+(a) 945
+(b) 1035
+(c) 1230
+(d) 1245
+(e) None of these
+281. How many 3-digit numbers are completely divisible
+by 6?
+(a) 149
+(c) 151
+(b) 150
+(d) 166
+282. The number of terms between 11 and 200 which are
+divisible by 7 but not by 3 are
+(C.P.F., 2008)
+(a) 18
+(c) 27
+(b) 19
+(d) 28
+283. Out of the numbers divisible by 3 between 14 and
+95 if the numbers with 3 at unit's place are removed,
+then how many numbers will remain? (R.R.B., 2006)
+(b) 23
+(a) 22
+(c) 24
+(d) 25
+284. How many numbers less than 1000 are multiples of
+both 10 and 13?
+(a) 6
+(c) 8
+(b) 7
+(d) 9
+285. How many integers between 100 and 150, both
+inclusive, can be evenly divided by neither 3 nor 5?
+(b) 27
+(a) 26
+(c) 28
+(d) 33
+286. If all the numbers from 501 to 700 are written, what
+is the total number of times the digit 6 appears?
+(Civil Services, 2007)
+(a) 138
+(c) 140
+(b) 139
+(d) 141
+287. How many 3-digit numbers are there in between
+100 and 300, having first and the last digit as 2?
+(b) 10
+(a) 9
+(c) 11
+(d) 12
+288. The total number of integers between 200 and 400,
+each of which either begins with 3 or ends with 3
+or both is (S.S.C., 2007)
+(a) 10
+(c) 110
+(b) 100
+(d) 120
+289. While writing all the numbers from 700 to 1000,
+how many numbers occur in which the first digit is
+greater than the second digit, and the second digit
+is greater than the third digit?
+(a) 61
+(c) 78
+(b) 64
+(d) 85NUMBER SYSTEM
+27
+290. A 9-digit number in which zero does not appear and
+no digits are repeated has the following properties:
+The number comprising the left most two digits is
+divisible by 2, that comprising the left most three
+digits is divisible by 3, and so on.
+The number is
+(a) 183654729
+(c) 983654721
+(b) 381654729
+(d) 981654723
+291. If 11,109,999 is divided by 1111, then what is the
+remainder? (M.A.T., 2007)
+(a) 1098
+(c) 1110
+(b) 1010
+(d) 1188
+292. A number divided by 68 gives the quotient 260 and
+remainder zero. If the same number is divided by
+65, the remainder is
+(a) 0
+(c) 2
+(b) 1
+(d) 3
+293. Which of the following prime numbers while
+dividing 2176 leaves 9 as remainder?
+(b) 29
+(a) 17
+(c) 167
+(d) 197
+294. Match List I with List II and select the correct answer:
+List I
+List II
+(a, b as given in
+Euclidean algorithm
+a = bq + r)
+A. a = – 112, b = – 7
+B. a = 118, b = – 9
+C. a = – 109, b = 6
+D. a = 115, b = 8
+A B C D
+(a) 3 1 4 2
+(c) 4 1 3 2
+(Values of q and r)
+1. q = – 13, r = 1
+2. q = 14, r = 3
+3. q = – 19, r = 5
+4. q = 16, r = 0
+A B C D
+(b) 3 2 4 1
+(d) 4 2 3 1
+295. The number 534677 is divided by 777. The difference
+of divisor and remainder is
+(a) 577
+(c) 687
+(b) 676
+(d) 789
+296. In a division sum, the quotient, dividend and
+remainder are 15, 940 and 25 respectively. The
+divisor is
+(a) 31
+(c) 60
+(b) 50
+(d) 61
+297. In a division sum, the divisor is 12 times the quotient
+and 5 times the remainder. If the remainder is 48,
+then the dividend is
+(a) 2404
+(c) 4808
+(b) 3648
+(d) 4848
+298. The divisor is 25 times the quotient and 5 times the
+remainder. If the quotient is 16, then the dividend
+is
+(a) 400
+(c) 6400
+(b) 480
+(d) 6480
+299. A number when divided by the sum of 555 and 445
+gives two times their difference as quotient and 30
+as the remainder. The number is
+(a) 1220
+(c) 22030
+(b) 1250
+(d) 220030
+300. In doing a question of division with zero remainder,
+a candidate took 12 as divisor instead of 21. The
+quotient obtained by him was 35. The correct
+quotient is
+(a) 0
+(c) 13
+(b) 12
+(d) 20
+301. In a division problem, the divisor is 7 times of quotient
+and 5 times of remainder. If the dividend is 6 times
+(a) 0
+of remainder, then the quotient is equal to
+(b) 1
+(c) 7
+(d) None of these
+(Hotel Management, 2007)
+302. On dividing a number by 19, the difference between
+quotient and remainder is 9. The number is
+(b) 361
+(a) 352
+(c) 370
+(d) 371
+303. A number when divided by 136 leaves remainder 36.
+If the same number is divided by 17, the remainder
+will be (S.S.C., 2010)
+(a) 2
+(c) 7
+(b) 3
+(d) 9
+304. A number when divided by 195 leaves a remainder
+47. If the same number is divided by 15, the
+remainder will be (Hotel Management, 2010)
+(b) 2
+(a) 1
+(c) 3
+(d) 4
+305. A certain number when divided by 899 gives a
+remainder 63. What is the remainder when the same
+number is divided by 29?
+(R.R.B., 2008)
+(a) 5
+(c) 27
+(b) 25
+(d) None of these
+306. A number when divided by 5 leaves the remainder
+3. What is the remainder when the square of the
+same number is divided by 5?
+(a) 0
+(c) 4
+(b) 3
+(d) 9
+307. The difference between two numbers is 1365. When
+the larger number is divided by the smaller one, the
+quotient is 6 and the remainder is 15. What is the
+smaller number?
+(a) 240
+(c) 295
+(b) 270
+(d) 360
+308. When n is divided by 4, the remainder is 3. What
+is the remainder when 2n is divided by 4?
+(b) 2
+(a) 1
+(c) 3
+(d) 6
+309. When a number is divided by 13, the remainder is
+11. When the same number is divided by 17, the
+remainder is 9. What is the number?28
+QUANTITATIVE APTITUDE
+(a) 339
+(c) 369
+(b) 349
+(d) Data inadequate
+(e) None of these
+310. In a division sum, the remainder was 71. With the
+same divisor but twice the dividend, the remainder
+is 43. Which one of the following is the divisor?
+(b) 93
+(a) 86
+(c) 99
+(d) 104
+311. When a certain positive integer P is divided by
+another positive integer, the remainder is r1. When
+a second positive integer Q is divided by the same
+integer, the remainder is r2 and when (P + Q) is
+divided by the same divisor, the remainder is r3.
+Then the divisor may be
+(a) r1 r2 r3
+(c) r1 – r2 + r3
+(e) Cannot be determined
+(b) r1 + r2 + r3
+remainder 1. What will be the remainder when the
+number is divided by 6?
+(a) 2
+(c) 4
+(b) 3
+(d) 5
+319. When the square of any odd number, greater than
+1, is divided by 8, it always leaves remainder
+(I.A.M., 2007)
+(a) 1
+(b) 6
+(c) 8
+(d) Cannot be determined
+320. The numbers from 1 to 29 are written side by side
+as follows:
+1234567891011121314...........2829
+If this number is divided by 9, then what is the
+remainder? (M.A.T., 2006)
+312. Two numbers when divided by a certain divisor
+leave the remainders 4375 and 2986 respectively
+but when the sum of two numbers is divided by
+the same divisor, the remainder is 2361. The divisor
+in question is
+(d) r1 + r2 – r3 (a) 0
+(c) 3
+(b) 1
+(d) None of these
+321. If 17200 is divided by 18, the remainder is
+(a) 1
+(b) 2
+(c) 16
+(d) 17
+(a) 4675
+(c) 5000
+(b) 4900
+(d) None of these
+313. A number divided by 13 leaves a remainder 1 and
+if the quotient, thus obtained, is divided by 5, we
+get a remainder of 3. What will be the remainder
+if the number is divided by 65?
+(b) 18
+(a) 16
+(c) 28
+(d) 40
+314. The numbers 2272 and 875 are divided by a three-
+digit number N, giving the same remainder. The
+sum of the digits of N is
+(a) 10
+(c) 12
+(b) 11
+(d) 13
+315. A number when divided by three consecutive
+numbers 9, 11, 13 leaves the remainders 8, 9 and 8
+respectively. If the order of divisors is reversed, the
+remainders will be
+322. What is the remainder when 231 is divided by 5?
+(a) 1
+(b) 2
+(c) 3
+(d) 4
+323. Consider the following statements:
+(1) an + bn is divisible by a + b if n = 2k + 1, where
+k is a positive integer.
+(2) an – bn is divisible by a – b if n = 2k, where k is
+a positive integer.
+Which of the statements given above is/are correct?
+(a) 1 only
+(b) 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2
+324. (719 + 2) is divided by 6. The remainder is
+(a) 1
+(b) 2
+(c) 3
+(d) 5
+325. If (1012 + 25)2 – (1012 – 25)2 = 10n, then the value of
+n is
+(a) 5
+(a) 10, 8, 9
+(c) 8, 9, 8
+(b) 10, 1, 6
+(d) 9, 8, 8
+(R.R.B., 2008) (c) 14
+(b) 10
+(d) 20
+316. After the division of a number successively by 3,
+4 and 7, the remainders obtained are 2, 1 and 4
+respectively. What will be the remainder if 84 divides
+the same number?
+(a) 41
+(c) 75
+(b) 53
+(d) 80
+317. A number is successively divided by 8, 7 and 3
+giving residues 3, 4 and 2 respectively and quotient
+31. The number is
+(a) 3555
+(c) 5535
+(b) 5355
+(d) 5553
+318. A number when divided by 3 leaves a remainder
+1. When the quotient is divided by 2, it leaves a
+326. (325 + 326 + 327 + 328) is divisible by
+(a) 11
+(b) 16
+(c) 25
+(d) 30
+327. (461 + 462 + 463 + 464) is divisible by
+(a) 3
+(b) 11
+(c) 13
+(d) 17
+328. (96 + 1) when divided by 8, would leave a remainder of
+(a) 0
+(b) 1
+(c) 2
+(d) 3
+329. If n is even, (6n – 1) is divisible by
+(a) 6
+(b) 30
+(c) 35
+(d) 37
+330. If (12n + 1) is divisible by 13, then n is
+(a) 1 only
+(b) 12 only
+(c) any odd integer
+(d) any even integerNUMBER SYSTEM
+29
+331. 2525 is divided by 26, the remainder is
+(a) 1
+(b) 2
+(c) 24
+(d) 25
+332. If (6767 + 67) is divided by 68, the remainder is
+(a) 1
+(b) 63
+(c) 66
+(d) 67
+333. One less than (49)15 is exactly divisible by
+(a) 8
+(b) 14
+(c) 50
+(d) 51
+334. The remainder when 784 is divided by 342 is
+(a) 0
+(b) 1
+(c) 49
+(d) 341
+335. The remainder when 260 is divided by 5 equals
+(a) 0
+(b) 1
+(c) 2
+(d) 3
+336. By how many of the following numbers is 212 – 1
+divisible?
+2, 3, 5, 7, 10, 11, 13, 14
+(a) 4
+(c) 6
+(b) 5
+(d) 7
+337. The remainder when (1523 + 2323) is divided by 19,
+is
+(a) 0
+(c) 15
+(b) 4
+(d) 18
+338. When 2256 is divided by 17, the remainder would
+be
+(a) 1
+(c) 16
+(b) 14
+(d) None of these
+339. 76n – 66n, where n is an integer > 0, is divisible by
+(a) 13
+(b) 127
+(c) 559
+(d) All of these
+340. It is given that (232 + 1) is exactly divisible by a
+certain number. Which of the following is also
+definitely divisible by the same number?
+(S.S.C., 2007)
+(a) 216 + 1
+(c) 7 × 233
+(b) 216 – 1
+(d) 296 + 1
+341. The number (248 – 1) is exactly divisible by two
+numbers between 60 and 70. The numbers are
+(A.A.O. Exam, 2010)
+(a) 63 and 65
+(c) 61 and 65
+(b) 63 and 67
+(d) 65 and 67
+342. n being any odd number greater than 1, n65 – n is
+always divisible by
+(a) 5
+(c) 24
+(b) 13
+(d) None of these
+343. Let N = 553 + 173 – 723. Then, N is divisible by
+(a) both 7 and 13
+(b) both 3 and 13
+(c) both 17 and 7
+(d) both 3 and 17
+Directions (Questions 344–345):
+on the following information:
+Given N = +
+These questions are based
+1 2 3 ........ 99 100.
++
++ + +
+344. Find the last two digits of N.
+(a) 00
+(b) 13
+(c) 19
+(d) 23
+345. Find the remainder when N is divided by 168.
+(a) 33
+(b) 67
+(c) 129
+(d) 153
+346. What is the remainder when 461 is divided by 51?
+(a) 20
+(b) 41
+(c) 50
+(d) None of these
+347. What is the remainder when 1736 is divided by 36?
+(a) 1
+(b) 7
+(c) 19
+(d) 29
+348. Which one of the following is the common factor
+of (4743 + 4343) and (4747 + 4347)?
+(a) (47 – 43)
+(c) (4743 + 4343)
+(b) (47 + 43)
+(d) None of these
+349. Find the product of all odd natural numbers less
+than 5000.
+(a)
+(c)
+5000 !
+2500 2501
+×
+5000 !
+2
+5000
+5000 !
+(b)
+2
+2500 × 2500 !
+(d) None of these
+350. How many zeros will be required to number the
+pages of a book containing 1000 pages?
+(b) 184
+(a) 168
+(c) 192
+(d) 216
+351. If a2 + b2 + c2 = 1, what is the maximum value of
+abc?
+(a)
+(c)
+1
+3
+2
+3
+(b)
+1
+33
+(d) 1
+352. Find the unit's digit in the sum of the fifth powers
+of the first 100 natural numbers.
+(a) 0
+(c) 5
+(b) 2
+(d) 8
+353. If the symbol [x] denotes the greatest integer less
+than or equal to x, then the value of
+ 1 1 1 1 2
+ ++ ++ + ++
+   is
+   
+1 49
+4 4 50 4 50
+  
+.........
+4 50
+(a) 0
+(c) 12
+(b) 9
+(d) 49
+354. When 10025 – 25 is written in decimal notation, the
+sum of its digits is
+(a) 444
+(c) 446
+(b) 445
+(d) 448
+355. What is the number of digits in the number (1024)4
+× (125)11?
+(a) 35
+(c) 37
+(b) 36
+(d) 3830
+QUANTITATIVE APTITUDE
+356. How many numbers will be there between 300 and
+500, where 4 comes only one time?
+(a) 89
+(b) 99
+(c) 110
+(d) 120
+[UPSSSC Lower Subordinate (Pre.) Exam, 2016]
+357. Which is not a prime number?
+(a) 13
+(c) 21
+[Indian Railways Gr. ‘D’ Exam, 2014]
+(b) 19
+(d) 17
+358. If x = a (b – c), y = b (c – a), z = c (a – b), then the
+value of
+ 
+ ++
+ 
+
+abc
+x
+(a)
+2xyz
+abc
+(c) 0
+
+33 3
+y
+  is
+z
+ 
+[SSC—CHSL (10 + 2) Exam, 2015]
+(b)
+(d)
+xyz
+abc
+3xyz
+abc
+359. Among the following statements, the statement which
+is not correct is:
+(a) 900
+(c) 999
+(b) 909
+(d) 990
+[SSC—CHSL (10 + 2) Exam, 2015]
+(a) Every natural number is an integer.
+(b) Every natural number is a real number.
+(c) Every real number is a rational number.
+(d) Every integer is a rational number.
+360. If a + b + c = 6 and ab + bc + ca = 10 then the value
+of a3 + b3 + c3 – 3abc is
+(a) 36
+(c) 42
+[SSC—CHSL (10 + 2) Exam, 2015]
+(b) 48
+(d) 40
+361. If (1001 × 111) = 110000 + (11 × ___), then the number
+in the blank space is
+(a) 121
+(b) 211
+(c) 101
+(d) 1111
+[CTET, 2016]
+Direction (Question 362): The following question consists
+of a question and two statements I and II given below
+it. You have to decide whether the data provided in the
+statement(s) is/are sufficient to answer the question.
+Given answer
+(A) The data in statement I alone is sufficient to answer
+the question while II alone is not sufficient to answer
+the questions.
+(B) Data in statement II alone is sufficient to answer
+the question while data in statement I alone is not
+sufficient to answer the question.
+(C) The data in statement I alone or statement II alone
+is sufficient to answer the question.
+(D) The data in both Statement I and II is insufficient
+to answer the question.
+(E) The data in both Statement I and II is sufficient to
+answer the question.
+365. The sum of the perfect squares between 120 and 300 is
+[SSC—CHSL (10 + 2) Exam, 2015]
+(a) 1204
+(c) 1296
+(b) 1024
+(d) 1400
+366. If p3 – q3 = (p – q) (p – q)2 – xpq, then find the value
+of x
+[SSC—CHSL (10 + 2) Exam, 2015]
+(a) 1
+(c) 3
+(b) –3
+(d) –1
+367. What minimum value should be assigned to *, so
+that 2361*48 is exactly divisible by 9?
+[ESIC—UDC Exam, 2016]
+(a) 2
+(c) 9
+(b) 3
+(d) 4
+368. If p, q, r are all real numbers then (pq q r)
+− + − +− )
+)
+is equal to
+(a) (
+p qq r r p
+− −−
+)(
+(c) 1
+)(
+)
+3
+(
+3
+(r p
+3
+[SSC—CAPF/CPOExam, 2016]
+(b)
+3 p qq r r p
+− −−
+(
+(d) 0
+369. If (a b ab−÷+ = 25, then (a + b) = ?
+22
+(a) 30
+(c) 125
+) (
+)
+(b) 25
+(d) 150
+[RRB—NTPC Exam, 2016]
+370. How many prime numbers are there between 100
+to 200?
+[CMAT, 2017]
+(a) 21
+(c) 16
+(b) 20
+(d) 11
+371. The least number of five digit is exactly divisible
+by 88 is
+(a) 10032
+(b) 10132
+(c) 10088
+(d) 10023
+[SSC Multi-Tasking Staff Exam -2017]
+)(
+)(
+)
+362. If (the place value of 5 in 15201) + (the place value
+of 6 in 2659) = 7 × ____, then the number of the
+blank space is:
+(a) 800
+(b) 80
+(c) 90
+(d) 900
+[CTET, 2016]
+363. The sum of digits of a two – digit number is 12 and
+the difference between the two – digits of the two –
+digit number is 6. What is the two – digit number?
+[IBPS—RRB Office Assistant (Online) Exam, 2015]
+(a) 39
+(b) 84
+(c) 93
+(d) Other than the given options
+(e) 75
+364. The difference between the greatest and the least four
+digit numbers that beings with 3 and ends with 5 is
+[SSC—CHSL (10 + 2) Exam, 2015]NUMBER SYSTEM
+31
+372. The number of three digit numbers which are
+multiples of 9 are
+[CLAT, 2016]
+(a) 100
+(c) 98
+(b) 99
+(d) 101
+373. Two consecutive even positive integers, sum of the
+squares of which is 1060, are
+[CLAT, 2016]
+(a) 12 and 14
+(c) 22 and 24
+(b) 20 and 22
+(d) 15 and 18
+Directions (Question 374): The question below consists of
+a question and two statements numbered I and II given
+below it. You have to decide whether the data given in
+the statements are sufficient to answer the questions. Read
+both the statements and given answer.
+(A) If the data in statement I alone is sufficient to
+answer the question, while the data in statement
+II alone is not sufficient to answer the question.
+(B) If the data in statement II alone is sufficient to
+answer the question, while the data in statement
+I alone is not sufficient to answer the question.
+(C) If the data either in statement
+I alone or
+statement II alone is sufficient to answer the
+questions.
+(D) If the data given in both Statement I and
+II together are not sufficient to answer the
+question.
+(E) If the data in both Statement I and II together
+are necessary to answer the question.
+374. What is the number of trees planted in the field in
+row and column?
+[IBPS—Bank Spl. Officer (Marketing) Exam, 2016]
+I. Number of columns is more than the number
+of rows by 4.
+II. Number of columns is 20.
+375. If n is a natural number and np xx x12 3 ,
+= 1 2p p3
+where p1, p2, p3 are distinct prime factors, then the
+number of prime factors for n is
+[CDS, 2016]
+(a) x1 + x2 + x3
+(b) x1, x2, x3
+(c) (x1 + 1) (x2 + 1) (x3 + 1) (d) None of the above
+376. Consider the following statements for the sequence
+of numbers given below:
+11, 111, 1111, 11111, ….
+1. Each number can be expressed in the form
+(4m + 3), where m is a natural number.
+2. Some numbers are squares.
+Which of the above statements is/are correct?
+[CDS, 2016]
+(a) 1 only
+(c) Both 1 and 2
+(b) 2 only
+(d) neither 1 nor 2)
+377. If the sum of two numbers is 14 and their difference
+is 10. Find the product of these two numbers.
+[UPSSSC Lower Subordinate (Pre.) Exam, 2016]
+(a) 24
+(c) 20
+(b) 22
+(d) 18
+378. If m = −4 , n = −2, then the value of
+3
+mmm33 33n
+− + ++ + is
+2
+(a) −120
+(c) −126
+n
+23
+n
+(b) −124
+(d) −128
+[SSC—CGL (Tier-I) Exam, 2015]
+379. If the sum of two numbers is 14 and their difference
+is 10, find the product of these two numbers.
+[UPSSSC—Lower Subordinate (Pre.) Exam 2016]
+(a) 18
+(c) 24
+(b) 20
+(d) 22
+380. What is the sum of all natural numbers from 1 to
+100?
+[CLAT-2016]
+(a) 5050
+(c) 5000
+(b) 6000
+(d) 5052
+ANSWERS
+1. (c)
+11. (b)
+21. (c)
+31. (b)
+41. (a)
+51. (b)
+2. (a)
+12. (b)
+22. (c)
+32. (b)
+42. (d)
+52. (b)
+3. (c)
+13. (d)
+23. (c)
+33. (d)
+43. (d)
+53. (c)
+4. (d)
+14. (c)
+24. (b)
+34. (a)
+44. (d)
+54. (d)
+5. (c)
+15. (d)
+25. (d)
+35. (c)
+45. (d)
+55. (b)
+6. (c)
+16. (b)
+26. (d)
+36. (d)
+46. (d)
+56. (d)
+7. (c)
+17. (c)
+27. (a)
+37. (b)
+47. (d)
+57. (b)
+8. (c)
+18. (b)
+28. (c)
+38. (c)
+48. (c)
+58. (c)
+9. (a)
+19. (c)
+29. (c)
+39. (a)
+49. (a)
+59. (d)
+10. (c)
+20. (d)
+30. (c)
+40. (d)
+50. (b)
+60. (b)32
+QUANTITATIVE APTITUDE
+61. (d)
+71. (a)
+81. (c)
+91. (c)
+101. (b)
+111. (a)
+121. (e)
+131. (b)
+141. (a)
+151. (e)
+161. (d)
+171. (d)
+181. (d)
+191. (c)
+201. (b)
+211. (d)
+221. (c)
+231. (d)
+241. (c)
+251. (b)
+261. (d)
+271. (c)
+281. (b)
+291. (c)
+301. (b)
+311. (d)
+321. (a)
+331. (d)
+341. (a)
+351. (b)
+361. (c)
+371. (a)
+62. (d)
+72. (b)
+82. (d)
+92. (a)
+102. (a)
+112. (a)
+122. (d)
+132. (b)
+142. (c)
+152. (c)
+162. (d)
+172. (b)
+182. (c)
+192. (b)
+202. (d)
+212. (b)
+222. (b)
+232. (b)
+242. (c)
+252. (b)
+262. (c)
+272. (d)
+282. (a)
+292. (a)
+302. (d)
+312. (c)
+322. (c)
+332. (c)
+342. (c)
+352. (a)
+362. (a)
+372. (a)
+63. (c)
+73. (c)
+83. (c)
+93. (c)
+103. (a)
+113. (b)
+123. (c)
+133. (b)
+143. (d)
+153. (c)
+163. (b)
+173. (c)
+183. (c)
+193. (a)
+203. (b)
+213. (a)
+223. (d)
+233. (a)
+243. (b)
+253. (c)
+263. (a)
+273. (b)
+283. (c)
+293. (d)
+303. (a)
+313. (d)
+323. (c)
+333. (a)
+343. (d)
+353. (c)
+363. (d)
+373. (c)
+64. (a)
+74. (d)
+84. (e)
+94. (c)
+104. (c)
+114. (a)
+124. (b)
+134. (d)
+144. (d)
+154. (c)
+164. (d)
+174. (a)
+184. (b)
+194. (a)
+204. (b)
+214. (d)
+224. (c)
+234. (a)
+244. (c)
+254. (c)
+264. (c)
+274. (c)
+284. (b)
+294. (c)
+304. (b)
+314. (a)
+324. (c)
+334. (b)
+344. (b)
+354. (a)
+364. (d)
+374. (d)
+65. (c)
+75. (c)
+85. (c)
+95. (d)
+105. (a)
+115. (b)
+125. (a)
+135. (d)
+145. (e)
+155. (b)
+165. (d)
+175. (b)
+185. (b)
+195. (b)
+205. (a)
+215. (d)
+225. (d)
+235. (a)
+245. (d)
+255. (d)
+265. (b)
+275. (c)
+285. (b)
+295. (b)
+305. (a)
+315. (b)
+325. (c)
+335. (b)
+345. (a)
+355. (b)
+365. (d)
+375. (b)
+66. (a)
+76. (b)
+86. (a)
+96. (d)
+67. (a)
+77. (c)
+87. (b)
+97. (a)
+106. (c) 107. (a)
+116. (c) 117. (a)
+126. (b) 127. (c)
+136. (a) 137. (a)
+146. (c) 147. (a)
+156. (a) 157. (a)
+166. (a) 167. (a)
+176. (a) 177. (a)
+186. (c) 187. (a)
+196. (a) 197. (b)
+206. (d) 207. (d)
+216. (a) 217. (d)
+226. (a) 227. (d)
+236. (c) 237. (c)
+246. (c) 247. (c)
+256. (d) 257. (d)
+266. (d) 267. (a)
+276. (c) 277. (b)
+286. (c) 287. (b)
+296. (d) 297. (d)
+306. (c) 307. (b)
+316. (b) 317. (b)
+326. (d) 327. (d)
+336. (a) 337. (a)
+346. (d) 347. (a)
+356. (b) 357. (c)
+366. (b) 367. (b)
+376. (a) 377. (a)
+68. (c)
+78. (b)
+88. (b)
+98. (c)
+108. (b)
+118. (c)
+128. (d)
+138. (b)
+148. (b)
+158. (d)
+168. (a)
+178. (d)
+188. (c)
+198. (a)
+208. (d)
+218. (a)
+228. (d)
+238. (a)
+248. (a)
+258. (b)
+268. (a)
+278. (a)
+288. (c)
+298. (d)
+308. (b)
+318. (c)
+328. (c)
+338. (a)
+348. (b)
+358. (d)
+368. (b)
+378. (c)
+69. (d)
+79. (d)
+89. (e)
+99. (c)
+109. (b)
+119. (b)
+129. (d)
+139. (a)
+149. (c)
+159. (b)
+169. (c)
+179. (c)
+189. (c)
+199. (c)
+209. (c)
+219. (b)
+229. (b)
+239. (a)
+249. (b)
+259. (a)
+269. (e)
+279. (c)
+289. (d)
+299. (d)
+309. (b)
+319. (a)
+329. (c)
+339. (d)
+349. (b)
+359. (c)
+369. (b)
+379. (c)
+70. (b)
+80. (d)
+90. (d)
+100. (a)
+110. (e)
+120. (a)
+130. (d)
+140. (b)
+150. (a)
+160. (c)
+170. (b)
+180. (a)
+190. (c)
+200. (a)
+210. (a)
+220. (b)
+230. (e)
+240. (b)
+250. (a)
+260. (e)
+270. (a)
+280. (a)
+290. (b)
+300. (d)
+310. (c)
+320. (c)
+330. (c)
+340. (d)
+350. (c)
+360. (a)
+370. (a)
+380. (a)NUMBER SYSTEM
+33
+SOLUTIONS
+1.
+TL L
+3
+2
+T-Th Th H T O
+1
+5
+4
+7
+0
+Place value of 5 = (5 × 10000) = 50000.
+2. The face value of 8 in the given numeral is 8.
+3. Sum of the place values of 3 = (3000 + 30) = 3030.
+4. Difference between the place values of 7 and 3 in given
+numeral = (7000 – 30) = 6970.
+5. Difference between the local value and the face value of
+7 in the given numeral = (70000 – 7) = 69993.
+6. Required sum = (99999 + 10000) = 109999.
+7. Required difference = (10000 – 999) = 9001.
+8. Required number = 30005.
+9. Required number = 2047.
+10. All natural numbers and 0 are called the whole numbers.
+11. Clearly, there exists a smallest natural number, namely 1.
+So statement (1) is true.
+Natural numbers are counting numbers and the counting
+process never ends. So, the largest nature number is not
+known. Thus, statement (2) is false.
+Thre is no natural number between two consecutive natural
+numbers. So, statement (3) is false.
+12. Clearly, every rational number is also a real number.
+13. Clearly, p is an irrational number.
+14. Since 2 is a non-terminating and non-repeating decimal,
+so it is an irrational number.
+15.
+3 is an infinite non-recurring decimal.
+16. We can write 9 = (1 + 8) ; 9 = (2 + 7) ;
+9 = (3 + 6), 9 = (4 + 5).
+Thus, it can be done in 4 ways.
+17. We may have (64 and 1),
+Then, the number is 1000 x + 100 y + 10 z + w = 103 x +
+102 y + 10 z + w.
+27. We know that the sum of two odd numbers is even.
+\ (n is odd, p is odd) ⇒ (n + p) is even.
+28. n3 is odd ⇒ n is odd and n2 is odd.
+\ I and II are true.
+29. (n – 1) is odd ⇒ (n – 1) – 2 and (n – 1) + 2 are odd
+⇒ (n – 3) and (n + 1) are odd.
+30. The product of two odd numbers is always odd.
+31. x is odd ⇒ x2 is odd ⇒ 5x2 is odd ⇒ (5x2 + 2) is odd.
+32. ab = 0 ⇒ a = 0 or b = 0 or both are zero.
+33. A < B < C < D ⇒ D > B > A
+Also, A < B < C < D and D > B > E ⇒ E < B < C < D
+⇒ E < C < D and E < B < C.
+Clearly, we cannot arrange A, E, C is an increasing or
+decreasing order.
+34. When m is even, then m (n + 'o') (p – q) is even.
+35. n < 0 ⇒ 2n < 0, – n > 0 and n2 = (– n)2 > 0.
+Thus, out of the numbers 0, – n, 2n and n2 we find that
+2n is the least.
+36. It is given that x – y = 8.
+I. We may have x = 5 and y = – 3.
+So, it is not necessary that both x and y are positive.
+II. If x is positive, then it is not necessary that y is positive, as
+x = 5 ⇒ y = – 3.
+(32 and 2),
+(8 and 8).
+In any case, the sum is not 35.
+18. We may take the least values of y and z as y = 1 and
+z = 1.
+So, the maximum value of x is 7.
+19. We know that: 12 + 22 + 32 +....+ n2 =
+1
+6
+n (n + 1) (2n + 1).
+\ (12 + 22 + 32 +..........+ 92) =
+
+
+1
+9 10 19 285.
+
+×× × =
+6
+20. (n + 7) = 88 ⇒ n = (88 – 7) = 81, which is false as
+20 < n < 80.
+So, the required number is 88.
+21. We have, M = 1000 ; D = 500 ; C = 100 and L = 50.
+\ M > D > C > L is the correct sequence.
+22. These numbers are 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2.
+8th number from the bottom is 16.
+23. The given series is such that the sum of first hundred
+terms is zero, and 101st term is 2. So, the sum of 101 terms
+is 2.
+24. Given series is 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, ..........
+\ 96th term is 4. So, T97
+(16 and 4) and
+III. If x < 0, then y = x – 8 which is clearly less than 0.
+So, if x is negative, then y must be negative.
+37. If x < 0 and y < 0, then clearly xy > 0.
+So, whenever x and y are negative, then xy is positive.
+Note that (x < 0, y < 0) does not imply that (x + y) is
+positive.
+e.g. If x = – 2 and y = – 3 , then (x + y) = – 5 < 0.
+Note that (x < 0, y < 0) does not imply that (x – y) > 0.
+e.g. If x = – 5 and y = – 2, then x – y = – 5 – (– 2)
+= – 5 + 2 = – 3 < 0.
+38. Let n = 1 + x = 1 + m (m + 1) (m + 2) (m + 3), where m
+is a positive integer.
+Then, clearly two of m, (m + 1), (m + 2), (m + 3) are even
+and so their product is even. Thus, x is even and hence
+n = 1 + x is odd.
+Also, n = 1 + m (m + 3) (m + 1) (m + 2) = 1 + (m2 + 3m)
+(m2 + 3m + 2)
+⇒ n = 1 + y (y + 2), where m2 + 3m = y
+⇒ n = 1 + y2 + 2y = (1 + y)2, which is a perfect square.
+Hence, I and III are true.
+2
+39. 1 ≤ x ≤ 2 ⇒ 1 ≤
+⇒ (1 – 3)
+⇒ ≤≤
+–5
+y
+2 55
+≤ ≤ ⇒ ≤≤
+5
+y
+5 22
+(2 – 3)
+–5
+2
+.
+= 1 and T98 = 2. Hence, the 98th Hence, y increases from – 5 to
+term is 2.
+25. Let the hundred's, ten's and one’s digits be x, y and z
+respectively.
+Then, the given number is 100 x + 10 y + z.
+26. Let the thousand’s, hundred’s, ten’s and one’s digits be
+x, y, z, w respectively.
+–5
+2
+.
+40. (a) Let x = 0 and y = 2 . Then, x is rational and y is
+irrational.
+\ x + y = 0 + =2
+2 which is irrational.
+Thus, x + y is not rational.
+(1 – 3)
+y
+y + 32
+≤
+(2 – 3)34
+QUANTITATIVE APTITUDE
+(b) Let x = 0 and y = 2 . Then, x is rational and y is
+irrational.
+\ xy = 0 × 2 = 0, which is rational.
+Hence, xy is not irrational.
+(c) As shown in (b), xy is not necessarily irrational.
+(d) x + y is necessary irrational. But xy can be either
+rational or irrational.
+Hence, (d) is true.
+41. Let x and (x + 1) be two consecutive integers. Then
+(x + 1)2 – x2 = (x + 1 + x) (x + 1 – x) = (x + 1 + x) × 1
+= (x + 1 + x) = sum of given numbers.
+ab
+42. If a and b are two rational numbers, then
+rational number lying between a and b.
++
+2
+is a
+43. B > A ⇒ A < B ⇒ (A – B) < 0.
+Since A and B are both positive integers, we have
+(A + B) > 0 and AB > 0.
+If (A = 1 and B = 2), we have AB < (A + B).
+If (A = 2 and B = 3), we have (A + B) < AB.
+Thus, we cannot say which one of A + B and AB has the
+highest value.
+44. 0 < x < 1 ⇒ x2 < x < 1
+11
+...(i)
+⇒
+x
+1
+Hence, 2
+x
+12
+45. p < 1 ⇒ >⇒ >
+12 – 2– 0pp [ p < 1]
+2
+⇒ >>
+pp
+Hence,
+
+
+
+2
+p
+46. (x2 + x + 1) = xx++ +
+
+
+
+2 13
+4
+4
+ 
+2
+=  
+1 33
+
+x + +≥
+2 44
+
+
+
+ 0
+1
+
+x + ≥
+2
+Hence, (x2 + x + 1) is greater than or equal to
+47. 
+ 1
+1
+1 1
+ 2 3 7 
++ + +=
+
+
+++
+n nn
+(21 14 6) 141
++ = +
+42
+.
+1
+
+42
+This sum is a natural number when n = 42.
+So, each one of the statements that 2 divides n ; 3 divides
+n and 7 divides n is true.
+Hence, n > 84 is false.
+48.
+(16 7 6)nn nn167 6
+2
+++  
+n nn n
+2
+n
+
+
+n
+6 
+=++ = ++16 7 .
+
+
+For
+
+
+
+16 7n++
+n
+or n = 2 or n = 3 or n = 6.
+Hence, 4 values of n will give the desired result.
+49. (p > q and r < 0) ⇒ pr < qr is true.
+50. (X < Z and X < Y) ⇒ X2 < YZ.
+51. x + y > p and p > z ⇒ x + y > z.
+(ab
+52.
+– ) 4
+= ⇒ = × = ⇒< .
+3.5 7
+(ab
+– )
+2
+7 2
+b a
+47
+6
+to be an integer, we may have n = 1
+3
+4
+.
+2
+p
+– is a positive number.
+p
+2 > >> > 2
+1 xx [using ( )]i
+x
+is the greatest.
+13
+53.
+13
+= ⇒ =⇒ = ⇒ =⇒ =
+1 (1 – ) (1 – )
+w
+ww
+1
+\ (2w)2 = 4w2 = 4 × =
+4
+Questions 54 to 57
+Let the digits of the number in order be A, B, C, D, E.
+Then, A > 5 E ⇒ E = 1.
+1.
+w
+1
+w ww w
+1– 2 1
+1
+2
+.
+A, B, C are all odd and none of the digits is 3 ⇒ A, B, C
+are the digits from 5, 7, 9.
+Since A is the largest digit, so A = 9.
+\ B = 5 or 7 and C = 5 or 7.
+Now, the number DE is the product of two prime numbers.
+E = 1 and D = 2, 4, 6 or 8.
+41 and 61 are prime numbers and 81 cannot be expressed
+as product of two primes.
+Only 21 can be expressed as the product of two prime
+numbers (21 = 3 × 7).
+So, D = 2.
+Hence, the number is 95721 or 97521.
+54. The second digit of the number is either 5 or 7.
+55. The last digit of the number is 1.
+56. The largest digit in the number is 9.
+57. The number is odd. So, it is not divisible by 2 or 4.
+Sum of digits = 9 + 7 + 5 + 2 + 1 = 24, which is divisible
+by 3 but not by 9.
+So, the given number is divisible by 3.
+58. The least prime number is 2.
+59. Statement 1. Let x = 4 and y = 15. Then, each one of x
+and y is a composite number.
+But, x + y = 19, which is not composite.
+\ Statement 1 is not true.
+Statement 2. We know that 1 is neither prime nor
+composite.
+\ Statement 2 is not true.
+Thus, neither 1 nor 2 is correct.
+60. Prime numbers between 0 and 50 are:
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 and 47.
+Their number is 15.
+61. Each of the required numbers must divide (143 – 3) = 140
+exactly.
+Now, 140 = 5 × 7 × 4.
+Hence, the required prime numbers are 5 and 7.
+62. Sum of first four prime numbers = (2 + 3 + 5 + 7) = 17.
+63. Sum of all prime numbers from 1 to 20 = (2 + 3 + 5 + 7
++ 11 + 13 + 17 + 19) = 77.
+64. Clearly, 11 is a prime number which remains unchanged
+when its digits are interchanged. And, (11)2 = 121.
+Hence, the square of such a number is 121.
+65. Let the required prime number be p. Let p when divided
+by 6 give n as quotient and r as remainder. Then
+p = 6n + r, where 0 ≤ r < 6
+Now, r = 0, r = 2, r = 3 and r = 4 do not give p as prime.
+\ r ≠ 0, r ≠ 2, r ≠ 3 and r ≠ 4.
+Hence, r = 1 or r = 5.
+66. Clearly, 21 = 3 × 7, so 21 is not prime.
+67. Clearly, 19 is a prime number.
+68. We know that 115 is divisible by 5. So, it is not prime.
+119 is divisible by 7. So, it is not prime.
+127 < (12)2 and prime numbers less than 12 are 2, 3, 5, 7, 11.
+Clearly, 127 is not exactly divisible by any of them. Hence,
+127 is a prime number.NUMBER SYSTEM
+35
+69. Clearly, 143 is divisible by 11. So, 143 is not prime.
+289 is divisible by 17. So, 289 is not prime.
+117 is divisible by 3. So, 117 is not prime.
+359 < (20)2 and prime numbers less than 20 are 2, 3, 5, 7,
+11, 13, 17, 19.
+And, 359 is not exactly divisible by any of them. Hence,
+359 is a prime number.
+70. Putting n = 1, 2, 3, 4 respectively in (2n + 1) we get:
+(2 × 1 + 1) = 3, (2 × 2 + 1) = 5, (2 × 3 + 1) = 7 and (2 ×
+4 + 1) = 9,
+where 3, 5, 7 are prime numbers.
+\ The smallest value of n for which (2n + 1) is not
+prime, is n = 4.
+71. Clearly, 100 is divisible by 2. So, 100 is not prime.
+(101) < (11)2 and prime numbers less than 11 are 2, 3, 5, 7.
+Clearly, 101 is not divisible by any of 2, 3, 5 and 7.
+Hence, 101 is the smallest 3-digit prime number.
+72. Each one of 112, 114, 116, 118 is divisible by 2. So, none
+is prime.
+Each one of 111, 114, 117 is divisible by 3. So, none is prime.
+Clearly, 115 is divisible by 5. So, it is not prime.
+Each one of 112 and 119 is divisible by 7. So, none is prime.
+Hence, there is only 1 prime number between 110 and
+120, which is 113.
+73. Let the given prime numbers be p, q, r and s. Then
+p × q × r = 385 and q × r × s = 1001
+55
+5
+⇒
+pq r
+qr s
+××
+=
+×
+×
+1001
+13
+143
+Hence the largest of these prime numbers is 13.
+74. Let the required prime numbers be x, y, y + 36. Then,
+x + y + y + 36 = 100 ⇒ x + 2y = 64
+Let x = 2. Then, 2y = 62 ⇒ y = 31.
+So, these prime numbers are 2, 31 and 67.
+In given choices 67 is the answer.
+75.
+437 > 20
+All prime numbers less than 20 are 2, 3, 5, 7, 11, 13, 17,
+19. 161 is divisible by 7, 221 is divisible by 13 and 437 is
+divisible by 19. 373 is not divisible by any of the above
+prime numbers.
+\ 373 is prime.
+76. The required arithmetic sequence of five prime numbers is
+5, 11, 17, 23, 29 and therefore, the required 5th term is 29.
+77. Each of the numbers 302, 303, 304, 305, 306, 308, 309, 310,
+312, 314, 315, 316 and 318 is clearly a composite number.
+Out of 307, 311, 313, 317 and 319 clearly every one is prime.
+Hence, there are 5 prime numbers between 301 and 320.
+78. Clearly, 3 ≠ 4n + 1 and 3 ≠ 4n + 3 for any natural number n.
+\ Statement (1) is false.
+Putting p = 3, 5, 7, 11, 13, 17 etc. we get:
+(p – 1) (p + 1) = (2 × 4), (4 × 6), (6 × 8), (10 × 12), (12 ×
+14), (16 × 18) etc., each one of which is divisible by 4.
+\ Statement (2) is true.
+Hence, (1) is false and (2) is true.
+79. n = 1 ⇒ (n2 + n + 41) = (1 + 1 + 41) = 43, which is prime.
+n = 10 ⇒ (n2 + n + 41) = (100 + 10 + 41) = 151, which is prime.
+n = 20 ⇒ (n2 + n + 41) = (400 + 20 + 41) = 461, which is prime.
+n = 40 ⇒ (n2 + n + 41) = (1600 + 40 + 41) = 1681, which
+is divisible by 41.
+Thus, 1681 is not a prime number.
+Hence n = 40 for which (n2 + n + 41) is not prime.
+385 55
+=⇒ =⇒ = 5 and = 13.
+p
+13
+s
+13
+ps
+84. Given Expression = 38649 – (1624 + 4483)
+= (38649 – 6107) = 32542.
+85. Given Expression = 884697 – (773697 + 102479)
+= 884697 – 876176
+= 8521.
+8 8 4 6 9 7
+– 8 7 6 1 7 6
+8 5 2 1
+86. Let 10531 + 4813 – 728 = x × 87. Then
+(15344 – 728) = 87 × x ⇒ x =
+14616
+87
+1 0 5 3 1
++ 4 8 1 3
+1 5 3 4 4
+– 7 2 8
+1 4 6 1 6
+168
+87 1 4616
+87
+591
+522
+696
+696
+87. 394 × 113 = 394 × (100 + 10 + 3)
+= (394 × 100) + (394 × 10) + (394 × 3)
+= 39400 + 3940 + 1182
+= 44522.
+×
+3 9 4 0 0
+3 9 4 0
++ 1 1 8 2
+4 4 5 2 2
+88. 1260 ÷ 14 ÷ 9 = ×× =
+11
+
+
+1260
+14 9
+89. 136 × 12 × 8 = 136 × 96 = 136 × (100 – 4)
+= (136 × 100) – (136 × 4)
+= 13600 – 544 = 13056.
+90. Let 8888 + 848 + 88 – x = 7337 + 737.
+Then 9824 – x = 8074
+1 3 6 0 0
+– 5 4 4
+1 3 0 5 6
+10.
+= 168.
+80. X2 = (2 × 3) + 1 = 7, which is prime and X2 + 1 = 8, which
+is even.
+X3 = (2 × 3 × 5) + 1 = 31, which is prime and X3 + 1
+= 32, which is even.
+X4 = (2 × 3 × 5 × 7) + 1 = 211, which is prime and X4 +
+1 = 212, which is even and so on.
+Thus Xk is prime and (Xk + 1) is even.
+Hence, 1 and 3 are true statements.
+81. 6 × 3 (3 – 1) = 6 × 3(2) = 6 × 6 = 36.
+82. Given Expression = (1234 + 2345 + 4567) – 3456
+= (8146 – 3456) = 4690.
+1 2 3 4
+2 3 4 5
++ 4 5 6 7
+8 1 4 6
+– 3 4 5 6
+4 6 9 0
+83. Let 5566 – 7788 + 9988 = x + 4444. Then
+(5566 + 9988) – 7788 = x + 4444
+⇒ 15554 – 7788 = x + 4444 ⇒ x + 4444 = 7766
+⇒ x = (7766 – 4444) = 3322.
+7 7 6 6
+– 4 4 4 4
+3 3 2 236
+QUANTITATIVE APTITUDE
+⇒ x = 9824 – 8074 ⇒ x = 1750.
+9 8 2 4
+– 8 0 7 4
+1 7 5 0
+8 8 8 8
+8 4 8
++ 8 8
+9 8 2 4
+91. Let 414 × x × 7 = 127512. Then
+x =
+7 3 3 7
++ 7 3 7
+8 0 7 4
+99. Let 3578 + 5729 – x × 581 = 5821. Then
+x × 581 = (3578 + 5729) – 5821 ⇒ x × 581 = (9307 – 5821)
+= 3486 ⇒ x =
+3486
+581
+100. – 95 ÷ 19 =
+– 95
+19
+= – 5.
+127512 18216 2024 1012
+=
+=
+=
+414 7 414 46 23
+×
+44
+23 1012
+92
+92
+92
+×
+92. 82540027 × 43253 = 82540027 × (40000 + 3000 + 200 + 50 + 3)
+= (82540027 × 40000) + (82540027 × 3000)+(82540027 × 200)
++ (82540027 × 50) + (82540027 × 3)
++
+3 3 0 1 6 0 1 0 8 0 0 0 0
+2 4 7 6 2 0 0 8 1 0 0 0
+1 6 5 0 8 0 0 5 4 0 0
+4 1 2 7 0 0 1 3 5 0
+2 4 7 6 2 0 0 8 1
+3 5 7 0 1 0 3 7 8 7 8 3 1
+Shortcut Method:
+Product of unit's digits of the given numbers = 7 × 3 = 21
+Clearly, the required product will have 1 as the unit's
+digit, which is 3570103787831.
+93. Let
+46351 – 36418 – 4505
+x
+= 1357. Then
+x =
+46351 – (36418 4505)
+1357
++
+⇒ x = ==4.
+(46351 – 40923) 5428
+1357
+1357
+4 6 3 5 1
+– 4 0 9 2 3
+5 4 2 8
+3 6 4 1 8
++ 4 5 0 5
+4 0 9 2 3
+94. 6 × 66 × 666 = 6 × (6 × 11) × (6 × 111)
+= (6 × 6 × 6) × (11 × 111) = (216 × 1221)
+= (1221 × 216) = 1221 × (200 + 10 + 6)
+= (1221 × 200) + (1221 × 10) + (1221 × 6)
+= 244200 + 12210 + 7326 = 263736.
+2 4 4 2 0 0
+1 2 2 1 0
++ 7 3 2 6
+2 6 3 7 3 6
+95. (+ 1) – (– 1) = (+ 1 + 1) = 2.
+96.
+888888
++
+88888
+8888
+888
+88
+8
+987648
+97. Given Expression = 17 + (– 12) – 48 = 17 – 60 = – 43.
+98.
+60840 30420 3380
+= ==260.
+234 117 13
+= 44.
+101. 12345679 × 72 = 12345679 × (70 + 2)
+= (12345679 × 70) + (12345679 × 2)
+= (864197530 + 24691358)
+= 888888888.
+8 6 4 1 9 7 5 3 0
++ 2 4 6 9 1 3 5 8
+8 8 8 8 8 8 8 8 8
+102. 8899 – 6644 – 3322 = x – 1122 ⇒ 2255 – 3322 + 1122 = x
+⇒ x = 3377 – 3322 = 55.
+103. Let 74844 ÷ x = 54 × 63. Then, =×
+74844
+54 63
+x
+⇒ x = 74844 8316 1386 198
+=
+= ==22 .
+54 63 6 63 63 9
+××
+104. 1256 × 3892 = (1000 + 200 + 50 + 6) × 3892
+= (1000 × 3892) + (200 × 3892) +
+(50 × 3892) + (6 × 3892)
+= 3892000 + 778400 + 194600 + 23352
+= 4888352.
+3 8 9 2 0 0 0
+7 7 8 4 0 0
+1 9 4 6 0 0
++ 2 3 3 5 2
+4 8 8 8 3 5 2
+105. 786 × 964 = (800 – 14) × 964
+= (800 × 964) – (14 × 964)
+= (771200 – 13496) = 757704.
+7 7 1 2 0 0
+– 1 3 4 9 6
+7 5 7 7 0 4
+106. 348 × 265 = (350 – 2) × 265 = (350 × 265) – (2 × 265)
+= {(300 + 50) × 265} – 530 = (300 × 265)
++ (50 × 265) – 530
+= 79500 + 13250 – 530 = 92750 – 530
+= 92220.
+107. (71 × 29 + 27 × 15 + 8 × 4) = (80 – 9) × 29 + 405 + 32 =
+(80 × 29) – (9 × 29) + 437 = 2320 – 261 + 437 = 2757 – 261
+= 2496.
+108. Let x × (|a| × |b|) = – ab. Then, x =
+ab
+||
+–( )
+ab
+109. Let (46)2 – x2 = 4398 – 3066
+Then, (46)2 – x2 = 1332 ⇒ x2 = (46)2 – 1332
+\ x2 = (50 – 4)2 – 1332 = (50)2 + 42 – 2 × 50 × 4 – 1332
+⇒ x2 = 2500 + 16 – 400 – 1332 = 2516 – 1732 = 784
+⇒ x =
+2 784 28
+4
+48 384
+384
+×
+110. (800 ÷ 64) × (1296 ÷ 36) =
+784 = 28.
+2 5 1 6
+– 1 7 3 2
+7 8 4
+50
+800
+×
+64
+4
+27 9
+108
+1296
+36
+3
+= 450.
+= – 1.
+= 6.NUMBER SYSTEM
+37
+111. 5358 × 51 = 5358 × (50 + 1) = 5358 × 50 + 5358 × 1
+=
+5358 100
+×
+2
+=
+535800
+2
++= +=
+5358 267900 5358 273258.
+112. 587 × 999 = 587 × (1000 – 1) = (587 × 1000) – (587 × 1)
+= 587000 – 587 = 586413.
+113. 3897 × 999 = 3897 × (1000 – 1) = (3897 × 1000) – (3897 × 1)
+= 3897000 – 3897 = 3893103.
+114. 72519 × 9999 = 72519 × (10000 – 1)
+= (72519 × 10000) – (72519 × 1)
+= 725190000 – 72519 = 725117481.
+7 2 5 1 9 0 0 0 0
+– 7 2 5 1 9
+7 2 5 1 1 7 4 8 1
+115. 2056 × 987 = 2056 × (1000 – 13)
+= (2056 × 1000) – (2056 × 13)
+= 2056000 – 26728 = 2029272.
+116. 1904 × 1904 = (1904)2 = (1900 + 4)2
+= (1900)2 + 42 + 2 × 1900 × 4
+= 3610000 + 16 + 15200 = 3625216.
+117. 1397 × 1397 = (1397)2 = (1400 – 3)2
+= (1400)2 + 32 – 2 × 1400 × 3 = 1960000 + 9 – 8400
+= 1951609.
+118. (107 × 107) + (93 × 93) = (107)2 + (93)2
+= (100 + 7)2 + (100 – 7)2
+= (a + b)2 + (a – b)2 = 2(a2 + b2)
+= 2[(100)2 + 72] = 2[10000 + 49]
+= 2 × 10049 = 20098.
+119. (217 × 217) + (183 × 183) = (217)2 + (183)2
+= (200 + 17)2 + (200 – 17)2 = (a + b)2 + (a – b)2
+= 2(a2 + b2), where a = 200, b = 17
+= 2 [(200)2 + (17)2] = 2 [40000 + 289]
+= (2 × 40289) = 80578.
+120. (106 × 106 – 94 × 94) = (106)2 – (94)2
+= (106 + 94) (106 – 94) = (200 × 12) = 2400.
+121. (8796 × 223 + 8796 × 77) = 8796 × (223 + 77)
+[by distributive law]
+= (8796 × 300) = 2638800.
+122. (287 × 287 + 269 × 269 – 2 × 287 × 269)
+=
+⇒ x =
++
++ 5358
+128. (80)2 – (65)2 + 81 = (80 + 65) (80 – 65) + 81 = (145 × 15)
++ 81 = (2175 + 81) = 2256.
+129. (24 + 25 + 26)2 – (10 + 20 + 25)2 = (75)2 – (55)2
+= (75 + 55) (75 – 55) = (130 × 20) = 2600.
+130. (65)2 – (55)2 = (65 + 55) (65 – 55) = (120 × 10) = 1200.
+131. (a2 – b2) = 19 ⇒ (a + b) (a – b) = 19.
+Clearly, a = 10 and b = 9.
+132. Since (a + b)2 – (a – b)2 = 4ab, so the given expression
+should be a multiple of 4.
+So, the least value of 4ab is 32 and so the least value of
+ab is 8.
+Hence, the smallest value of a is 4 and that of b is 2.
+Hence, a = 4.
+133. Given Expression = (397)2 + (104)2 + 2 × 397 × 104
+= (397 + 104)2 = (501)2 = (500 + 1)­2
+= (500)2 + 12 + 2 × 500 × 1 = 250000 + 1 + 1000 = 251001.
+134. (64)2 – (36)2 = 20 × x ⇒ (64 + 36) (64 – 36) = 20 × x
+100 28
+×
+20
+= 140.
+135. Given Expression
+=
+( 22
+a b a)–(– )
+b
+ab
+(where = 489, = 375) =
+ab
+136. Given Expression =
+(a b a
+++
++
+) (– )
+(ab )
+22
+22
+b
+,
+(where a = 963 and b = 476) =
+137. Given Expression
+=
+ab
+(– )
+(
+33
++
+)
+a ab b2
+2
++
+= (768 + 232) = 1000.
+138. Given Expression =
+(854) (854 276) (276)2
+2
+ab
+()
+a ab b
+(– )
+22
+33
+++
+33
++× +
+, where 854 and 276
+ab
+==
+= (a – b) = (854 – 276) = 578.
+139. Given Expression =
+(753) (247) – (753 247)
+(753) (247)
+22
++×
++
+33
+= (287)2 + (269)2 – (2 × 287 × 269) =
+= (287 – 269)2 = (18)2 = 324.
+[ a2 + b2 – 2ab = (a – b)2]
+123. (476 + 424)2 – 4 × 476 × 424 = (a + b)2 – 4ab = (a – b)2,
+where a = 476 & b = 424 = (476 – 424)2 = (52)2 = (50 + 2)2
+= (50)2 + 22 + 2 × 50 × 2
+124. (112 × 54) = 112 ×
+ ==
+
+ ×112 10000
+10
+2
+4
+70000.
+16
+125. (5746320819 × 125) =
+5746320819 ××(125 8)
+8
+5746320819 1000 5746320819000
+=
+×
+88
+==718290102375.
+126. 935421 × 625 =
+=
+935421 625 16 935421 10000
+16
+×× ×
+=
+16
+9354210000
+16
+= 584638125.
+127. (999)2 – (998)2 = (999 + 998) (999 – 998) = (1997 × 1) = 1997.
+141.
+() a b ab
+a b ab
+2
+++ ++
+=
+2
+( – )
+a b
+3 3
+2
+2
+=
+= (2500 + 4 + 200) = 2704.
+=
+( –)
+a b ab
+22
++
+(ab )
+33 , where 753 and 247
+ab
+==
++
+1 11
+( ++
+=
+ab) (753 247) 1000
+=
+.
+140. Given Expression =
+( 22256) – (144) (256 144) (256 – 144)
+112
++
+=
+112
+(400 112)
+×
+112
+= 400.
+1
+1
+( – )( ++
+a b a b ab)
+22 == =
+( – ) (11 – 9) 2
+a
+b
+142. a + b + c = 0 ⇒ a + b = – c, (b + c) = – a and (c + a) = – b
+⇒ (a + b) (b + c) (c + a) = (– c) ×
+(– a) × (– b) = – (abc).
+143. (a2 + b2 + c2 – ab – bc – ca) = (a + b + c)2 – 3 (ab + bc + ca)
+= (7 + 5 + 3)2 – 3 (35 + 15 + 21)
+= (15)2 – 3 × 71
+= (225 – 213) = 12.
+144. Both addition and multiplication of numbers are com-
+mutative and associative.
+1
+.
+(854) – (276)
+2(
++
+()
+ab
+ab
+22
+22
++
+, (where 768 and 232) = (a + b)
+ab
+==
+)
+= 2.
+4ab
+ab
+= 438
+QUANTITATIVE APTITUDE
+145. 9H + H8 + H6 = 230 ⇒ {(9 × 10) + H} + (10H + 8) +
+(10H + 6) = 230
+⇒ 21 H + 104 = 230 ⇒ 21H = 126
+⇒ H = 6.
+146. Let the missing digit be x. Then, 1 (carried over) + 3 + x
++ x = 10 + x ⇒ x = 6.
+147. Clearly, M = 0 since 304 × 4 = 1216.
+148. 5p9 + 327 + 2q8 = 1114 ⇒ (500 + 10p + 9) + (327) + (200
++ 10q + 8) = 1114
+⇒ 10(p + q) + 1044 = 1114
+⇒ 10 (p + q) = 70 ⇒ (p + q) = 7
+⇒ Maximum value of q is 7
+[As minimum value of p = 0]
+149. 5P7 + 8Q9 + R32 = 1928 ⇒ (500 + 10P + 7) + (800 + 10Q
++ 9) + (100R + 30 + 2) = 1928
+ab b
+×
+24
+b
+2
+156. Since 13b7 is divisible by 11, we have
+(7 + 3) – (b + 1) = 0 ⇒ 9 – b = 0 ⇒ b = 9.
+Putting b = 9, a + 8 = 9 we get a = 1. Hence, (a + b)
+= (1 + 9) = 10.
+4 a 3
+9 8 4
+1 3 b 7
+157. Clearly, we have ab × b = 24 and ab × a = 12.
+\
+= ⇒ = ⇒= =
+a
+ab a
+×
+12
+a
+1
+1, 2.
+b
+158. Clearly, 111 × 1 = 111 ≠ 8111.
+But, 999 × 9 = 8991. Hence, we have 9 in place of *.
+159. (1 * 2) = 1 + 6 × 2 = 1 + 12 = 13.
+(1 * 2) * 3 = 13 * 3 = 13 + 6 × 3 = 13 + 18 = 31.
+160. 8– 7 – 6 8 7 6– 7 6– 6
+= ×× ×
+⇒ 10P + 10Q + 100R + 1348 = 1928 = (56 – 7 – 1) × 6 = 486 6 86×= ×× .
+⇒ 10(P + Q + 10R) = 580
+⇒ P + Q + 10R = 58 ⇒ R = 5 and
+P + Q = 8 or R = 4 and P + Q = 18
+1 54
+150. Let
+xy
+148
+= 78 .
+Then, 10000 + 1000 x + 500 + 10y + 4 = 148 × 78
+⇒ 10000 + 1000x + 500 + 10y + 4 = 11544
+= 10000 + 1000 + 500 + 40 + 4
+⇒ 1000x = 1000 ⇒ x = 1.
+151. Let 6x43 – 46y9 = 1904.
+Clearly, y = 3 and x = 5.
+Hence * must be replaced by 5.
+152. 5 P 9 – 7 Q 2 + 9 R 6 = 823
+⇒ (500 + 10P + 9) – (700 + 10Q + 2) +
+⇒ Maximum value of Q is 9
+[for P = 9 in second case]
+161. Highest power of 3 in 99! =
+    +++
+    
+99 99 99 99
+3 333
+    
+23 4
+=  ++ +
+    
+    
+99 99 99 99
+3
+
+ 9 27 81
+= 33 + 11 + 3 + 1 = 48.
+Since 9 = 32, so highest power of 9 dividing 99! =
+48
+2
+= 24.
+162. Every number from 5 onwards is completely divisible
+by 5.
+3
+6 x 4 3
+– 4 6 y 9
+1 9 0 4
+(900 + 10R + 6) = 823
+⇒ (500 + 900 – 700) + 10(P + R – Q) + (9 + 6 – 2) = 823
+⇒ 700 + 10(P + R – Q) = 810 = 700 + 110
+⇒ 10 (P + R – Q) = 110
+⇒ P + R – Q = 11
+⇒ Q = (P + R – 11).
+To get maximum value of Q we take P = 9 and R = 9.
+This gives Q = (9 + 9 – 11) = 7.
+Hence, the maximum value of Q is 7.
+153. Let the required digit be x. Then
+x + 1x + 2x + x3 + x1 = 21x
+⇒ x + 10 + x + 20 + x + 10x + 3 + 10x + 1 = 200 + 10 + x
+⇒ 22x = 210 – 34 = 176 ⇒ x = 8.
+Hence, the required digit is 8.
+154. It is given that D = 0. So, we have A = 5.
+So, 1 is carried over.
+1 + B + C = 10 + C ⇒ 1 + B = 10 ⇒ B = 9.
+Now, 1 + C + C = A ⇒ 1 + 2C = 5 ⇒ 2 C = 4 ⇒ C = 2.
+Hence B = 9.
+1 1
+C B A = 5
++ C C A = 5
+A C 0
+155. We have, C = 2.
+\ ( 5 6 7 ........ 100) is completely divisible by 5.
++
++ + +
+And,
+( 1 2 3 4) (1 2 3 2 1 4 3 2 1) (1 2 6 24) 33.
++ + + = + + ×× + ××× = + + + =
+Clearly, 33 when divided by 5 leaves a remainder 3.
+Hence, ( 1 2 3 4 5 ........ 100)
++++ ++ +
+5 leaves a remainder 3.
+163. 610 × 717 × 1127 = (2 × 3)10 × 717 × 1127 = 210 × 310 × 717 × 1127.
+Number of prime factors in the given expression = (10 +
+10 + 17 + 27) = 64.
+164. (30)7 × (22)5 × (34)11 = (2 × 3 × 5)7 × (2 × 11)5 × (2 × 17)11
+= 2(7 + 5 + 11) × 37 × 57 × 115 × 1711
+= (223 × 37 × 57 × 115 × 1711).
+Number of prime factors = (23 + 7 + 7 + 5 + 11) = 53.
+165. Let x × 48 = 173 × 240. Then, x =
+173 240
+×
+48
+166. (1000 + x) > (1000 × x). Clearly, x = 1.
+167. Let the original number be x. Then,
+( 7) 5
+xx
+99
++
+×
+– 3 12
+5 35
++
+= ×=1735 865.
+when divided by
+=⇒ =⇒ + =
+15 5 35 135
+x
+⇒ 5x = 100 ⇒ x = 20.
+168. 38950 is completely divisible by 410 only.
+Hence ` 410 is the correct answer.
+169. Let the four consecutive even numbers be a, a + 2, a + 4
+and a + 6.
+Then, a + a + 2 + a + 4 + a + 6 = 180 ⇒ 4a = 168
+⇒ a = 42.
+So, these numbers are 42, 44, 46 and 48.
+Sum of next four consecutive even numbers = (50 + 52
++ 54 + 56) = 212.
+170. Number on thumbs = 1, 9, 17, 25, .............
+This is an AP in which a = 1 and d = (9 – 1) = 8.NUMBER SYSTEM
+39
+\ Tn = a + (n – 1)d = 1 + 8(n – 1) = (8n – 7).
+8n – 7 = 1994 ⇒ 8n = 2001 ⇒ n = 250.
+T250 = 1 + (250 – 1) × 8 = 1 + 249 × 8 = 1993.
+So, 1993 lies on thumb and 1994 on index finger.
+171. Out of four consecutive integers two are even and therefore,
+their product is even and on adding 1 to it, we get an
+odd integer. So, n is odd. Some possible values of n are
+as under:
+n = 1 + (1 × 2 × 3 × 4) = (1 + 24) = 25 = 52,
+n = 1 + (2 × 3 × 4 × 5) = (1 + 120) = 121 = (11)2,
+n = 1 + (3 × 4 × 5 × 6) = (1 + 360) = 361 = (19)2,
+n = 1 + (4 × 5 × 6 × 7) = 841 = (29)2 and so on.
+Hence, n is odd and a perfect square.
+172. (x2 + y2) = (x + y)2 – 2xy = (15)2 – 2 × 56
+= (225 – 112) = 113.
+173. (22 + 42 + 62 +...........+ 402) = (1 × 2)2 + (2 × 2)2 + (2 × 3)2
++ ...... + (2 × 20)2 = 22 × (12 + 22 + 32 +........+ 202)
+= (4 × 2870) = 11480.
+174. 52 + 62 +.........+ 102 + 202 = (12 + 22 + 32 +........+ 102) – (12
++ 22 + 32 + 42) + 400
+=
+=
+1
+6
+nn n +
+( 1) (2 1) – (1 4 9 16) 400, where n = 10
++
+1
+6
++ ++ +
+ +
+
+× ×× + =
+10 11 21 – 30 400 (385 – 30 400) = 755.
+175. (6 + 12 + 18 + 24 + ..... + 60) = 6 × (1 + 2 + 3 + 4 +.........+
+10) = 6 × 55 = 330.
+176. 2m > 960 when the least value of m is 10.
+Then, 210 = 1024 and 1024 – 960 = 64 = 26.
+\ m = 10 and n = 6.
+177. We keep on dividing 33333... by 7 till we get 0 as
+remainder.
+47619
+7 333333
+28
+53
+49
+43
+42
+13
+7
+63
+63
+×
+\ Required number = 47619
+178. We keep on dividing 99999.... by 7 till we get 0 as remainder.
+142857
+7 999999
+7
+29
+28
+19
+14
+59
+56
+39
+35
+49
+49
+×
+\ Required number = 142857.
+Number of digits = 6.
+179.
+56
+987 559981
+4935
+6648
+5922
+7261
+2961
+×
+Clearly, 7261 must be replaced by 2961, which is possibvle
+if 6648 is replaced by 6218, which in turn is possible if
+5599 is replaced by 5556.
+Thus, the correct number is 555681.
+180. Clearly, multiples of 2 and 5 together yield 0.
+Since the product of odd numbers contains no power
+of 2, so the given product does not give 0 at the unit
+place.
+181. Let N = 1 × 2 × 3 × 4 ×.........× 1000 = 1000!
+Clearly, the highest power of 2 in N is very high as
+compared to that of 5.
+So, the number of zeros in N will be equal to the highest
+power of 5 in N.
+\ Required number of zeros
+=
+   +++
+   
+   234
+1000 1000 1000 1000
+5
+5
+5
+5
+= 200 + 40 + 8 + 1 = 249.
+182. Let N = 10 × 20 × 30 × ....... × 1000 = 10100 × (1 × 2 × 3
+× 4 ×......... 100) = 10100 × 100!
+Number of zeros in 100 ! = Highest power of 5 in 100 !
+=
+ +
+  20 4 24.
+100 100
+ 
+5
+5
+2
+= +=
+\ Number of zeros in N = 100 + 24 = 124.
+183. Let N = 5 × 10 × 15 × 20 × 25 × 30 × 35 × 40 × 45 × 50
+= 510 × (1 × 2 × 3 × 4 ×......... × 10) = 510 × 10!
+10 10 10
+Highest power of 2 in 10! = 23
+   ++= +5 2 1 8.
+  
+2 22
+Highest power of 5 in 10! =
+ =
+
+10
+\ N = 28 × 512 × k.
+Since highest power of 2 is less than that of 5, so required
+number of zeros = 8.
+
+5
+184. Clearly, highest power of 2 is much higher as compared
+to that of 5 in 60!, so
+Required number of zeros = Highest power of
+5 =
+  
+60 60
+  
+5  
++ = +=122 14.
+5
+2
+185. Let N = (1 × 3 × 5 × 7 × .... × 99) × 128.
+Clearly, N contains 10 multiples of 5 (5, 15, 25, 35, .....,
+95) and only one multiple of 2 i.e. 128 or 27.
+Clearly, highest power of 5 in N is greater than that of 2.
+\ Number of zeros in N = Highest power of 2 in N = 7.
+186. N = 2 × 4 × 6 × 8 × ......... × 98 × 100
+= 250 × (1 × 2 × 3 × .......... × 49 × 50) = 250 × 50!
+Clearly, the highest power of 2 in N is much higher than
+that of 5.
+\ Number of zeros in N = Highest power of 5 in N =
+2
+  
+50 50
+ 
++ = +=102 12.
+5
+5
+187. Clearly, the list of prime numbers from 2 to 99 has only
+1 multiple of 2 and only 1 multiple of 5.
+So, number of zeros in the product = 1.
+2.
++
+=40
+QUANTITATIVE APTITUDE
+188. Let N = 3 × 6 × 9 × 12 ×.......... × 102 = 334 × (1 × 2 × 3
+× 4 ×.......... × 34) = 334 × 34!
+Clearly, highest power of 2 in 34 ! is much greater than
+that of 5.
+So, number of zeros in N = Highest power of 5 in 34! =
+2
+  
+34 34
+ 
++ = +=61 7.
+5
+5
+189. 34 gives unit digit 1. So, (34)500 gives unit digit 1.
+And, 33 gives unit digit 7.
+\ (13)2003 gives unit digit = (1 × 7) = 7.
+190. 34 gives unit digit 1. So, (34)24 gives unit digit 1.
+And, 33 gives unit digit 7.
+\ 399 = (34)24 × 33 gives unit digit (1 × 7) i.e. 7.
+191. (A) 74 gives unit digit 1. So, 716 = (74)4 gives unit digit 1.
+\ (1827)16 gives unit digit 1. So, A → (1).
+(B) 34 gives unit digit 1. So, (34)4 gives unit digit 1.
+\ 319 = 316 × 33 gives unit digit = (1 × 7) = 7.
+\ (2153)19 gives unit digit 7. So, B → (4).
+(C) 92 gives unit digit 1. So, (92)10 gives unit digit 1.
+\ 921 = (920 × 9) gives unit digit = (1 × 9) = 9.
+\ (5129)21 gives unit digit = 9. So, C → (5).
+Hence,
+A BC is the correct result.
+14 5
+192. Unit digit of (67)25 = Unit digit of 725.
+Unit digit of 74 is 1 and so the unit digit of (74)6 is 1.
+\ Unit digit of 725 = (1 × 7) = 7.
+Hence, the unit digit of (725 – 1) is (7 – 1) = 6.
+193. Unit digit in the given product = Unit digit of (4 × 8 × 7
+× 3), which is 2.
+194. Unit digit in the given product = 8.
+Unit digit of (9 × 6 × x × 4) is 8. So, x = 3.
+195. Unit digit of 74 is 1. So, the unit digit of (74)23 is 1.
+\ Unit digit of 795 = Unit digit of (792 × 73) = (1 × 3) = 3.
+Unit digit of 34 is 1. So, the unit digit of (34)14 is 1.
+\ Unit digit of 358 = Unit digit of (356 × 32) = (1 × 9) = 9.
+Hence, the unit digit of (795 – 358) = (13 – 9) = 4.
+196. Unit digit of 42 is 6. So, unit digit in (42)63 is 6.
+\ Unit digit of (784)126 = Unit digit in 4126, which is 6.
+Unit digit in 4127
+= Unit digit in (4126 × 4) = Unit
+digit in (6 × 4), which is 4.
+\ Unit digit in (784)127 is 4.
+Hence, unit digit of {(784)126 + (784)127} = Unit digit of
+(6 + 4) = Unit digit of 10, which is 0.
+197. Unit digit in [(251)98 + (21)29 – (106)100 + (705)35 – (16)4 +
+259] = Unit digit in (1 + 1 – 6 + 5 – 6 + 9) = 4.
+198. Unit digit in the given product
+= Unit digit in (41793 × 5317 × 1491)
+Unit digit in 42 is 6 and so the unit digit in (42)896 is 6.
+\ Unit digit of 41793 = Unit digit in (6 × 4) = Unit digit
+in 24, which is 4.
+Unit digit in 5317 is 5 and the unit digit in 1491 is 1.
+\ Unit digit in the given product = Unit digit in (4 × 5
+× 1), which is 0.
+199. Let x = 2y. Then, x4n = (2y)4n = {(2y)4}n = (16 y4)n.
+y = 1, 2, 3, 4, 5, 6, 7, 8, 9 gives unit digit as 6 in (16y4)n.
+But, y = 5, gives unit digit 0 in (16 y4)n.
+Hence, the unit digit is 0 or 6.
+200. In 5n we have 5 as unit digit and in 6m we have 6 as unit
+digit.
+\ Unit digit in (5n + 6m) = Unit digit in (5 + 6) = Unit
+digit in 11 = 1.
+201. We have: (212n – 64n) = (212n – 24n × 34n) = 24n (28n – 34n).
+Putting n = 1, we get the number 24 (28 – 34)
+= 16 (256 – 81) = (16 × 175) = 2800
+Hence, the number formed by last two digits is 00.
+202.
+
+ =
+
+1
+5
+2000
+(0.2)2000.
+Last digit of (0.2)2000 = Last digit of (0.2)4 = 6.
+203. Sum of digits in the two numbers = 19 + 15 = 34.
+So, the product will have 33 or 34 digits.
+Since 36 × 34 = 1224 (i.e. product has 2 + 2 = 4 digits),
+so the number of digits in x is 34.
+204. We know that a number having x,y,z as its digits, is a
+multiple of 11, if z + x – y = 0
+Hence, y = z + x.
+205. 6135n2 is divisible by 9 if (6 + 1 + 3 + 5 + n + 2) = (17 + n)
+is divisible by 9.
+This happens when the least value of n is 1.
+206. In 978626, we have (6 + 6 + 7) – (2 + 8 + 9) = 0.
+Hence, 978626 is completely divisible by 11.
+207. Sum of all digits = 12, which is divisible by 3. So, the
+given number is divisible by 3.
+(Sum of digits at odd places) – (Sum of digits at even
+places) = 6 – 6 = 0.
+So, the given number is divisible by 11.
+The given number when divided by 37 gives 3003003003.
+So, the given number is divisible by 37.
+The given number when divided by 111 gives 1001001001.
+Clearly, it is divisible by 111 as well as by 1001.
+Hence, the given number is divisible by each one of 3,
+11, 37, 111 and 1001.
+208. We have 18 = 2 × 9, where 2 and 9 are co-primes.
+But, 65043 is not divisible by 2. So, it is not divisible by
+18.
+209. Let the missing digit be x. Then, (80 + x) must be divisible
+by 4. Hence, x = 4.
+210. Sum of the digits in 4006020 is 12, which is divisible by
+3. Hence, 4006020 is divisible by 3.
+211. Clearly, (d) is true.
+212. For 4823718 we have
+(8 + 7 + 2 + 4) – (1 + 3 + 8) = (21 – 12) = 9, which is not
+a multiple of 11.
+\ 4823718 is not divisible by 11.
+Consider the number 4832718.
+We have (8 + 7 + 3 + 4) – (1 + 2 + 8) = (22 – 11) = 11,
+which is a multiple of 11.
+Hence, 4832718 is divisible by 11.
+213. Consider the number 17325.
+Its unit digit is 5. So, it is divisible by 5.
+Sum of its digits = (5 + 2 + 3 + 7 + 1) = 18, which is
+divisible by 3.
+So, the given number is divisible by 3.
+And, since 5 and 3 are co-primes, so the given number is
+divisible by (5 × 3), i.e. 15.
+214. Given number is 7386038.
+Sum of its digits = 35, which is not divisible by any of 3
+and 9.
+So, the given number is not divisible by any of 3 and 9.
+Also, 38 is not divisible by 4. So, the given number is not
+divisible by 4.NUMBER SYSTEM
+41
+Also, (8 + 0 + 8 + 7) – (3 + 6 + 3) = (23 – 12) = 11.
+So, the given number is divisible by 11.
+215. (2 + 4 + 9 + 8 + 4) = 27, (2 + 6 + 7 + 8 + 4) = 27 and (2
++ 8 + 5 + 8 + 4) = 27.
+So, each one is divisible by 3 and 9 both.
+Also, 84 is divisible by 4. So, each one is divisible by 4.
+Hence, each given number is divisible by 3, 9 and 4.
+So, the statements 1, 2 and 3 are all correct.
+216. We know that 872 is divisible by 8. Hence 923872 is
+divisible by 8.
+217. Here (5 + 9 + x + 7) – (4 + 3 + 8) = 6 + x. So, we must
+have x = 5.
+218. Take m = 15 and n = 20. Then, each one of m and n is
+divisible by 5. But, (m + n) is not divisible by 10.
+Hence, (m + n) is divisible by 10 is not true.
+219. An integer is divisible by 16, if the number formed by
+last 4 digits is divisible by 16.
+220. Clearly, 639 is not divisible by 7.
+Consider 2079. Sum of its digits = (2 + 0 + 7 + 9) = 18.
+So, it is divisible by both 3 and 9.
+Also, (79 – 2) = 77, which is divisible by 7.
+So, 2079 is divisible by 7.
+Also, (9 + 0) – (7 + 2) = 0. So, 2079 is divisible by 11.
+Hence, 2079 is divisible by each one of 3, 7, 9 and 11.
+221. Let the given number be 476xy0. Then
+(0 + x + 7) – (y + 6 + 4) = 0 ⇒ x – y – 3 = 0 ⇒ x – y = 3.
+Also, (4 + 7 + 6 + x + y + 0) = (17 + x + y) must be
+divisible by 3.
+Since x ≠ 0, y ≠ 0, so x + y ≠ 1.
+\ x + y = 4 or 7 or 10 etc.
+(x + y = 4 and x – y = 3) ⇒ x = 7/2, which is not admissible.
+(x + y = 7 and x – y = 3) ⇒ x = 5 and y = 2.
+222. Sum of the digits in respective numbers is:
+9, 12, 18, 9, 21, 12, 18, 21, 15 and 24.
+Out of these 12, 21, 12, 21, 15, 24 are divisible by 3 but
+not by 9.
+So, the number of required numbers is 6.
+223. Let the unit's place be x and the thousand's place be y.
+Then, 357y25x is divisible by 5 only when x = 0 or x = 5.
+Also, this number is divisible by 3 only when sum of its
+digits is divisible by 3.
+So, (22 + x + y) must be divisible by 3.
+\ x + y = 2
+Taking x = 0, we get y = 2.
+So, the unit place = 0 and thousand's place = 2.
+224. Clearly, (7 + 8) – (9 + 6) = 0. So, 6897 is divisible by 11.
+Also,
+6897
+19
+= 363 . So, 6897 is divisible by 19.
+Hence, 6897 is divisible by both 11 and 19.
+225. We have 24 = 3 × 8, where 3 and 8 are co-primes.
+Clearly, 718 is not divisible by 8. So, 35718 is not divisible
+by 8.
+810 is not divisible by 8. So, 63810 is not divisible by 8.
+804 is not divisible by 8. So, 537804 is not divisible by 8.
+736 is divisible by 8. So, 3125736 is divisible by 8.
+Also, sum of its digits = (3 + 1 + 2 + 5 + 7 + 3 + 6) = 27,
+which is divisible by 3.
+So, 3125736 is divisible by 3 also.
+Hence, it is divisible by 24.
+226. Sum of the digits of the given number = (7 × 3) + (14 ×
+1) = (21 + 14) = 35, which is not divisible by 3.
+So the given number is not divisible by 3.
+Also, (1 + 3 + 1 + 1 + 3 + 1 + 1 + 3 + 1 + 1 + 3) – (1 +
+1 + 3 + 1 + 1 + 3 + 1 + 1 + 3 + 1) = (19 – 16) = 3, which
+is neither 0 nor divisible by 11.
+So, the given number is not divisible by 11 also.
+Hence, it is divisible by neither 3 nor 11.
+227. (325 – 325) = 0, which is divisible by 7.
+So, the given number is divisible by 7.
+(5 + 3 + 2) – (2 + 5 + 3) = 0. So, the given number is
+divisible by 11.
+And,
+325325
+13
+= 25025. So, 325325 is divisible by 13.
+Hence, it is divisible by all 7, 11 and 13.
+228. We first divide the number into groups of 3 digits from
+the right → 3 0X0 103
+Difference of sum of numbers at odd and even places =
+(103 + 3) – 0X0 = 106 – 0X0, which must be divisible by 13.
+106 – 0X0 is divisible by 13 only for X = 8.
+229. We know that 11 and 13 are co-prime.
+So, a number divisible by both 11 and 13 will be divisible
+by (11 × 13).
+230. I. We have(195 – 195) 0
+\ 195195 is divisible by 7.
+II. We have (181 – 181) = 0
+\ 181181 is divisible by 7.
+III. We have (120 – 120) = 0
+\ 120120 is divisible by 7.
+IV. We have (891 – 891) = 0
+\ 891891 is divisible by 7.
+Hence, all are divisible by 7.
+231. Since 653xy is divisible by 80, we must have y = 0.
+Now, 653x0 must be divisible by both 5 and 16.
+Clearly, it is divisible by 5 for all values of x.
+Now, the number 53x0 must be divisible by 16.
+The least value of x is clearly 6. So, x + y = 6 + 0 = 6.
+232. We know that 33 = 11 × 3, where 11 and 3 are co-primes.
+So, the given number must be divisible by both 11 and 3.
+Since 5ABB7A is divisible by 11, we have
+(A + B + A) – (7 + B + 5) = (2A – 12) is either 0 or 11.
+⇒ 2A – 12 = 0 or 2A – 12 = 11 ⇒ A = 6 A≠
+
+
+
+23
+2
+So, the number becomes 56BB76, which is divisible by 3.
+\ (5 + 6 + B + B + 7 + 6) = (24 + 2B) must be divisible
+by 3.
+
+\ 2B = 6 ⇒ B = 3 
+
+
+BB
+≠≠
+0 and
+2
+Hence, (A + B) = (6 + 3) = 9.
+233. We have, 99 = (11 × 9), where 11 and 9 are co-primes.
+Consider the number 114345.
+Clearly, (5 + 3 + 1) – (4 + 4 + 1) = 0. So, 114345 is divisible
+by 11.
+Also, sum of its digits = (1 + 1 + 4 + 3 + 4 + 5) = 18,
+which is divisible by 9.
+\ 114345 is divisible by 9.
+Hence, it is divisible by (11 × 9), i.e. 99.
+234. Let the unit's digit be x and ten's digit be y. Then, the
+number is 3422213yx.
+Also, 99 = (11 × 9), where 11 and 9 are co-primes.
+Since the given number is divisible by 9, it follows that
+(3 + 4 + 2 + 2 + 2 + 1 + 3 + y + x) = (17 + y + x) must
+be divisible by 9.
+So, y + x = 1 or y + x = 10.
+342
+QUANTITATIVE APTITUDE
+Again, the given number is divisible by 11.
+So, (x + 3 + 2 + 2 + 3) – (y + 1 + 2 + 4) = x – y + 3 is
+either 0 or 11.
+\ (x – y + 3 = 0 or x – y + 3 = 11) ⇒ (y – x = 3 or x – y
+= 8)
+Now, (y + x = 1 and y – x = 3) ⇒ y = 2 and x = – 1.
+(y + x = 1 and x – y = 8) ⇒ x =
+9
+2
+.
+(y + x = 10 and y – x = 3) ⇒ y =
+13
+2
+.
+(y + x = 10 and x – y = 8) ⇒ x = 9 and y = 1.
+Thus, x = 9, y = 1. So, the required number is 342221319.
+235. 37 × 3 is divisible by 7
+⇒ (7 × 3 – 3) is either 0 or divisible by 7)
+⇒ 7 × 0 is divisible by 7.
+⇒ X = 0 or X = 7.
+236. 225 = 9 × 25, where 9 and 25 are co-primes.
+So, a number is divisible by 225 if it is divisible by both
+9 and 25.
+Given number is divisible by 25, only if 7q is divisible by
+25, i.e. if q = 5.
+Sum of digits of given number = (8 + 7+ 6 + p + 3 + 7 + 5) =
+36 + p, which must be divisible by 9.
+This is possible if p = 0.
+Hence, p = 0, q = 5.
+237. Since 774958A96B is divisible by 8, so the number 96B
+must be divisible by 8. So, B = 0, as 960 is divisible by 8.
+Now, 774958A960 is divisible by 9. So, (55 + A) must be
+divisible by 9.
+This happens when A = 8. Hence, A = 8 and B = 0.
+238. 132 = 11 × 3 × 4. So, the required number must be divisible
+by 3, 4 and 11.
+264 → divisible by 3, 4 and 11.
+396 → divisible by 3, 4 and 11.
+462 → not divisible by 4.
+792 → divisible by 3, 4 and 11.
+968 → not divisible by 3
+2178 → not divisible by 4
+5184 → not divisible by 11.
+6336 → divisible by 3, 4 and 11.
+Hence, out of the given numbers 4 are divisible by 3, 4
+and 11.
+239. Let 3x + 7y = 11k. Then, y =
+k
+(11 – 3 )
+7
+k
+x
+.
+Then, 5x – 3y = 5x –
+3 (11 – 3 ) 35 – 33 9
+7
+x
+=
+7
+44 – 33 11 (4 – 3 )
+x k xk
+=
+=
+77
+, which is divisible by 11.
+240. (13 – 1) = 0, (23 – 2) = 6, (33 – 3) = 24, (43 – 4) = 60 and
+so on, each one of which is divisible by 6.
+241. Let a = 2k + 1 & b = 2m + 1. Then,
+a4 – b4 = (a2 – b2) (a2 + b2) = (a + b) (a – b) (a2 + b2)
+= (2k + 2m + 2) (2k – 2m) (4k2 + 4m2 + 2 + 4k + 4m)
+= 8(k + m + 1) (k – m) (2k2 + 2m2 + 1 + 2k + 2m),
+which is divisible by 8.
+242. Let the two consecutive integers be a and (a + 1). Then,
+(a + 1)2 – a2 = a2 + 1 + 2a – a2 = (2a + 1) = (a + a + 1) =
+sum of given integers.
+x k + x
+246. Let P = n (n + 1) (n + 2) (n + 3). Then, n = 1 gives
+P = (1 × 2 × 3 × 4) = 24.
+Hence, the required number is 24.
+247. Let N = n2 (n2 – 1) = n2 (n – 1) (n + 1).
+Then, n = 2 ⇒ N = 22 × (2 – 1) × (2 + 1) = (4 × 1 × 3) = 12.
+Hence, the required number is 12.
+248. Let n = (2m + 1). Then,
+N = n(n2 – 1) = n (n – 1) (n + 1) = (2m + 1) (2m) (2m + 2)
+= 4m (m + 1) (2m + 1).
+Now, m = 1 ⇒ N = (4 × 1 × 2 × 3) = 24.
+So, N is always divisible by 24.
+249. Let the hundreds, tens and unit digits be x, y and z
+respectively.
+Then, (100x + 10y + z) – (x + y + z) = 99x + 9y = 9 (11x
++ y).
+So, the resulting number is divisible by 9.
+250. Let the required number be x. Then
+11 11
+x +
+number.
+13
+So, (11x + 11) must be divisible by 13. By hit and trial,
+we get x = 12.
+Hence, the smallest original number is 12.
+251. Let the required product be n (n + 1) (n + 2). Then,
+n = 1 ⇒ n (n + 1) (n + 2) = (1 × 2 × 3) = 6.
+n = 2 ⇒ n (n + 1) (n + 2) = (2 × 3 × 4) = 24.
+n = 3 ⇒ n (n + 1) (n + 2) = (3 × 4 × 5) = 60.
+So, each such product is divisible by 6.
+252. Let the required odd numbers be n, (n + 2) and (n + 4).
+Then n + (n + 2) + (n + 4) = 3n + 6 = 3(n + 2), which is
+always divisible by 3.
+But n = 1 ⇒ 3(n + 2) = 3 × 3 = 9 which is not divisible
+by any of 2, 5 and 6.
+Hence only II is true.
+253. Three consecutive multiples of 3 are 3m, 3(m + 1) and
+3(m + 2).
+Their product = 3m × 3(m + 1) × 3(m + 2) = 27 × m × (m
++ 1) × (m + 2).
+Putting m = 1, this product is (27 × 1 × 2 × 3) = 162.
+So, this product is always divisible by 162.
+254. p = 5 ⇒ (p2 – 1) = (25 – 1) = 24, which is divisible by 24.
+p = 7 ⇒ (p2 – 1) = (49 – 1) = 48, which is divisible by 24.
+p = 11 ⇒ (p2 – 1) = (121 – 1) = 120, which is divisible by 24.
+Hence, (p2 – 1) is always divisible by 24.
+255. Let the two consecutive odd integers be (2m + 1) and
+(2m + 3).
+Then, (2m + 3)2 – (2m + 1)2 = [(2m + 3) + (2m + 1)] [(2m
++ 3) – (2m + 1)] = (4m + 4) × 2 = 8m + 8 = 8(m + 1), which
+is always divisible by 8.
+= a whole
+243. 6n2 + 6n = 6n (n + 1)
+(n = 1 ⇒ 6n2 + 6n = 12), (n = 2 ⇒ 6n2 + 6n = 36), (n = 3
+⇒ 6n2 + 6n = 72),
+each one of which is divisible by 6 and 12 both.
+244. Let the ten's digit be x and the unit's digit be y. Then, (10x
++ y) – (10y + x) = 9x – 9y = 9(x – y), which is divisible by 9.
+245. Let the ten's digit be x and the unit's digit be y.
+Then, (10x + y) + (10y + x) = 11(x + y), which is divisible
+by 11.NUMBER SYSTEM
+43
+256. Clearly, 2525 is not divisible by any of the numbers 7, 11
+and 13.
+The smallest 3-digit prime number is 101.
+25
+101 2525
+202
+505
+505
+×
+32
+101 3232
+303
+202
+202
+×
+Hence (d) is true.
+257. Numbers like 2525, 3636 etc. are divisible by 101.
+Numbers like 256256, 678678 etc. are divisible by 1001.
+Numbers like 32163216, 43754375 etc. are divisible by
+10001 and so on.
+258. 10n has (n + 1) digits. Then, 9 will appear n times in (10n – 1).
+So, sum of digits in (10n – 1) = 9n.
+\ 9n = 4707 ⇒ n =
+4707
+9
+= 523.
+259. We know that (xn – an) is always divisible by (x – a) for
+all values of n.
+260. The product of 8 consecutive numbers is divisible by each
+one of 8!, 7!, 6!, 5!, 4!, 3! and 2!
+261. We know that (xn – an) is divisible by (x – a), when n is
+even and (xn – an) is divisible by (x + a), when n is even.
+\ (10n – 1) is divisible by (10 – 1) = 9, when n is even.
+And, (10n – 1) is divisible by (10 + 1) = 11, when n is even.
+\ Statements 2 and 4 are correct.
+262. Putting n = 1, we get (34n – 43n) = (34 – 43) = (81 – 64) = 17,
+which is divisible by 17.
+263. Let the odd natural number be (2n + 1).
+n = 1 gives (2n + 1)2 = (2 + 1)2 = 9.
+This when divided by 8 gives 1 as remainder.
+n = 2 gives (2n + 1)2 = 25.
+This when divided by 8 gives 1 as remainder and so on.
+264. Required number = (25 – 2) = (32 – 2) = 30.
+265. Two consecutive even integers are 2n and (2n + 2).
+\ (2n + 2)2 – (2n)2 = (4n2 + 4 + 8n – 4n2) = 4 + 8n = 4(1 +
+2n), which is always divisible by 4.
+266. Two consecutive odd integers are (2m + 1) and (2m + 3).
+\ (2m + 3)2 – (2m + 1)2 = (2m + 3 + 2m + 1) (2m +
+3 – 2m – 1) = (4m + 4) × 2 = 8(m + 1), which is always
+divisible by 8.
+267. The smallest 4-digit number is 1000.
+This when divided by 7 leaves 6 as remainder.
+\ 1001 is the smallest 4-digit number exactly divisible by 7.
+268. On dividing 1056 by 23, we get 21 as remainder.
+\ Required number to be added = (23 – 21) = 2.
+23 1056 45
+92
+136
+115
+21
+269. On dividing 8567 by 4, the remainder is 3.
+To make it divisible by 4, we must add 1 to it.
+270. The least 6-digit number = 100000.
+Required number = 100000 + (349 – 186) = 100000 + 163
+= 100163.
+349 100000 286
+698
+3020
+2792
+2280
+2094
+186
+278. 66 = 11 × 6
+In order to get a number divisible by 18, the above product
+must be multiplied by 3.
+Hence 66 must be multiplied by 3.
+279. The smallest 6-digit number is 100000. On dividing 100000
+by 111, we get 100 as remainder.
+So, the number to be added = (111 – 100) = 11.
+Hence, the required number = 100011.
+111 100000 900
+999
+100
+271. The greatest 5-digit number = 99999.
+On dividing 99999 by 279, we get 117 as remainder.
+\ Required number = (99999 – 117) = 99882.
+279 99999 358
+837
+1629
+1395
+2349
+2232
+117
+272. The greatest 6-digit number is 999999.
+Required number to be added = (327 – 33) = 294.
+327 999999 3058
+981
+1899
+1635
+2649
+2616
+33
+273. On dividing 5000 by 73, we get
+Required number = 5000 + (73 – 36) = 5037.
+73 5000 68
+438
+620
+584
+36
+274. On dividing 58701 by 567, we get 300 as remainder.
+\ Required number = 58701 + (567 – 300) = 58701 + 267
+= 58968.
+567 58701 103
+567
+2001
+1701
+300
+275. On dividing 8112 by 99, we get 93 as remainder.
+So, the required number to be subtracted is 93.
+99 8112 81
+792
+192
+99
+93
+276. On dividing 803642 by 11, we get 4 as remainder.
+Required number to be added = (11 – 4) = 7.
+277. On dividing 1111 by 99, the quotient is 11 and the
+remainder is 22.
+Hence, the required number is 11.
+99)1111( 11
+99
+121
+99
+2244
+QUANTITATIVE APTITUDE
+280. All 2-digit numbers divisible by 5 are 10, 15, 20, 25,
+....., 95.
+This is an A.P. in which a = 10, d = 5 and Tn = 95.
+Tn = 95 ⇒ a + (n – 1) d = 95 ⇒ 10 + (n – 1) × 5 = 95
+⇒ (n – 1) =
+\ Sum =
+n
+85
+5
+= ⇒ n = 18.
+17
++= + = × =
+22
+(al)
+18
+(10 95) (9 105) 945.
+281. 3-digit numbers divisible by 6 are 102, 108, 114, ......., 996.
+This is an A.P. in which a = 102, d = 6 and Tn = 996.
+\ Tn = a + (n – 1) d ⇒ 102 + (n – 1) × 6 = 996 ⇒ (n – 1)
+× 6 = 894
+⇒ (n – 1) = 149 ⇒ n = 150.
+Hence, there are 150 such numbers.
+282. Multiples of 7 between 11 and 200 are 14, 21, 28, 35, 42,
+........., 189, 196.
+Tm = 196 ⇒ 14 + (m – 1) × 7 = 196 ⇒ (m – 1) × 7 = 182
+⇒ (m – 1) = 26 ⇒ m = 27.
+Multiples of 7 and 3 both, i.e. that of 21 are 21, 42, 63,
+............, 189
+Tn = 189 ⇒ 21 + (n – 1) × 21 = 189 ⇒ (n – 1) × 21 = 168
+⇒ (n – 1) = 8 ⇒ n = 9.
+\ Required number of terms = (27 – 9) = 18.
+283. Numbers between 14 and 95 and divisible by 3 are 15,
+18, 21 24, .........., 93.
+Tm = 93 ⇒ 15 + (n – 1) × 3 = 93 ⇒ (n – 1) × 3 = 78
+⇒ (n – 1) = 26 ⇒ n = 27.
+Numbers to be deleted are 33, 63, 93.
+They are 3 in number.
+Required number of numbers = (27 – 3) = 24.
+284. Required numbers are multiples of (10 × 13), i.e. 130.
+These numbers are 130, 260, 390, 520, 650, 780 and 910.
+They are 7 in number.
+285. Number of integers between 100 and 150 (including both)
+= 51.
+Numbers divisible by 3 are 102, 105, 108, ........, 150.
+Let Tm = 150. Then, a + (m – 1) d = Tm.
+\ 102 + (m – 1) × 3 = 150 ⇒ (m – 1) × 3 = 48 ⇒ m – 1
+= 16 ⇒ m = 17.
+Numbers divisible by 5 are 100, 105, 110, 115, .........., 150.
+Let Tn = 150. Then, a + (n – 1) d = Tn.
+\ 100 + (n – 1) × 5 = 150 ⇒ (n – 1) × 5 = 50 ⇒ (n – 1)
+= 10 ⇒ n = 11.
+Numbers divisible by both 3 and 5 are 105, 120, 135, 150.
+They are four in number.
+Number of numbers divisible by 3 or 5 = (17 + 11 – 4) = 24.
+Number of numbers neither divisible by 3 nor by 5 are
+(51 – 24) = 27.
+286. Numbers from 501 to 599 which have 6 as digit are 506,
+516, 526, 536, 546, 556, 560, 561, 562, 563, 564, 565, 566,
+567, 568, 569, 576, 586 and 596, i.e. 6 occurs 20 times.
+Number of times 6 occurs from 600 to 699 = 100 + 20 = 120.
+\ Total number of times 6 occurs = 20 + 120 = 140.
+287. Such numbers are 202, 212, 222, 232, 242, 252, 262, 272,
+282, 292. There are 10 such numbers.
+288. Such numbers are 203, 213, 223, 233, 243, 253, 263, 273,
+283, 293 and all numbers from 300 to 399. Clearly, number
+of such numbers = 10 + 100 = 110.
+289. When the second digit is 1, third digit can be 0, i.e. there
+is one such number.
+When the second digit is 2, third digit can be 0 or 1, i.e.
+there are 2 such numbers.
+When the second digit is 3, third digit can be 0, 1 or 2
+i.e. there are 3 such numbers, and so on.
+When the first digit is 7, second digit can be 1, 2, 3, 4, 5
+or 6. So, there are
+(1 + 2 + 3 + 4 + 5 + 6) = 21 such numbers between 700
+and 799.
+When the first digit is 8, second digit can be 1, 2, 3, 4, 5,
+6 or 7. So, there are
+(1 + 2 + 3 + 4 + 5 + 6 + 7) = 28 such numbers between
+800 and 899.
+When the first digit is 9, second digit can be 1, 2, 3, 4, 5,
+6, 7 or 8. So, there are
+(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8) = 36 such numbers between
+900 and 999.
+Hence, the required number = (21 + 28 + 36) = 85.
+290. (a) In 183654729, 1836547 is not divisible by 7.
+(b) In 381654729, 38 is divisible by 2, 381 is divisible by
+3, 3816 is divisible by 4, 38165 is divisible by 5, 381654
+is divisible by 6, 3816547 is divisible by 7, 38165472 is
+divisible by 8 and 381654729 is divisible by 9.
+(c) In 983654721, 983 is not divisible by 3.
+(d) In 981654723, 9816547 is not divisible by 7.
+291. On dividing 11109999 by 1111, we get:
+So, the required remainder is 1110.
+1111 11109999 9999
+9999
+11109
+9999
+11109
+9999
+11109
+9999
+1110
+292. Number = (68 × 260) = 17680. On dividing this number
+by 65, we get zero as remainder.
+65 17680 272
+130
+468
+455
+130
+130
+×
+293. (2176 – 9) = 2167 = (11 × 197).
+So, the required number is 197.
+294. (a)
+–7 –112 16
+–112
+0
+(b)
+–9 118 –13
+9
+28
+27
+1
+(c)
+6 – 109 – 19
+–6
+– 49
+– 54
+5
+(d)
+8 115 14
+8
+35
+32
+3NUMBER SYSTEM
+q = 16, r = 0
+45
+\ A → 4
+q = – 19, r = 5
+\ C → 3
+q = – 13, r = 1.
+\ B → 1
+q = 14, r = 3
+\ D → 2
+295. On dividing 534677 by 777 we get 101 as remainder.
+\ (Divisor) – (Remainder) = (777 – 101) = 676.
+777 534677 688
+4662
+6847
+6216
+6317
+6216
+101
+296.
+(Dividend) – (Remainder)
+Quotient
+\ Divisor =
+(940 – 25)
+15
+= Divisor.
+==61.
+915
+15
+297. Remainder = 48, Divisor = (5 × 48) = 240.
+12 × Quotient = Divisor ⇒ Quotient =
+240
+12
+Dividend = (240 × 20) + 48 = 4848.
+298. Quotient = 16, Divisor = (25 × 16) = 400.
+5 × Remainder = Divisor ⇒ Remainder = 400
+Dividend = (400 × 16) + 80 = 6480.
+299. Divisor = (555 + 445) = 1000, Quotient = 2(555 – 445) = 2
+× 110 = 220 and Remainder = 30.
+5
+\ Required number = (1000 × 220) + 30 = 220000 + 30 =
+220030.
+300. Divisor taken = 12, Quotient obtained = 35, Remainder = 0.
+\ Dividend = (12 × 35) = 420.
+Now, dividend = 420, divisor = 21, remainder = 0.
+\ Quotient =
+420
+21
+301. Divisor = 7 × quotient = 5 × remainder and Dividend
+= 6 × remainder.
+5x) 6x (1
+5x
+x
+Let remainder be x. Then, divisor = 5x and dividend = 6x.
+On dividing 6x by 5x, we get 1 as quotient and x as remainder.
+\ Quotient = 1.
+302. Since the required number is a 3-digit number, so on
+dividing by 19, it would yield a two-digit quotient which
+means that the quotient is greater than the remainder.
+Let the remainder be x. Then, quotient = x + 9.
+So, number N = 19 (x + 9) + x = 20x + 171.
+\ (N – 171) must be divisible by 20.
+Clearly, (371 – 171) = 200, which is divisible by 20.
+Hence, the required number = 371.
+303. Let the number be x. Let x when divided by 136 give q
+as quotient and 36 as remainder. Then, x = 136 q + 36 =
+(17 × 8q) + (17 × 2) + 2 = 17 × (8q + 2) + 2.
+So, the given number when divided by 17 gives 2 as
+remainder.
+304. Let the number be x and the quotient be q.
+Then, x = 195 q + 47 = (15 × 13 q) + (15 × 3) + 2 = 15(13q
++ 3) + 2.
+= .
+20
+= .
+80
+= 20.
+So, the given number when divided by 15 gives 2 as
+remainder.
+305. Let the number be x and the quotient be q.
+Then, x = 899 q + 63 = (29 × 31q) + (29 × 2) + 5 = 29
+(31q + 2) + 5.
+So, the given number when divided by 29 gives 5 as
+remainder.
+306. Let the number be x and on dividing by 5, we get q as
+quotient and 3 as remainder.
+Then, x = 5q + 3 ⇒ x2 = (5q + 3)2 = (25q2 + 30q + 9)
+= 5(5q2 + 6q + 1) + 4.
+Thus, on dividing x2 by 5, we get 4 as remainder.
+307. Let the smaller number be x. Then, larger number
+= (x + 1365).
+\ x + 1365 = 6x + 15 ⇒ 5x = 1350 ⇒ x = 270.
+Hence, the smaller number = 270.
+308. Let n = 4k + 3.
+Then, 2n = 2(4k + 3) = 8k + 6 = 4 × 2k + 4 × 1 + 2 = 4
+(2k + 1) + 2.
+Thus, on dividing 2n by 4, we get 2 as remainder.
+309. Let x = 13p + 11 and x = 17q + 9.
+Then, 13p + 11 = 17q + 9 ⇒ 17q – 13p = 2 ⇒ q =
+.The least value of p for which q =
+number, is p = 26.
+2 13
+17
++ p
+2 13
+17
++ p
+is a whole
+\ x = (13 × 26 + 11) = 338 + 11 = 349.
+310. Let the dividend be (x + 71) and the divisor be y.
+Then, [2(x + 71) – 43] is divisible by y ⇒ (2x + 142 – 43)
+is divisible by y
+⇒ (2x + 99) is divisible by y.
+\ Divisor = 99
+Shortcut Method:
+Divisor = (2 × 71 – 43) = (142 – 43) = 99.
+311. Let P = x + r1 and Q = y + r2, where each of x and y are
+divisible by the common divisor.
+Then, P + Q = (x + r1) + (y + r2) = (x + y) + (r1 + r2).
+(P + Q) leaves remainder r3 when divided by the common
+divisor.
+⇒ [(x + y) + (r1 + r2) – r3] is divisible by the common divisor.
+Since (x + y) is divisible by the common divisor, so divisor
+= r1 + r2 – r3.
+312. As proved in the above question, divisor = 4375 + 2986
+– 2361 = 5000.
+313. The number is of the form (13k + 1), where k is of the
+form (5m + 3).
+\ Number = 13k + 1 = 13 (5m + 3) + 1 = 65m + 40.
+Clearly when the number is divided by 65, we get 40 as
+remainder.
+314. Clearly, (2272 – 875) = 1397, is exactly divisible by N.
+Now, 1397 = 11 × 127.
+\ The required 3-digit number is 127, the sum of whose
+digits is 10.
+315.
+9 x
+11 y – 8
+13 z – 9
+1 – 8
+z = 13 × 1 + 8 = 21.
+y = 11 × z + 9 = 11 × 21 + 9 = 240.
+x = 9 × y + 8 = 9 × 240 + 8 = 2168.46
+QUANTITATIVE APTITUDE
+Now, when order of divisors is reversed, we have:
+13 2168
+11 166 – 10
+9 15 – 1
+1 – 6
+\ Respective remainders are 10, 1 and 6.
+316.
+3 x
+4 y – 2
+7 z – 1
+z = 7 × 1 + 4 = 11.
+y = 4 × z + 1 = 4 × 11 + 1 = 45.
+x = 3 × y + 2 = 3 × 45 + 2 = 137.
+1 – 4
+When 137 is divided by 84, the remainder obtained is 53.
+317.
+8 x
+7 y – 3
+3 z – 4
+z = 3 × 31 + 2 = 95.
+y = 7 × z + 4 = 7 × 95 + 4 = 669.
+x = 8 × y + 3 = 8 × 669 + 3 = 5355.
+31 – 2
+\ Required number = 5355.
+318.
+3 x
+2 y – 1
+y = 2 × 1 + 1 = 3
+x = 3 × y + 1 = 3 × 3 + 1 = 10.
+1 – 1
+Clearly, 10 when divided by 6, leaves a remainder 4.
+319. Let the number be N = 2x + 1.
+N2 = (2x + 1)2 = 4x2 + 1 + 4x = 4x (x + 1) + 1.
+Clearly, 4x (x + 1) is always divisible by 8 since one of x
+and (x + 1) is even which when multiplied by 4 is always
+divisible by 8.
+Hence, required remainder = 1.
+320. Sum of digits of numbers from 1 to 10 = 46.
+Sum of digits of numbers from 11 to 20 = 56.
+Sum of digits of numbers from 21 to 29 = 63.
+Sum of digits of the given number = 46 + 56 + 63 = 165.
+So, the required remainder is the remainder obtained on
+dividing 165 by 9, which is 3.
+321. When n is even, (xn – an) is divisible by (x + a).
+\ (17200 – 1200) is divisible by (17 + 1)
+⇒ (17200 – 1) is divisible by 18
+⇒ On dividing 17200 by 18, we get 1 as remainder.
+322. 231 = 2 × 230 = 2 × (22)15 = 2 × 415.
+When n is odd, (xn + an) is divisible by (x + a).
+\ (415 + 115) is divisible by (4 + 1)
+⇒ (415 + 1) is divisible by 5 ⇒ (230 + 1) is divisible by 5
+⇒ On dividing 230 by 5, we get (5 – 1) i.e. 4 as remainder.
+\ Remainder obtained on dividing 231 by 5
+= Remainder obtained on dividing (2 × 4) i.e. 8 by 5 = 3.
+323. Clearly,
+(1) when n is odd, (an + bn) is divisible by (a + b). So, (1) is true.
+(2) (an – bn) is divisible by (a – b) for all values of n. So,
+(2) is true.
+324. (xn – an) is divisible by (x – a) for all values of n.
+\ (719 – 119) is divisible by (7 – 1)
+⇒ (719 – 1) is divisible by 6
+⇒ On dividing (719 + 2) by 6, remainder obtained = 3.
+325. (1012 + 25)2 – (1012 – 25)2 = 4 × 1012 × 25
+[ (a + b)2 – (a – b)2 = 4ab]
+= 1012 × 100 = 1012 × 102 = 1014.
+Hence, n = 14.
+326. (325 + 326 + 327 + 328) = 325 (1 + 3 + 32 + 33)
+= 325 (1 + 3 + 9 + 27) = 325 × 40
+= (3 × 10) × (324 × 4) = 30 × (324 × 4),
+which is divisible by 30.
+327. (461 + 462 + 463 + 464) = 461 (1 + 4 + 42 + 43) = 461 × 85,
+which is divisible by 17.
+328. (xn – an) is divisible by (x – a) for all values of n
+\ (96 – 16) is divisible by (9 – 1)
+⇒ (96 – 1) is divisible by 8
+⇒ On dividing (96 + 1) by 8, we get 2 as remainder.
+329. When n is even, (xn – an) is divisible by both (x – a) and
+(x + a).
+So, (6n – 1) is divisible by both (6 – 1) and (6 + 1)
+⇒ (6n – 1) is divisible by both 5 and 7
+⇒ (6n – 1) is divisible by (5 × 7), i.e. 35.
+[ 5 and 7 are co-primes]
+330. (xn + an) is divisible by (x + a) when n is odd.
+\ (12n + 1) is divisible by (12 + 1) i.e. 13 when n is odd.
+331. (xn + an) is divisible by (x + a) when n is odd.
+\ (2525 + 125) is divisible by (25 + 1)
+⇒ (2525 + 1) is divisible by 26
+⇒ On dividing 2525 by 26, we get (26 – 1) = 25 as
+remainder.
+332. (xn + an) is divisible by (x + a) when n is odd.
+\ (6767 + 167) is divisible by (67 + 1)
+⇒ (6767 + 1) is divisible by 68
+⇒ On dividing (6767 + 67) by 68, we get (67 – 1) = 66 as
+remainder.
+333. (4915 – 1) = (72)15 – 1 = 730 – 1.
+Now, when n is even, (xn – an) is divisible by both (x – a)
+and (x + a).
+\ (730 – 1) is divisible by both (7 – 1) and (7 + 1) i.e. by
+both 6 and 8. Thus, [(49)15 – 1] is divisible by both 6 and 8.
+334. 784 = (73)28 = (343)28.
+Now, (xn – an) is divisible by (x – a) for all values of n.
+\ [(343)28 – 1] is divisible by (343 – 1)
+⇒ [(343)28 – 1] is divisible by 342
+⇒ (784 – 1) is divisible by 342
+⇒ On dividing 784 by 342, we get 1 as remainder.
+335. 260 = (22)30 = 430.
+When n is even, (xn – an) is divisible by (x + a).
+\ (430 – 130) is divisible by (4 + 1)
+⇒ (430 – 1) is divisible by 5 ⇒ (260 – 1) is divisible by 5.
+⇒ On dividing 260 by 5, we get 1 as remainder.
+336. (212 – 1) = (4096 – 1) = 4095, which is clearly divisible by
+3, 5, 7 and 13 i.e. four numbers in all.
+337. (xn + an) is divisible by (x + a) when n is odd.
+\ (1523 + 2323) is divisible by (15 + 23)NUMBER SYSTEM
+47
+⇒ (1523 + 2323) is divisible by 38 and hence by 19
+⇒ On dividing (1523 + 2323) by 19, we get 0 as remainder.
+338. When n is even, (xn – an) is divisible by (x + a).
+Now, 2256 = (24)64 = (16)64.
+\ (1664 – 164) is divisible by (16 + 1)
+⇒ (1664 – 1) is divisible by 17
+⇒ (2256 – 1) is divisible by 17
+⇒ On dividing 2256 by 17, we get 1 as remainder.
+339. When n is even, (xn – an) is divisible by both (x – a) as
+well as (x + a).
+Now, (76n – 66n) = [(73)2n – (63)2n] = [(343)2n – (216)2n].
+\ (76n – 66n) is divisible by both (7 – 6) and (7 + 6)
+⇒ (76n – 66n) is divisible by 13.
+And, [(343)2n – (216)2n] is divisible by both (343 – 216) and
+(343 + 216)
+⇒ (76n – 66n) is divisible by both 127 and 559.
+340. Let 232 = x. Then, (232 + 1) = (x + 1).
+Let (x + 1) be completely divisible by the natural number N.
+Then, (296 + 1) = [(232)3 + 1] = (x3 + 1) = (x + 1) (x2 – x + 1),
+which is completely divisible by N since (x + 1) is divisible
+by N.
+341. (248 – 1) = [(26)8 – 1] = (64)8 – 1.
+When n is even, (xn – an) is completely divisible by both
+(x – a) and (x + a).
+\ (648 – 18) is divisible by both (64 – 1) and (64 + 1)
+⇒ (248 – 1) is divisible by both 63 and 65.
+342. n65 – n = n (n64 – 1) = n(n32 – 1) (n32 + 1)
+= n (n16 – 1) (n16 + 1) (n32 + 1)
+= n (n8 – 1) (n8 + 1) (n16 + 1) (n32 + 1)
+=
+= n (n4 – 1) (n4 + 1) (n8 + 1) (n16 + 1) (n32 + 1)
+= n (n2 – 1) (n2 + 1) (n4 + 1) (n8 + 1) (n16 + 1) (n32 + 1)
+= (n – 1) n (n + 1) (n2 + 1) (n4 + 1) (n8 + 1)
+(n16 + 1) (n32 + 1).
+Clearly, (n – 1), n and (n + 1) are three consecutive numbers
+and they have to be multiples of 2, 3 and 4 as n is odd.
+Thus, the given number is definitely a multiple of 24.
+343. Let a = 55, b = 17.
+Then, N = a3 + b3 – (a + b)3 = a3 + b3 – [a3 + b3 + 3ab (a + b)]
+= – 3ab (a + b) = – 3 × 55 × 17 × 72.
+Clearly, N is divisible by both 3 and 17.
+344. Taking out
+10 common from 10 11 ........ 100+++
+[
+], we
+get this expression in the form of a multiple of 10 which
+has zeros as its last two digits. So, the last two digits of
+the expression [
+10 11 ........... 100+++
+] are zeros.
+Thus, the last two digits of N must be the last two digits
+of the sum ( 1 2 .......... 9)
+++ +
+.
+Now, 1 2 .......... 9 1 2 6 24 120 720 5040 40320 362880
++ +
++ =+ + + + + + +
+It has clearly 13 as the last two digits.
+So, the last two digits of N are 13.
++
+= 2500
+345. 168 = 23 × 3 × 7 and 7 7 65 432 17 53 2 16830
+= × ×× ××× = ×× × = ×
+24
+Hence, 7 and all the factorials greater than 7 are divisible
+by 168.
+Now, N = 1 2 3 ........... 99 100
+++ +
++ +
+= 1 2 3 4 5 6a
+++ + ++ + multiple of 168.
+So, the remainder obtained on dividing N by 168 is the
+same as that obtained on dividing ( 1 23 45 6)
++ ++ ++
+by 168.
+Now, 1 23 45 6+++++
+= 873 = (168 × 5) + 33.
+= 1 + 2 + 6 + 24 + 120 + 720
+Hence, the required remainder is 33.
+346. 461 = 4 × 460 = 4 × (44)15 = 4 × (256)15.
+Now, (xn – an) is divisible by (x – a) for all values of n.
+\ (25615 – 1) is divisible by (256 – 1) i.e. 255 and hence
+by 51.
+⇒ On dividing (256)15 by 51, we get 1 as remainder
+⇒ On dividing 460 by 51, we get 1 as remainder
+⇒ On dividing 461 by 51, remainder obtained = (4 × 1) = 4.
+347. 1736 = (172)18 = (289)18.
+Now, [(289)18 – 1] is divisible by (289 – 1), i.e. 288
+⇒ (1736 – 1) is divisible by 288 and hence by 36
+⇒ On dividing 1736 by 36, we get 1 as remainder.
+348. When n is odd, (xn + an) is always divisible by (x + a).
+\ Each one of (4743 + 4343) and (4747 + 4347) is divisible
+by (47 + 43).
+349. Product of all odd natural numbers less than 5000
+= 1 × 3 × 5 × 7 × ........... × 4999
+1 2 3 4 5 6 ............. 5000
+2 4 6 8 ............ 5000
+××× ×× ×
+× ××× ×
+5000 !
+5000 !
+=
+2 (1 2 3 4 ........... 2500) 2 . 2500 !
+××× ×
+×
+2500
+.
+350. The pages of the book may be divided into 10 groups:
+(1 – 100), (101 – 200), (201 – 300),..........., (901 – 1000).
+Clearly, for the first group, one needs 11 zeros.
+For second to ninth groups, one needs 20 zeros each.
+For the tenth group, one needs 21 zeros.
+So, total number of zeros required = 11 + 8 × 20 + 21 = 192.
+351. a2 + b2 + c2 = 1.
+So, the maximum value of a2 b2 c2 =
+
+333 27
+
+
+111 1
+×× =
+.
+( when sum of three positive quantities is fixed, the
+product will be maximum when the quantities are equal)
+Hence, maximum value of abc =
+11
+=
+27 3 3
+.
+352. Let N = 15 + 25 + 35 + ...........+ (100)5.
+Then, N = (15 + 25 + 35 +.......+ 105) + (115 + 125 +...........+
+205) + (215 + 225 +..........+ 305) +......+ (915 + 925 + ...........+
+1005) = N1 + N2 + N3
++........+ N10.
+Since each one of N1, N2, N3, .........., N10 has the same
+×48
+QUANTITATIVE APTITUDE
+unit's digit of its terms, so unit's digit of each one of N1,
+N2,......, N10 is also the same.
+\ Unit's digit in N = 10 × Unit's digit of N1 = 0.
+353. Clearly, each of the 38 terms 1 1 1 1 2
+   
+ ++ +
+   4 50 
+4 4 50 4 50
+, 
+,
+,...........,
+
+has a value lying between 0 and 1, while each one of the
+12 terms
+ 
+ 
+ 
+1 38 1 39
+1 49
+++ +
+4 50 4 50
+,
+lying between 1 and 2.
+Hence, the given expression = (0 × 38) + (1 × 12) = 12.
+354. 10025 – 25 = (102)25 – 25 = 1050 – 25
+= 1000 ..... 00 – 25 9999 ......... 9975
+=
+ 
+48 times
+50 zeros
+\ Sum of digits = (48 × 9) + 7 + 5 = 432 + 7 + 5 = 444.
+355. (1024)4 × (125)11 = (210)4 × (53)11 = 240 × 533 = 27 × (233 ×
+533) = 27 × 1033 = 128 × 1033.
+Clearly, the number has 1, 2, 8 and thirty-three zeros, i.e.
+(3 + 33) = 36 digits in all.
+356. From 300 to 399, we note that when ‘4’ comes only one
+time = 19 such instances.
+From 400 to 499, we note that when ‘4’ comes only one
+time = 80 such instances.
+So, total = (19 + 80) = 99 such instances
+357. 21 = 3 × 7 is not a prime number because 21 is a composite
+number.
+358. Given x = a (b – c), y = b (c – a); z = (a – b)
+x = a (b – c)
+⇒
+x
+a
+= b – c ... (i)
+Similarly, y = b (c – a)
+⇒
+y
+b
+= c – a (ii) and similarly
+Adding (i), (ii) and (iii) we get
+
+xzy
+z ca b c a
+c
+= − =− (iii)
+(
++ + =− +
+a bc
+b c c a ab 0
+−
+⇒ + += 0
+xzy
+a bc
+  ++
+ 
+33 3
+xzy
+ 
+
+a bc
+
+
+
+= ××× =
+3
+xz xyz
+a b c abc
+y
+3
+[If a + b + c = 0, a3 + b3 + c3 = 3 abc]
+359. Every real number is a rational number is not a correct
+statement.
+360. Given
+a + b + c = 6
+ab + bc + ca = 10
+
+
+
+
+
++ −=
+) z
+7
+363. Let the two – digit number be 10a + b where a > b
+According to the question,
+a + b = 12 ….(i)
+a – b = 6…..(ii)
+On adding equation (i) and (ii).
+2a = 19
+⇒ a = 9
+From equation (i),
+9 + b = 12
+⇒ b = 12 – 9 = 3
+\ Number is 10a + b
+= 9 × 10 + 3 = 93
+\ When a < b. Then required number is = 39
+364. Greatest four digit number that begins with 3 and ends
+with 5 = 3995
+Least four digit number that begins with 3 and ends with
+5 = 3005
+⇒ a 3 33 3 66
++ b c abc
++ − =×
+⇒ a 3 33 3 36
++ b c abc
++
+− =
+361. Let the blank space is x
+\ 1001 × 111 = 110000 + 11x
+Now find the value of x
+(1000 + 1) × 111 = 110000 + 11x
+111000 + 111 = 110000 + 11x
+111111 = 110000 + 11x
+11x = 111111 – 110000
+11x = 1111
+1111
+x==101
+11
+362. The place value of 5 in 15201 = 5000
+Place value of 6 in 2659 = 600
+\
+we have 5000 + 600 = 7x
+7x = 5600
+x==800
+5600
+,............,
+4 50
+ 1 37 
+\ (a + b + c)2 = 36
+⇒ a2 + b2 + c2 + 2ab + 2bc + 2ca = 36
+⇒ a2 + b2 + c2 + 2 (ab + bc + ca) = 36
+⇒ a2 + b2 + c2 + 2 × 10 = 36
+⇒ a2 + b2 + c2 = 16
+has a value As we know
++ +
+a b c ab bc ca
+a b c abc
+3 33
+2 22
+− 3
++ + − −−
+a b c abc
+ab bc ca
+3 33 3
++ +
+−
+16 − ++ )
+(
+= 6
+a b c abc
+3 33 3
++ +
+⇒
+−
+16 10
+−
+= 6
+= ++ (a
+b c)NUMBER SYSTEM
+49
+⇒ (
+ − =− − +
+{
+a b a b a ab b
+33 2
+(
+)(
+p q p q pq p q p q xpq
+−
+)( 22
++ − =− − −
+) (
+{
+) (
+2 )}
+by cancelling same terms of both sides
+⇒ 22 22 2
+p q pq p q pq xpq
++− = +− −
+{(a b a b ab
+− = +−
+2 22 2
+)
+}
+⇒ pq = – xpq
+⇒ x = – 1
+367. 2361*48 will be divisible by 9 if the sum of the digits of
+the given number is divisible by 9.
+2 + 3 + 6 + 1 + * + 4 + 8 i.e. (24 + *) is divisible by 9.
+Clearly, * = 3 because 27 is divisible by 9.
+368. Time taken by A to complete colouring a picture =
+= 0.75 hours
+Time taken by B to complete colouring a picture
+= 0.58 hours
+7
+12
+Time taken by C to complete colouring a picture
+= 0.625 hours
+5
+8
+3
+4
+hours
+= hours
+= hours
+Time taken by D to complete colouring a picture
+hours = 0.85 hours
+Hence, B took least time in colouring the picture.
+369. Let number be a
+According question,
+4
+5
+aa−×= 56
+4 45
+5 100
+35a
+100
+= ⇒=
+56
+a
+⇒ a = 160
+= 65% of a =
+65
+100
+100 56
+×
+35
+×=
+160 104
+370. Given xy yz z
++ + +=6 :7 : 8
+:
+:
+x
+xy yz zx+++===a
+67 8
+(let)
+⇒ x + y = 6a .... (i)
+y + z = 7a …(ii)
+z + x = 8a …(iii)
+On adding all three equations
+xyyz z
++ + +++ = + +67 8
+of a – 45% of a = 56
+6
+7
+)
+2
+}
+371. A megabyte is 1.048, 576 bytes or 1,024 kilobytes. It
+conveniently expression the binary multiples inherent
+in digital computer memory architectures. However,
+megabyte architectures. However, megabyte is also taken
+to mean 1000 × 1024 (1024000) bytes.
+372. The first 3-digit number which is divisible by 9 is 108 and
+last three digit number which is divisible by 9 is 999.
+So, we have an AP with a = 108, d = 9 and an = 999
+\ an = a + (n – 1)d
+⇒ 999 = 108 + (n – 1) 9
+⇒ 999 – 108 = (n – 1) 9
+⇒ 891 = (n – 1) 9
+⇒ (n – 1) =
+891
+9
+= 99
+⇒ n + 99 + 1 = 100
+373. Let, the two consecutive even numbers are a and (a + 2),
+respectively
+According to question,
+a a
+2 22 22
+2 1060
+++ =
+(
+)
+⇒ a2 + a2 + 4 + 4a = 1060
+⇒
+{ (a b a b ab
+ + = + + 2 }
+)
+2 2 4 1056 0
+a +−a
+=
+⇒ 2 2 528 0aa
++− =
+= ⇒ 2 24 22 528 0
+a aa+−− =
+⇒ (aa 24 22 24 0
++− a + =
+)
+⇒(aa−+=2224 0
+)(
+)
+⇒ a = – 24, 22
+374. The data in both the statements I and II are not sufficient
+to answer the question.
+375. Given n = p1
+factors
+x1 p2
+x2 p3
+x3 where p1, p2, p3 are distinct prime
+Number of prime factors form = (x1 × x2 × x3) = x1 x2 x3
+Hence, option (b) is correct
+376. 11, 111, 1111, 11111, …..
+Let m = 2 ⇒ 4 × 2 + 3 = 11
+m = 27 ⇒ 4 × 27 + 3 = 111
+Each number can be expressed in the form (4m + 3) where
+m is a natural number
+Hence, statement 1 is only correct.
+377. Maximum daily wages of an officers
+= H.C.F. of ` 4,956; and ` 3,894
+= ` 354
+Illustration:
+1
+x a a a
+⇒ (xyz 21a++=
+2
+)
+⇒ × =
+2 14 21  + +=
+a xyz 14]
+[
+\ a==×
+2 14 4
+21 3
+\ xy a
++ = =× = 8
+66 4
+3
+\ (= ++ − +
+z xyz xy)
+) (
+= 14 – 8 = 6
+708 1062
+708
+2
+354 708
+708
+×
+1062 3894
+3186
+1
+3894 4956
+3894
+3
+(
+)50 QUANTITATIVE APTITUDE
+Maximum daily wages of an officer = ` 354 Number of Maximum days to attend the duty =
+Number of days present on duty =
+3894 354
+= 11
+Number of absent days = 14 – 11 = 3 days 378. Let, the two natural numbers be a and b According to given information \ a2 – b2 = 19 ⇒ (a + b) (a – b) = 19 × 1 ⇒ a + b = 19 ….(i) a – b = 1 …. (ii) On adding, 2a = 20 ⇒ a = 10 From equation (i),
+\ 10 + b = 19
+4956 354
+= 14
+⇒ b = 19 – 10 = 9 \ a2 + a2 = (10)2 + (9)2 = 100 + 81 = 181
+379. Let the two numbers be are a and b \ a + b = 14 ….(i)
+a – b = 10…(ii) By adding equation (i) and (ii) we get 2a = 24 \ a = 12 and b = 2 \ product of these two numbers = 12 × 2 = 24
+380. Let A is to be added then 2x2 + 3x – 5 + A = x2 + x + 1 ⇒
+A x x = − +− + − ⇒ = − +− − + 2 1 2 3 5 ( = – x2 – 4x + 4 x x A x x 12 3 5 2 22 )
+
+

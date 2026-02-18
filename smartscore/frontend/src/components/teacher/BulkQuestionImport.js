@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import * as XLSX from "xlsx";
+//import * as XLSX from "xlsx";
 
 const TEMPLATE_ROWS = [
   ["Question", "Option A", "Option B", "Option C", "Option D", "Correct Option (A-D)", "Marks"],
@@ -186,7 +186,7 @@ const BulkQuestionImport = ({ onImport }) => {
   const [mapping, setMapping] = useState({});
   const [parsedQuestions, setParsedQuestions] = useState([]);
 
-  // ─── File handling ───
+  /* ─── File handling ───
   const handleFile = async (event) => {
     const file = event.target.files?.[0];
     if (!file) return;
@@ -225,7 +225,7 @@ const BulkQuestionImport = ({ onImport }) => {
     } catch (err) {
       setStatus({ type: "error", message: "Could not read file. Ensure it is CSV or Excel." });
     }
-  };
+  };*/
 
   // ─── Mapping validation ───
   const mappingValid = useMemo(() => {

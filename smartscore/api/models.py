@@ -138,6 +138,7 @@ class Question(models.Model):
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name="questions")  # Link to Quiz
     text = models.TextField()  # Question text
     marks = models.IntegerField(default=2)
+    solution = models.TextField(blank=True, null=True)  # Optional solution/explanation
 
     def __str__(self):
         return self.text
